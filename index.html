@@ -1,0 +1,3710 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Pot Restaurant | Gather, Cook & Share</title>
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     HOT POT RESTAURANT
+     PART 1 — HEADER HTML
+========================================================= -->
+<!-- =====================================================
+         SITE HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Hot Pot Restaurant Home"
+            >
+
+                <!-- Light Mode Logo -->
+                <img
+                    src="images/logo-light.png"
+                    alt="Hot Pot Restaurant"
+                    class="logo-dark"
+                >
+
+                <!-- Dark Mode Logo -->
+                <img
+                    src="images/logo-dark.png"
+                    alt="Hot Pot Restaurant"
+                    class="logo-light"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="main-navigation"
+                id="mainNavigation"
+                aria-label="Main Navigation"
+            >
+
+                <ul class="nav-menu">
+
+
+                    <!-- =========================================
+                         HOME
+                    ========================================== -->
+
+                    <li class="nav-item has-dropdown">
+
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle active"
+                            aria-haspopup="true"
+                        >
+
+                            <span>
+                                Home
+                            </span>
+
+                            <span
+                                class="dropdown-icon"
+                                aria-hidden="true"
+                            >
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+
+                        </a>
+
+
+                        <!-- HOME DROPDOWN -->
+
+                        <ul class="dropdown-menu">
+
+                            <li class="dropdown-item">
+
+                                <a
+                                    href="index.html"
+                                    class="dropdown-link active"
+                                >
+                                    Home 1
+                                </a>
+
+                            </li>
+
+
+                            <li class="dropdown-item">
+
+                                <a
+                                    href="home2.html"
+                                    class="dropdown-link"
+                                >
+                                    Home 2
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         ABOUT US
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="about.html"
+                            class="nav-link"
+                        >
+                            About Us
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         MENU
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="menu.html"
+                            class="nav-link"
+                        >
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         HOW IT WORKS
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="how-it-works.html"
+                            class="nav-link"
+                        >
+                            How It Works
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         RESERVATIONS
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="reservations.html"
+                            class="nav-link"
+                        >
+                            Reservations
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         CONTACT
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="contact.html"
+                            class="nav-link"
+                        >
+                            Contact
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- =================================================
+                 DESKTOP HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+
+                <!-- =============================================
+                     RTL BUTTON
+                ============================================== -->
+
+                <button
+    type="button"
+    class="header-action-btn rtl-toggle"
+    id="rtlToggle"
+    aria-label="Toggle RTL mode"
+    title="RTL Mode"
+>
+    <i class="fa-solid fa-right-left"></i>
+</button>
+
+
+                <!-- =============================================
+                     DARK MODE BUTTON
+                ============================================== -->
+
+                <button
+                    type="button"
+                    class="header-action-btn dark-mode-toggle"
+                    id="darkModeToggle"
+                    aria-label="Toggle dark mode"
+                    title="Dark Mode"
+                >
+
+                    <span
+                        class="dark-mode-icon"
+                        aria-hidden="true"
+                    >
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+
+                </button>
+
+
+                <!-- =============================================
+                     LOGIN
+                ============================================== -->
+
+                <a
+                    href="login.html"
+                    class="header-btn login-btn"
+                >
+                    Login
+                </a>
+
+
+                <!-- =============================================
+                     DASHBOARD
+                ============================================== -->
+
+                <a
+                    href="dashboard.html"
+                    class="header-btn dashboard-btn"
+                >
+                    Dashboard
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mobileMenu"
+            >
+
+                <span class="hamburger-line"></span>
+
+                <span class="hamburger-line"></span>
+
+                <span class="hamburger-line"></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE MENU
+        ====================================================== -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <div class="mobile-menu-inner">
+
+
+                <!-- =================================================
+                     MOBILE NAVIGATION
+                ================================================== -->
+
+                <nav
+                    class="mobile-navigation"
+                    aria-label="Mobile Navigation"
+                >
+
+                    <ul class="mobile-nav-menu">
+
+
+                        <!-- =========================================
+                             MOBILE HOME DROPDOWN
+                        ========================================== -->
+
+                        <li
+                            class="mobile-nav-item mobile-has-dropdown"
+                        >
+
+                            <button
+                                type="button"
+                                class="mobile-nav-link mobile-dropdown-toggle active"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                            >
+
+                                <span>
+                                    Home
+                                </span>
+
+                                <span
+                                    class="mobile-dropdown-icon"
+                                    aria-hidden="true"
+                                >
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+
+                            </button>
+
+
+                            <!-- MOBILE HOME DROPDOWN -->
+
+                            <ul class="mobile-dropdown-menu">
+
+                                <li class="mobile-dropdown-item">
+
+                                    <a
+                                        href="index.html"
+                                        class="mobile-dropdown-link active"
+                                    >
+                                        Home 1
+                                    </a>
+
+                                </li>
+
+
+                                <li class="mobile-dropdown-item">
+
+                                    <a
+                                        href="home2.html"
+                                        class="mobile-dropdown-link"
+                                    >
+                                        Home 2
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE ABOUT
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="about.html"
+                                class="mobile-nav-link"
+                            >
+                                About Us
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE MENU
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="menu.html"
+                                class="mobile-nav-link"
+                            >
+                                Menu
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE HOW IT WORKS
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="how-it-works.html"
+                                class="mobile-nav-link"
+                            >
+                                How It Works
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE RESERVATIONS
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="reservations.html"
+                                class="mobile-nav-link"
+                            >
+                                Reservations
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE CONTACT
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="contact.html"
+                                class="mobile-nav-link"
+                            >
+                                Contact
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+                <!-- =================================================
+                     MOBILE ACTIONS
+                     ALL BUTTONS ARE INSIDE HAMBURGER
+                ================================================== -->
+
+                <div class="mobile-actions">
+
+
+                    <!-- =============================================
+                         RTL
+                    ============================================== -->
+
+                    <button
+    type="button"
+    class="mobile-action-btn mobile-rtl-toggle"
+    id="mobileRtlToggle"
+    aria-label="Toggle RTL mode"
+    title="RTL Mode"
+>
+    <i class="fa-solid fa-right-left"></i>
+</button>
+
+
+                    <!-- =============================================
+                         DARK MODE
+                    ============================================== -->
+
+                    <button
+                        type="button"
+                        class="mobile-action-btn mobile-dark-toggle"
+                        id="mobileDarkModeToggle"
+                        aria-label="Toggle dark mode"
+                    >
+
+                        <span
+                            class="mobile-dark-icon"
+                            aria-hidden="true"
+                        >
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span>
+                            Dark Mode
+                        </span>
+
+                    </button>
+
+
+                    <!-- =============================================
+                         LOGIN
+                    ============================================== -->
+
+                    <a
+                        href="login.html"
+                        class="mobile-action-btn mobile-login-btn"
+                    >
+                        Login
+                    </a>
+
+
+                    <!-- =============================================
+                         DASHBOARD
+                    ============================================== -->
+
+                    <a
+                        href="dashboard.html"
+                        class="mobile-action-btn mobile-dashboard-btn"
+                    >
+                        Dashboard
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         Your Home page sections will start here.
+    ====================================================== -->
+
+    <main id="mainContent">
+
+        <!-- =========================================================
+     HOME 1 — HERO SECTION
+========================================================= -->
+
+<section class="home1-hero" id="home1Hero">
+
+    <!-- =====================================================
+         HERO SLIDER
+    ====================================================== -->
+
+    <div class="home1-hero-slider" id="home1HeroSlider">
+
+
+        <!-- =================================================
+             SLIDE 01
+        ================================================== -->
+
+        <article
+            class="home1-hero-slide active"
+            data-slide="0"
+            style="background-image: url('images/home1-hero-01.jpg');"
+        >
+
+            <!-- Background Overlay -->
+
+            <div class="home1-hero-overlay"></div>
+
+
+            <!-- Hero Container -->
+
+            <div class="home1-hero-container">
+
+                <div class="home1-hero-content">
+
+
+                    <!-- Badge -->
+
+                    <span class="home1-hero-badge">
+                        AUTHENTIC HOT POT EXPERIENCE
+                    </span>
+
+
+                    <!-- Heading -->
+
+                    <h1 class="home1-hero-title">
+
+                        Gather Around.
+
+                        <br>
+
+                        <span>
+                            Cook. Share. Enjoy.
+                        </span>
+
+                    </h1>
+
+
+                    <!-- Description -->
+
+                    <p class="home1-hero-description">
+
+                        Bring your favorite people together over
+                        rich broths, fresh ingredients, and
+                        unforgettable flavors made for sharing.
+
+                    </p>
+
+
+                    <!-- Buttons -->
+
+                    <div class="home1-hero-buttons">
+
+                        <a
+                            href="menu.html"
+                            class="home1-hero-btn home1-hero-btn-primary"
+                        >
+
+                            <span>
+                                Explore Our Menu
+                            </span>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a
+                            href="reservations.html"
+                            class="home1-hero-btn home1-hero-btn-secondary"
+                        >
+
+                            Book a Table
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         HERO FEATURES
+                    ================================================== -->
+
+                    <div class="home1-hero-info">
+
+
+                        <!-- Feature 01 -->
+
+                        <div class="home1-hero-info-item">
+
+                            <span class="home1-hero-info-icon">
+
+                                <i class="fa-solid fa-leaf"></i>
+
+                            </span>
+
+                            <div class="home1-hero-info-text">
+
+                                <strong>
+                                    Fresh Ingredients
+                                </strong>
+
+                                <span>
+                                    Selected daily
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Feature 02 -->
+
+                        <div class="home1-hero-info-item">
+
+                            <span class="home1-hero-info-icon">
+
+                                <i class="fa-solid fa-fire-burner"></i>
+
+                            </span>
+
+                            <div class="home1-hero-info-text">
+
+                                <strong>
+                                    Authentic Broths
+                                </strong>
+
+                                <span>
+                                    Rich & flavorful
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Feature 03 -->
+
+                        <div class="home1-hero-info-item">
+
+                            <span class="home1-hero-info-icon">
+
+                                <i class="fa-solid fa-users"></i>
+
+                            </span>
+
+                            <div class="home1-hero-info-text">
+
+                                <strong>
+                                    Made for Sharing
+                                </strong>
+
+                                <span>
+                                    Perfect for groups
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             SLIDE 02
+        ================================================== -->
+
+        <article
+            class="home1-hero-slide"
+            data-slide="1"
+            style="background-image: url('images/home1-hero-02.jpg');"
+        >
+
+            <!-- Background Overlay -->
+
+            <div class="home1-hero-overlay"></div>
+
+
+            <!-- Hero Container -->
+
+            <div class="home1-hero-container">
+
+                <div class="home1-hero-content">
+
+
+                    <!-- Badge -->
+
+                    <span class="home1-hero-badge">
+                        BRING PEOPLE TOGETHER
+                    </span>
+
+
+                    <!-- Heading -->
+
+                    <h2 class="home1-hero-title">
+
+                        One Pot.
+
+                        <br>
+
+                        <span>
+                            Endless Items.
+                        </span>
+
+                    </h2>
+
+
+                    <!-- Description -->
+
+                    <p class="home1-hero-description">
+
+                        Choose your favorite broth, add fresh
+                        ingredients, and create a delicious
+                        experience around the table.
+
+                    </p>
+
+
+                    <!-- Buttons -->
+
+                    <div class="home1-hero-buttons">
+
+                        <a
+                            href="how-it-works.html"
+                            class="home1-hero-btn home1-hero-btn-primary"
+                        >
+
+                            <span>
+                                How It Works
+                            </span>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a
+                            href="menu.html"
+                            class="home1-hero-btn home1-hero-btn-secondary"
+                        >
+
+                            View Menu
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         HERO FEATURES
+                    ================================================== -->
+
+                    <div class="home1-hero-info">
+
+
+                        <!-- Feature 01 -->
+
+                        <div class="home1-hero-info-item">
+
+                            <span class="home1-hero-info-icon">
+
+                                <i class="fa-solid fa-bowl-food"></i>
+
+                            </span>
+
+                            <div class="home1-hero-info-text">
+
+                                <strong>
+                                    Signature Broths
+                                </strong>
+
+                                <span>
+                                    Made from scratch
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Feature 02 -->
+
+                        <div class="home1-hero-info-item">
+
+                            <span class="home1-hero-info-icon">
+
+                                <i class="fa-solid fa-carrot"></i>
+
+                            </span>
+
+                            <div class="home1-hero-info-text">
+
+                                <strong>
+                                    Fresh Selection
+                                </strong>
+
+                                <span>
+                                    Quality ingredients
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Feature 03 -->
+
+                        <div class="home1-hero-info-item">
+
+                            <span class="home1-hero-info-icon">
+
+                                <i class="fa-solid fa-heart"></i>
+
+                            </span>
+
+                            <div class="home1-hero-info-text">
+
+                                <strong>
+                                    Made With Care
+                                </strong>
+
+                                <span>
+                                    Every bowl, every time
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- =====================================================
+         HERO PAGINATION
+         ONLY 01 / 02
+         NO PREVIOUS / NEXT BUTTONS
+    ====================================================== -->
+
+    <div
+        class="home1-hero-pagination"
+        id="home1HeroPagination"
+        aria-label="Hero slide navigation"
+    >
+
+        <button
+            type="button"
+            class="home1-hero-page active"
+            data-slide="0"
+            aria-label="Go to slide 1"
+            aria-current="true"
+        >
+            01
+        </button>
+
+
+        <span
+            class="home1-hero-page-line"
+            aria-hidden="true"
+        ></span>
+
+
+        <button
+            type="button"
+            class="home1-hero-page"
+            data-slide="1"
+            aria-label="Go to slide 2"
+        >
+            02
+        </button>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — WELCOME / ABOUT PREVIEW
+========================================================= -->
+
+<section class="home1-welcome" id="home1Welcome">
+
+    <div class="home1-welcome-container">
+
+        <!-- =================================================
+             LEFT CONTENT
+        ================================================== -->
+
+        <div class="home1-welcome-content">
+
+            <span class="home1-welcome-eyebrow">
+                Our Story
+            </span>
+
+            <h2 class="home1-welcome-title">
+                More Than Just
+                <span>Hot Pot.</span>
+            </h2>
+
+            <p class="home1-welcome-description">
+                At our table, every meal is an experience made for
+                sharing. From rich signature broths to carefully
+                selected fresh ingredients, we bring people together
+                around one unforgettable pot.
+            </p>
+
+            <p class="home1-welcome-description">
+                Choose your favorite flavors, cook them your way,
+                and enjoy every moment with the people who matter.
+            </p>
+
+            <a href="about.html" class="home1-welcome-btn">
+                <span>Discover Our Story</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             CENTER — MAIN IMAGE
+        ================================================== -->
+
+        <div class="home1-welcome-main-image">
+
+            <img
+                src="images/home1-welcome-main.jpg"
+                alt="Fresh hot pot meal served at the table"
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT COLUMN
+        ================================================== -->
+
+        <div class="home1-welcome-side">
+
+            <!-- =============================================
+                 STAT
+            ============================================== -->
+
+            <div class="home1-welcome-stat">
+
+                <strong>20+</strong>
+
+                <span>
+                    Fresh Ingredients
+                </span>
+
+            </div>
+
+
+            <!-- =============================================
+                 HOT POT ICON
+            ============================================== -->
+
+            <div class="home1-welcome-icon">
+
+                <div class="home1-welcome-icon-circle">
+                    <i class="fa-solid fa-fire-burner"></i>
+                </div>
+
+                <span>
+                    Crafted for
+                    <br>
+                    Sharing
+                </span>
+
+            </div>
+
+
+            <!-- =============================================
+                 SMALL IMAGE 01
+            ============================================== -->
+
+            <div class="home1-welcome-small-image">
+
+                <img
+                    src="images/home1-welcome-small-01.jpg"
+                    alt="Fresh ingredients for hot pot"
+                >
+
+            </div>
+
+
+            <!-- =============================================
+                 SMALL IMAGE 02
+            ============================================== -->
+
+            <div class="home1-welcome-small-image">
+
+                <img
+                    src="images/home1-welcome-small-02.jpg"
+                    alt="Hot pot dining experience"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             EXPERIENCE CARD
+        ================================================== -->
+
+        <div class="home1-welcome-experience">
+
+            <div class="home1-welcome-experience-top">
+
+                <span class="home1-welcome-experience-label">
+                    THE HOT POT EXPERIENCE
+                </span>
+
+                <span class="home1-welcome-experience-icon">
+                    <i class="fa-solid fa-quote-right"></i>
+                </span>
+
+            </div>
+
+
+            <p class="home1-welcome-experience-text">
+                “A warm table, a flavorful broth, and good people —
+                that's how memorable meals begin.”
+            </p>
+
+
+            <div class="home1-welcome-experience-bottom">
+
+                <div class="home1-welcome-experience-person">
+
+                    <span class="home1-welcome-person-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </span>
+
+                    <div>
+                        <strong>
+                            Made to Share
+                        </strong>
+
+                        <span>
+                            Every table, every time
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="home1-welcome-experience-dots">
+
+                    <span class="active"></span>
+                    <span></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — SIGNATURE HOT POT BROTHS
+========================================================= -->
+
+<section class="home1-broths" id="home1Broths">
+
+    <!-- =====================================================
+         DECORATIVE BACKGROUND
+    ====================================================== -->
+
+    <div class="home1-broths-decoration" aria-hidden="true">
+        <i class="fa-solid fa-fire-burner"></i>
+    </div>
+
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="home1-broths-header">
+
+        <span class="home1-broths-eyebrow">
+            OUR SIGNATURE BROTHS
+        </span>
+
+        <h2 class="home1-broths-title">
+            Crafted for Flavor.
+            <br>
+            <span>Made for Sharing.</span>
+        </h2>
+
+        <p class="home1-broths-intro">
+            Choose your favorite broth and create a hot pot experience
+            filled with rich flavors, fresh ingredients, and moments
+            worth sharing.
+        </p>
+
+    </div>
+
+
+    <!-- =====================================================
+         SLIDER
+    ====================================================== -->
+
+    <div class="home1-broths-slider-wrapper">
+
+        <div class="home1-broths-slider" id="home1BrothsSlider">
+
+
+            <!-- =================================================
+                 SLIDE 01
+            ================================================== -->
+
+            <article
+                class="home1-broth-card active"
+                data-slide="0"
+            >
+
+                <!-- Image -->
+
+                <div class="home1-broth-image">
+
+                    <img
+                        src="images/home1-broth-01.jpg"
+                        alt="Signature spicy hot pot broth"
+                    >
+
+                    <div class="home1-broth-image-overlay"></div>
+
+                    <span class="home1-broth-number">
+                        01
+                    </span>
+
+                </div>
+
+
+                <!-- Content -->
+
+                <div class="home1-broth-content">
+
+                    <div class="home1-broth-content-top">
+
+                        <span class="home1-broth-category">
+                            SIGNATURE
+                        </span>
+
+                        <span class="home1-broth-spice">
+                            <i class="fa-solid fa-pepper-hot"></i>
+                            <i class="fa-solid fa-pepper-hot"></i>
+                            <i class="fa-solid fa-pepper-hot"></i>
+                        </span>
+
+                    </div>
+
+                    <h3 class="home1-broth-name">
+                        Signature Spicy
+                    </h3>
+
+                    <p class="home1-broth-description">
+                        A bold and aromatic chili broth infused with
+                        fragrant spices for a rich and unforgettable
+                        hot pot experience.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home1-broth-btn"
+                    >
+                        <span>Explore Broth</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 02
+            ================================================== -->
+
+            <article
+                class="home1-broth-card"
+                data-slide="1"
+            >
+
+                <!-- Image -->
+
+                <div class="home1-broth-image">
+
+                    <img
+                        src="images/home1-broth-02.jpg"
+                        alt="Golden chicken hot pot broth"
+                    >
+
+                    <div class="home1-broth-image-overlay"></div>
+
+                    <span class="home1-broth-number">
+                        02
+                    </span>
+
+                </div>
+
+
+                <!-- Content -->
+
+                <div class="home1-broth-content">
+
+                    <div class="home1-broth-content-top">
+
+                        <span class="home1-broth-category">
+                            CLASSIC
+                        </span>
+
+                        <span class="home1-broth-spice">
+                            <i class="fa-solid fa-pepper-hot"></i>
+                            <i class="fa-solid fa-pepper-hot"></i>
+                        </span>
+
+                    </div>
+
+                    <h3 class="home1-broth-name">
+                        Golden Chicken
+                    </h3>
+
+                    <p class="home1-broth-description">
+                        Slow-simmered chicken broth with delicate
+                        herbs and warming aromatics for a comforting
+                        and deeply savory taste.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home1-broth-btn"
+                    >
+                        <span>Explore Broth</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 03
+            ================================================== -->
+
+            <article
+                class="home1-broth-card"
+                data-slide="2"
+            >
+
+                <!-- Image -->
+
+                <div class="home1-broth-image">
+
+                    <img
+                        src="images/home1-broth-03.jpg"
+                        alt="Mushroom umami hot pot broth"
+                    >
+
+                    <div class="home1-broth-image-overlay"></div>
+
+                    <span class="home1-broth-number">
+                        03
+                    </span>
+
+                </div>
+
+
+                <!-- Content -->
+
+                <div class="home1-broth-content">
+
+                    <div class="home1-broth-content-top">
+
+                        <span class="home1-broth-category">
+                            VEGETARIAN
+                        </span>
+
+                        <span class="home1-broth-spice">
+                            <i class="fa-solid fa-leaf"></i>
+                        </span>
+
+                    </div>
+
+                    <h3 class="home1-broth-name">
+                        Mushroom Umami
+                    </h3>
+
+                    <p class="home1-broth-description">
+                        A rich blend of mushrooms, herbs, and savory
+                        aromatics creating a naturally deep and
+                        satisfying broth.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home1-broth-btn"
+                    >
+                        <span>Explore Broth</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 04
+            ================================================== -->
+
+            <article
+                class="home1-broth-card"
+                data-slide="3"
+            >
+
+                <!-- Image -->
+
+                <div class="home1-broth-image">
+
+                    <img
+                        src="images/home1-broth-04.jpg"
+                        alt="Tom yum hot pot broth"
+                    >
+
+                    <div class="home1-broth-image-overlay"></div>
+
+                    <span class="home1-broth-number">
+                        04
+                    </span>
+
+                </div>
+
+
+                <!-- Content -->
+
+                <div class="home1-broth-content">
+
+                    <div class="home1-broth-content-top">
+
+                        <span class="home1-broth-category">
+                            FAVORITE
+                        </span>
+
+                        <span class="home1-broth-spice">
+                            <i class="fa-solid fa-pepper-hot"></i>
+                            <i class="fa-solid fa-pepper-hot"></i>
+                        </span>
+
+                    </div>
+
+                    <h3 class="home1-broth-name">
+                        Thai Tom Yum
+                    </h3>
+
+                    <p class="home1-broth-description">
+                        A fragrant blend of lemongrass, chili, lime,
+                        and herbs delivering a bright and refreshing
+                        burst of flavor.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home1-broth-btn"
+                    >
+                        <span>Explore Broth</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 05
+            ================================================== -->
+
+            <article
+                class="home1-broth-card"
+                data-slide="4"
+            >
+
+                <!-- Image -->
+
+                <div class="home1-broth-image">
+
+                    <img
+                        src="images/home1-broth-05.jpg"
+                        alt="Creamy sesame hot pot broth"
+                    >
+
+                    <div class="home1-broth-image-overlay"></div>
+
+                    <span class="home1-broth-number">
+                        05
+                    </span>
+
+                </div>
+
+
+                <!-- Content -->
+
+                <div class="home1-broth-content">
+
+                    <div class="home1-broth-content-top">
+
+                        <span class="home1-broth-category">
+                            HOUSE SPECIAL
+                        </span>
+
+                        <span class="home1-broth-spice">
+                            <i class="fa-solid fa-pepper-hot"></i>
+                        </span>
+
+                    </div>
+
+                    <h3 class="home1-broth-name">
+                        Sesame Cream
+                    </h3>
+
+                    <p class="home1-broth-description">
+                        A smooth and nutty sesame broth with subtle
+                        spices, crafted for a mellow and comforting
+                        hot pot experience.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home1-broth-btn"
+                    >
+                        <span>Explore Broth</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 06
+            ================================================== -->
+
+            <article
+                class="home1-broth-card"
+                data-slide="5"
+            >
+
+                <!-- Image -->
+
+                <div class="home1-broth-image">
+
+                    <img
+                        src="images/home1-broth-06.jpg"
+                        alt="Beef bone hot pot broth"
+                    >
+
+                    <div class="home1-broth-image-overlay"></div>
+
+                    <span class="home1-broth-number">
+                        06
+                    </span>
+
+                </div>
+
+
+                <!-- Content -->
+
+                <div class="home1-broth-content">
+
+                    <div class="home1-broth-content-top">
+
+                        <span class="home1-broth-category">
+                            RICH &amp; DEEP
+                        </span>
+
+                        <span class="home1-broth-spice">
+                            <i class="fa-solid fa-pepper-hot"></i>
+                            <i class="fa-solid fa-pepper-hot"></i>
+                        </span>
+
+                    </div>
+
+                    <h3 class="home1-broth-name">
+                        Beef Bone Rich
+                    </h3>
+
+                    <p class="home1-broth-description">
+                        A slow-cooked beef bone broth with deep savory
+                        notes and a rich finish that pairs beautifully
+                        with fresh ingredients.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home1-broth-btn"
+                    >
+                        <span>Explore Broth</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SLIDER PAGINATION
+    ====================================================== -->
+
+    <div
+        class="home1-broths-pagination"
+        id="home1BrothsPagination"
+        aria-label="Signature broth navigation"
+    >
+
+        <button
+            type="button"
+            class="home1-broth-page active"
+            data-slide="0"
+            aria-label="Go to broth slide 1"
+            aria-current="true"
+        >
+            01
+        </button>
+
+        <span
+            class="home1-broth-page-line"
+            aria-hidden="true"
+        ></span>
+
+        <button
+            type="button"
+            class="home1-broth-page"
+            data-slide="1"
+            aria-label="Go to broth slide 2"
+        >
+            02
+        </button>
+
+        <span
+            class="home1-broth-page-line"
+            aria-hidden="true"
+        ></span>
+
+        <button
+            type="button"
+            class="home1-broth-page"
+            data-slide="2"
+            aria-label="Go to broth slide 3"
+        >
+            03
+        </button>
+
+        <span
+            class="home1-broth-page-line"
+            aria-hidden="true"
+        ></span>
+
+        <button
+            type="button"
+            class="home1-broth-page"
+            data-slide="3"
+            aria-label="Go to broth slide 4"
+        >
+            04
+        </button>
+
+        <span
+            class="home1-broth-page-line"
+            aria-hidden="true"
+        ></span>
+
+        
+    </div>
+
+
+    <!-- =====================================================
+         FULL MENU BUTTON
+    ====================================================== -->
+
+    <div class="home1-broths-footer">
+
+        <a
+            href="menu.html"
+            class="home1-broths-menu-btn"
+        >
+            <span>Explore Full Menu</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — HOW IT WORKS
+========================================================= -->
+
+<section class="home1-how" id="home1How">
+
+    <!-- =====================================================
+         DECORATIVE BACKGROUND
+    ====================================================== -->
+
+    <div class="home1-how-decoration home1-how-decoration-top" aria-hidden="true">
+        <i class="fa-solid fa-bowl-food"></i>
+    </div>
+
+    <div class="home1-how-decoration home1-how-decoration-bottom" aria-hidden="true">
+        <i class="fa-solid fa-leaf"></i>
+    </div>
+
+
+    <!-- =====================================================
+         SECTION INTRO
+    ====================================================== -->
+
+    <div class="home1-how-header">
+
+        <span class="home1-how-eyebrow">
+            SIMPLE &amp; DELICIOUS
+        </span>
+
+        <h2 class="home1-how-title">
+            Your Hot Pot.
+            <br>
+            <span>Your Way.</span>
+        </h2>
+
+        <p class="home1-how-description">
+            From choosing your favorite broth to cooking fresh
+            ingredients at the table, every step is part of the
+            experience.
+        </p>
+
+        <a
+            href="menu.html"
+            class="home1-how-btn"
+        >
+            <span>Start Your Experience</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROCESS GRID
+    ====================================================== -->
+
+    <div class="home1-how-grid">
+
+
+        <!-- =================================================
+             ROW 1 — ITEM 01 IMAGE
+        ================================================== -->
+
+        <div class="home1-how-image home1-how-image-01">
+
+            <img
+                src="images/home1-how-01.jpg"
+                alt="Friends gathering around a hot pot table"
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             ROW 1 — ITEM 02 TEXT
+        ================================================== -->
+
+        <div class="home1-how-step home1-how-step-02">
+
+            <span class="home1-how-step-number">
+                02
+            </span>
+
+            <div class="home1-how-step-content">
+
+                <span class="home1-how-step-label">
+                    STEP 02
+                </span>
+
+                <h3>
+                    Choose Your Broth
+                </h3>
+
+                <p>
+                    Select a rich and flavorful broth that matches
+                    your taste, from spicy and bold to comforting
+                    and creamy dishes.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             ROW 1 — ITEM 03 IMAGE
+        ================================================== -->
+
+        <div class="home1-how-image home1-how-image-03">
+
+            <img
+                src="images/home1-how-03.jpg"
+                alt="Fresh ingredients prepared for hot pot"
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             ROW 1 — ITEM 04 TEXT
+        ================================================== -->
+
+        <div class="home1-how-step home1-how-step-04">
+
+            <span class="home1-how-step-number">
+                04
+            </span>
+
+            <div class="home1-how-step-content">
+
+                <span class="home1-how-step-label">
+                    STEP 04
+                </span>
+
+                <h3>
+                    Cook &amp; Enjoy
+                </h3>
+
+                <p>
+                    Cook your ingredients just the way you like
+                    them, gather around the table, and enjoy every
+                    flavorful moment together.
+                </p>
+
+            </div>
+
+            
+
+        </div>
+
+
+        <!-- =================================================
+             HORIZONTAL DIVIDER
+        ================================================== -->
+
+        <div
+            class="home1-how-divider"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- =================================================
+             ROW 2 — ITEM 01 TEXT
+        ================================================== -->
+
+        <div class="home1-how-step home1-how-step-01">
+
+            <span class="home1-how-step-number">
+                01
+            </span>
+
+            <div class="home1-how-step-content">
+
+                <span class="home1-how-step-label">
+                    STEP 01
+                </span>
+
+                <h3>
+                    Gather Around
+                </h3>
+
+                <p>
+                    Bring your favorite people together and settle
+                    around the table for a warm and memorable
+                    dining experience.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             ROW 2 — ITEM 02 IMAGE
+        ================================================== -->
+
+        <div class="home1-how-image home1-how-image-02">
+
+            <img
+                src="images/home1-how-02.jpg"
+                alt="Hot pot broth simmering at the table"
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             ROW 2 — ITEM 03 TEXT
+        ================================================== -->
+
+        <div class="home1-how-step home1-how-step-03">
+
+            <span class="home1-how-step-number">
+                03
+            </span>
+
+            <div class="home1-how-step-content">
+
+                <span class="home1-how-step-label">
+                    STEP 03
+                </span>
+
+                <h3>
+                    Fresh Ingredients
+                </h3>
+
+                <p>
+                    Choose from fresh vegetables, premium meats,
+                    seafood, noodles, and everything you love in
+                    your perfect hot pot.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             ROW 2 — ITEM 04 IMAGE
+        ================================================== -->
+
+        <div class="home1-how-image home1-how-image-04">
+
+            <img
+                src="images/home1-how-04.jpg"
+                alt="Friends enjoying a hot pot meal together"
+            >
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — SECTION 5: FRESH INGREDIENTS
+========================================================= -->
+
+<section class="home1-fresh" id="home1Fresh">
+
+    <!-- =====================================================
+         DECORATIVE ELEMENT
+    ====================================================== -->
+
+    <div class="home1-fresh-decoration" aria-hidden="true">
+        <i class="fa-solid fa-leaf"></i>
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTAINER
+    ====================================================== -->
+
+    <div class="home1-fresh-container">
+
+
+        <!-- =================================================
+             LEFT — IMAGE AREA
+        ================================================== -->
+
+        <div class="home1-fresh-visual">
+
+            <!-- Main Image -->
+
+            <div class="home1-fresh-main-image">
+                <img
+                    src="images/home1-fresh-main.jpg"
+                    alt="Fresh ingredients prepared for hot pot"
+                >
+            </div>
+
+
+            <!-- Small Overlapping Image -->
+
+            <div class="home1-fresh-small-image">
+                <img
+                    src="images/home1-fresh-small.jpg"
+                    alt="Fresh vegetables and ingredients"
+                >
+            </div>
+
+
+            <!-- Fresh Badge -->
+
+            <div class="home1-fresh-badge">
+
+                <div class="home1-fresh-badge-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <div class="home1-fresh-badge-content">
+                    <strong>100%</strong>
+                    <span>Fresh Daily</span>
+                </div>
+
+            </div>
+
+
+            
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — CONTENT AREA
+        ================================================== -->
+
+        <div class="home1-fresh-content">
+
+            <!-- Eyebrow -->
+
+            <span class="home1-fresh-eyebrow">
+                FRESH EVERY DAY
+            </span>
+
+
+            <!-- Heading -->
+
+            <h2 class="home1-fresh-title">
+                Ingredients You Can
+                <span>Taste the Difference In.</span>
+            </h2>
+
+
+            <!-- Description -->
+
+            <p class="home1-fresh-description">
+                Great hot pot starts with great ingredients. We carefully
+                select fresh produce, quality meats, seafood, and handmade
+                favorites to make every bite full of flavor.
+            </p>
+
+
+            <!-- =================================================
+                 QUALITY INDICATORS
+            ================================================== -->
+
+            <div class="home1-fresh-quality">
+
+                <div class="home1-fresh-quality-item">
+
+                    <span class="home1-fresh-quality-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </span>
+
+                    <div class="home1-fresh-quality-text">
+                        <strong>Fresh Daily</strong>
+                        <span>Selected every morning</span>
+                    </div>
+
+                </div>
+
+
+                <div class="home1-fresh-quality-item">
+
+                    <span class="home1-fresh-quality-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </span>
+
+                    <div class="home1-fresh-quality-text">
+                        <strong>Quality First</strong>
+                        <span>Carefully sourced ingredients</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 INGREDIENT CATEGORIES
+            ================================================== -->
+
+            <div class="home1-fresh-list">
+
+                <!-- Item 01 -->
+
+                <div class="home1-fresh-item">
+
+                    <span class="home1-fresh-item-number">
+                        01
+                    </span>
+
+                    <div class="home1-fresh-item-icon">
+                        <i class="fa-solid fa-drumstick-bite"></i>
+                    </div>
+
+                    <div class="home1-fresh-item-content">
+                        <h3>Premium Meats</h3>
+                        <p>
+                            Tender cuts selected for flavor and quality.
+                        </p>
+                    </div>
+
+                    <span class="home1-fresh-item-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </div>
+
+
+                <!-- Item 02 -->
+
+                <div class="home1-fresh-item">
+
+                    <span class="home1-fresh-item-number">
+                        02
+                    </span>
+
+                    <div class="home1-fresh-item-icon">
+                        <i class="fa-solid fa-fish"></i>
+                    </div>
+
+                    <div class="home1-fresh-item-content">
+                        <h3>Fresh Seafood</h3>
+                        <p>
+                            Fresh seafood prepared for every flavorful dip.
+                        </p>
+                    </div>
+
+                    <span class="home1-fresh-item-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </div>
+
+
+                <!-- Item 03 -->
+
+                <div class="home1-fresh-item">
+
+                    <span class="home1-fresh-item-number">
+                        03
+                    </span>
+
+                    <div class="home1-fresh-item-icon">
+                        <i class="fa-solid fa-carrot"></i>
+                    </div>
+
+                    <div class="home1-fresh-item-content">
+                        <h3>Garden Vegetables</h3>
+                        <p>
+                            Crisp vegetables brought in fresh every day.
+                        </p>
+                    </div>
+
+                    <span class="home1-fresh-item-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </div>
+
+
+                <!-- Item 04 -->
+
+                <div class="home1-fresh-item">
+
+                    <span class="home1-fresh-item-number">
+                        04
+                    </span>
+
+                    <div class="home1-fresh-item-icon">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+
+                    <div class="home1-fresh-item-content">
+                        <h3>Handmade Noodles</h3>
+                        <p>
+                            Delicious noodles made to complete your bowl.
+                        </p>
+                    </div>
+
+                    <span class="home1-fresh-item-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 CTA
+            ================================================== -->
+
+            <div class="home1-fresh-action">
+
+                <a
+                    href="menu.html"
+                    class="home1-fresh-btn"
+                >
+                    <span>Explore Our Menu</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <span class="home1-fresh-note">
+                    <i class="fa-solid fa-check"></i>
+                    Freshness in every bowl
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — SECTION 6: WHY CHOOSE US
+========================================================= -->
+
+<section class="home1-why" id="home1Why">
+
+    <!-- =====================================================
+         DECORATIVE ELEMENTS
+    ====================================================== -->
+
+    <div class="home1-why-decoration home1-why-decoration-top" aria-hidden="true">
+        <i class="fa-solid fa-fire-burner"></i>
+    </div>
+
+    <div class="home1-why-decoration home1-why-decoration-bottom" aria-hidden="true">
+        <i class="fa-solid fa-leaf"></i>
+    </div>
+
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="home1-why-header">
+
+        <span class="home1-why-eyebrow">
+            WHY CHOOSE US
+        </span>
+
+        <h2 class="home1-why-title">
+            The Difference Is in
+            <span>Every Detail.</span>
+        </h2>
+
+        <p class="home1-why-description">
+            From the broth simmering in the center of your table to the
+            freshest ingredients around it, we create every detail with
+            flavor, comfort, and togetherness in mind.
+        </p>
+
+    </div>
+
+
+    <!-- =====================================================
+         FEATURE IMAGE AREA
+    ====================================================== -->
+
+    <div class="home1-why-feature">
+
+        <div class="home1-why-feature-image">
+
+            <img
+                src="images/home1-why-main.jpg"
+                alt="Friends enjoying a hot pot dining experience"
+            >
+
+            <div class="home1-why-feature-overlay"></div>
+
+        </div>
+
+
+        <!-- Image Number -->
+
+        <span class="home1-why-image-number">
+            06
+        </span>
+
+
+        <!-- =================================================
+             FLOATING STATEMENT CARD
+        ================================================== -->
+
+        <div class="home1-why-feature-card">
+
+            <span class="home1-why-feature-card-label">
+                THE EXPERIENCE
+            </span>
+
+            <h3>
+                One Table.<br>
+                <span>Many Flavors.</span>
+            </h3>
+
+            <p>
+                A warm table, a bubbling broth, and people worth
+                sharing it all with.
+            </p>
+
+            <div class="home1-why-feature-card-icon">
+                <i class="fa-solid fa-bowl-food"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         WHY CHOOSE US — FEATURE GRID
+    ====================================================== -->
+
+    <div class="home1-why-grid">
+
+
+        <!-- =================================================
+             FEATURE 01
+        ================================================== -->
+
+        <article class="home1-why-item">
+
+            <div class="home1-why-item-top">
+
+                <span class="home1-why-item-number">
+                    01
+                </span>
+
+                <span class="home1-why-item-icon">
+                    <i class="fa-solid fa-bowl-food"></i>
+                </span>
+
+            </div>
+
+            <div class="home1-why-item-content">
+
+                <h3>
+                    Authentic Broths
+                </h3>
+
+                <p>
+                    Rich and aromatic broths crafted to bring
+                    authentic flavor to every bite make good.
+                </p>
+
+            </div>
+
+            <span class="home1-why-item-line"></span>
+
+        </article>
+
+
+        <!-- =================================================
+             FEATURE 02
+        ================================================== -->
+
+        <article class="home1-why-item">
+
+            <div class="home1-why-item-top">
+
+                <span class="home1-why-item-number">
+                    02
+                </span>
+
+                <span class="home1-why-item-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </span>
+
+            </div>
+
+            <div class="home1-why-item-content">
+
+                <h3>
+                    Fresh Every Day
+                </h3>
+
+                <p>
+                    Carefully selected meats, seafood, vegetables,
+                    and noodles prepared fresh you.
+                </p>
+
+            </div>
+
+            <span class="home1-why-item-line"></span>
+
+        </article>
+
+
+        <!-- =================================================
+             FEATURE 03
+        ================================================== -->
+
+        <article class="home1-why-item">
+
+            <div class="home1-why-item-top">
+
+                <span class="home1-why-item-number">
+                    03
+                </span>
+
+                <span class="home1-why-item-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+
+            </div>
+
+            <div class="home1-why-item-content">
+
+                <h3>
+                    Warm Hospitality
+                </h3>
+
+                <p>
+                    A welcoming atmosphere designed to make every
+                    visit comfortable and memorable.
+                </p>
+
+            </div>
+
+            <span class="home1-why-item-line"></span>
+
+        </article>
+
+
+        <!-- =================================================
+             FEATURE 04
+        ================================================== -->
+
+        <article class="home1-why-item">
+
+            <div class="home1-why-item-top">
+
+                <span class="home1-why-item-number">
+                    04
+                </span>
+
+                <span class="home1-why-item-icon">
+                    <i class="fa-solid fa-users"></i>
+                </span>
+
+            </div>
+
+            <div class="home1-why-item-content">
+
+                <h3>
+                    Made for Sharing
+                </h3>
+
+                <p>
+                    One table, one pot, and plenty of delicious
+                    moments to enjoy together.
+                </p>
+
+            </div>
+
+            <span class="home1-why-item-line"></span>
+
+        </article>
+
+
+    </div>
+
+
+    <!-- =====================================================
+         BOTTOM STATS
+    ====================================================== -->
+
+    <div class="home1-why-stats">
+
+        <div class="home1-why-stat">
+
+            <strong>
+                10+
+            </strong>
+
+            <span>
+                Signature Broths
+            </span>
+
+        </div>
+
+
+        <div class="home1-why-stat-divider" aria-hidden="true"></div>
+
+
+        <div class="home1-why-stat">
+
+            <strong>
+                20+
+            </strong>
+
+            <span>
+                Fresh Ingredients
+            </span>
+
+        </div>
+
+
+        <div class="home1-why-stat-divider" aria-hidden="true"></div>
+
+
+        <div class="home1-why-stat">
+
+            <strong>
+                4.9
+            </strong>
+
+            <span>
+                Guest Rating
+            </span>
+
+        </div>
+
+
+        <div class="home1-why-stat-divider" aria-hidden="true"></div>
+
+
+        <div class="home1-why-stat">
+
+            <strong>
+                100%
+            </strong>
+
+            <span>
+                Made to Share
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CTA
+    ====================================================== -->
+
+    <div class="home1-why-action">
+
+        <a
+            href="about.html"
+            class="home1-why-btn"
+        >
+            <span>
+                Discover Our Experience
+            </span>
+
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — SECTION 7: SPECIAL OFFER CTA
+========================================================= -->
+
+<section class="home1-offer" id="home1Offer">
+
+    <!-- =====================================================
+         BACKGROUND IMAGE
+    ====================================================== -->
+
+    <div class="home1-offer-background">
+        <img
+            src="images/home1-special-offer.jpg"
+            alt="Hot pot dining experience"
+        >
+    </div>
+
+    <!-- Dark overlay -->
+
+    <div class="home1-offer-overlay"></div>
+
+
+    <!-- =====================================================
+         DECORATIVE ELEMENTS
+    ====================================================== -->
+
+    <div class="home1-offer-decoration home1-offer-decoration-left" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="home1-offer-decoration home1-offer-decoration-right" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <div class="home1-offer-container">
+
+        <!-- Top Label -->
+
+        <span class="home1-offer-eyebrow">
+            LIMITED TIME EXPERIENCE
+        </span>
+
+
+        <!-- Offer Badge -->
+
+        <div class="home1-offer-badge">
+
+            <span class="home1-offer-badge-line"></span>
+
+            <span class="home1-offer-badge-text">
+                SPECIAL
+            </span>
+
+            <span class="home1-offer-badge-line"></span>
+
+        </div>
+
+
+        <!-- Heading -->
+
+        <h2 class="home1-offer-title">
+            Make Your Next Gathering
+            <span>More Flavorful.</span>
+        </h2>
+
+
+        <!-- Description -->
+
+        <p class="home1-offer-description">
+            Bring your favorite people together and enjoy a special
+            hot pot experience created for sharing, celebrating,
+            and making delicious memories.
+        </p>
+
+
+        <!-- Offer Details -->
+
+        <div class="home1-offer-details">
+
+            <div class="home1-offer-detail">
+
+                <span class="home1-offer-detail-icon">
+                    <i class="fa-solid fa-users"></i>
+                </span>
+
+                <div class="home1-offer-detail-text">
+                    <strong>Perfect for Groups</strong>
+                    <span>Gather around one table</span>
+                </div>
+
+            </div>
+
+
+            <span class="home1-offer-detail-divider" aria-hidden="true"></span>
+
+
+            <div class="home1-offer-detail">
+
+                <span class="home1-offer-detail-icon">
+                    <i class="fa-solid fa-fire-burner"></i>
+                </span>
+
+                <div class="home1-offer-detail-text">
+                    <strong>Rich &amp; Flavorful</strong>
+                    <span>Made for every craving</span>
+                </div>
+
+            </div>
+
+
+            <span class="home1-offer-detail-divider" aria-hidden="true"></span>
+
+
+            <div class="home1-offer-detail">
+
+                <span class="home1-offer-detail-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+
+                <div class="home1-offer-detail-text">
+                    <strong>Made to Share</strong>
+                    <span>Enjoy every moment together</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CTA -->
+
+        <div class="home1-offer-action">
+
+            <a
+                href="reservations.html"
+                class="home1-offer-btn"
+            >
+                <span>Explore the Offer</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- Bottom Decorative Line -->
+
+        <div class="home1-offer-bottom">
+
+            <span class="home1-offer-bottom-line"></span>
+
+            <span class="home1-offer-bottom-text">
+                GATHER &nbsp; • &nbsp; COOK &nbsp; • &nbsp; SHARE
+            </span>
+
+            <span class="home1-offer-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — SECTION 8
+     TESTIMONIALS
+========================================================= -->
+
+<section class="home1-testimonials" id="home1Testimonials">
+
+    <!-- =====================================================
+         DECORATIVE ELEMENTS
+    ====================================================== -->
+
+    <div class="home1-testimonials-decoration home1-testimonials-decoration-left"
+         aria-hidden="true">
+        <i class="fa-solid fa-leaf"></i>
+    </div>
+
+    <div class="home1-testimonials-decoration home1-testimonials-decoration-right"
+         aria-hidden="true">
+        <i class="fa-solid fa-bowl-food"></i>
+    </div>
+
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="home1-testimonials-header">
+
+        <span class="home1-testimonials-eyebrow">
+            WHAT OUR GUESTS SAY
+        </span>
+
+        <h2 class="home1-testimonials-title">
+            Shared Around the <span>Table.</span>
+        </h2>
+
+        <p class="home1-testimonials-description">
+            From the first sip of broth to the last bite, our guests
+            come for the flavors and leave with memories worth sharing.
+        </p>
+
+    </div>
+
+
+    <!-- =====================================================
+         TESTIMONIAL SLIDER
+    ====================================================== -->
+
+    <div class="home1-testimonials-slider-wrapper">
+
+        <div class="home1-testimonials-slider"
+             id="home1TestimonialsSlider">
+
+
+            <!-- =================================================
+                 TESTIMONIAL 01
+            ================================================== -->
+
+            <article class="home1-testimonial-card active"
+                     data-slide="0">
+
+                <div class="home1-testimonial-quote"
+                     aria-hidden="true">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <div class="home1-testimonial-rating"
+                     aria-label="5 out of 5 stars">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <p class="home1-testimonial-text">
+                    “The broth was incredibly flavorful and every
+                    ingredient tasted so fresh. It was the perfect
+                    place to slow down, enjoy good food, and spend
+                    time with family feel good.”
+                </p>
+
+                <div class="home1-testimonial-author">
+
+                    <div class="home1-testimonial-author-image">
+                        <img src="images/customer-01.jpg"
+                             alt="Emily Carter">
+                    </div>
+
+                    <div class="home1-testimonial-author-info">
+                        <strong>Emily Carter</strong>
+                        <span>Family Dinner</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 TESTIMONIAL 02
+            ================================================== -->
+
+            <article class="home1-testimonial-card"
+                     data-slide="1">
+
+                <div class="home1-testimonial-quote"
+                     aria-hidden="true">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <div class="home1-testimonial-rating"
+                     aria-label="5 out of 5 stars">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <p class="home1-testimonial-text">
+                    “Everything felt thoughtfully prepared, from
+                    the fresh vegetables to the signature broth.
+                    The atmosphere was warm, relaxed, and perfect
+                    meal with friends.”
+                </p>
+
+                <div class="home1-testimonial-author">
+
+                    <div class="home1-testimonial-author-image">
+                        <img src="images/customer-02.jpg"
+                             alt="Daniel Morgan">
+                    </div>
+
+                    <div class="home1-testimonial-author-info">
+                        <strong>Daniel Morgan</strong>
+                        <span>Friends Gathering</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 TESTIMONIAL 03
+            ================================================== -->
+
+            <article class="home1-testimonial-card"
+                     data-slide="2">
+
+                <div class="home1-testimonial-quote"
+                     aria-hidden="true">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <div class="home1-testimonial-rating"
+                     aria-label="5 out of 5 stars">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <p class="home1-testimonial-text">
+                    “I loved being able to choose everything that
+                    went into my bowl. The spicy broth was amazing,
+                    and whole experience made dinner feel some
+                    good and cherish.”
+                </p>
+
+                <div class="home1-testimonial-author">
+
+                    <div class="home1-testimonial-author-image">
+                        <img src="images/customer-03.jpg"
+                             alt="Sophia Williams">
+                    </div>
+
+                    <div class="home1-testimonial-author-info">
+                        <strong>Sophia Williams</strong>
+                        <span>Weekend Dinner</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 TESTIMONIAL 04
+            ================================================== -->
+
+            <article class="home1-testimonial-card"
+                     data-slide="3">
+
+                <div class="home1-testimonial-quote"
+                     aria-hidden="true">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <div class="home1-testimonial-rating"
+                     aria-label="5 out of 5 stars">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <p class="home1-testimonial-text">
+                    “A wonderful dining experience from beginning
+                    to end. The ingredients were fresh, the broth
+                    was rich, and there was something for everyone
+                    at the table special.”
+                </p>
+
+                <div class="home1-testimonial-author">
+
+                    <div class="home1-testimonial-author-image">
+                        <img src="images/customer-04.jpg"
+                             alt="Michael Anderson">
+                    </div>
+
+                    <div class="home1-testimonial-author-info">
+                        <strong>Michael Anderson</strong>
+                        <span>Group Dinner</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 TESTIMONIAL 05
+            ================================================== -->
+
+            <article class="home1-testimonial-card"
+                     data-slide="4">
+
+                <div class="home1-testimonial-quote"
+                     aria-hidden="true">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <div class="home1-testimonial-rating"
+                     aria-label="5 out of 5 stars">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <p class="home1-testimonial-text">
+                    “The combination of fresh ingredients and
+                    beautifully prepared broths made this one of
+                    my favorite meals. I would happily come back
+                    again with friends make good.”
+                </p>
+
+                <div class="home1-testimonial-author">
+
+                    <div class="home1-testimonial-author-image">
+                        <img src="images/customer-05.jpg"
+                             alt="Olivia Bennett">
+                    </div>
+
+                    <div class="home1-testimonial-author-info">
+                        <strong>Olivia Bennett</strong>
+                        <span>Date Night</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 TESTIMONIAL 06
+            ================================================== -->
+
+            <article class="home1-testimonial-card"
+                     data-slide="5">
+
+                <div class="home1-testimonial-quote"
+                     aria-hidden="true">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <div class="home1-testimonial-rating"
+                     aria-label="5 out of 5 stars">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <p class="home1-testimonial-text">
+                    “There is something special about sitting around
+                    one table and cooking together. The food was
+                    delicious, the service was welcoming, things make
+                    memorable.”
+                </p>
+
+                <div class="home1-testimonial-author">
+
+                    <div class="home1-testimonial-author-image">
+                        <img src="images/customer-06.jpg"
+                             alt="James Wilson">
+                    </div>
+
+                    <div class="home1-testimonial-author-info">
+                        <strong>James Wilson</strong>
+                        <span>Family Gathering</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         THREE DOT PAGINATION
+    ====================================================== -->
+
+    <div class="home1-testimonials-pagination"
+         id="home1TestimonialsPagination"
+         aria-label="Testimonials navigation">
+
+        <button type="button"
+                class="home1-testimonial-dot active"
+                data-slide="0"
+                aria-label="Show testimonial 1"
+                aria-current="true">
+        </button>
+
+        <button type="button"
+                class="home1-testimonial-dot"
+                data-slide="1"
+                aria-label="Show testimonial 2">
+        </button>
+
+        
+
+    </div>
+
+
+    <!-- =====================================================
+         BOTTOM STATEMENT
+    ====================================================== -->
+
+    <div class="home1-testimonials-bottom">
+
+        <span class="home1-testimonials-bottom-line"></span>
+
+        <p>
+            GOOD FOOD. GOOD PEOPLE. GOOD MEMORIES.
+        </p>
+
+        <span class="home1-testimonials-bottom-line"></span>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 1 — SECTION 9
+     FINAL RESERVATION CTA
+========================================================= -->
+
+<section class="home1-reservation-cta" id="home1ReservationCta">
+
+    <!-- =====================================================
+         BACKGROUND IMAGE
+    ====================================================== -->
+
+    <div class="home1-reservation-cta-background">
+        <img
+            src="images/home1-reservation-cta.jpg"
+            alt="Guests enjoying a hot pot meal together"
+        >
+    </div>
+
+    <div class="home1-reservation-cta-overlay"></div>
+
+
+    <!-- =====================================================
+         DECORATIVE STEAM / LINES
+    ====================================================== -->
+
+    <div class="home1-reservation-cta-decoration home1-reservation-cta-decoration-left"
+         aria-hidden="true">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+    <div class="home1-reservation-cta-decoration home1-reservation-cta-decoration-right"
+         aria-hidden="true">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <div class="home1-reservation-cta-container">
+
+        <!-- Small Eyebrow -->
+
+        <span class="home1-reservation-cta-eyebrow">
+            GATHER AROUND THE TABLE
+        </span>
+
+
+        <!-- Decorative Icon -->
+
+        <div class="home1-reservation-cta-icon"
+             aria-hidden="true">
+
+            <i class="fa-solid fa-fire-burner"></i>
+
+        </div>
+
+
+        <!-- Heading -->
+
+        <h2 class="home1-reservation-cta-title">
+            Your Table Is <span>Waiting.</span>
+        </h2>
+
+
+        <!-- Description -->
+
+        <p class="home1-reservation-cta-description">
+            Bring your favorite people together for rich broths,
+            fresh ingredients, and a hot pot experience made to share.
+        </p>
+
+
+        <!-- Buttons -->
+
+        <div class="home1-reservation-cta-buttons">
+
+            <a
+                href="reservations.html"
+                class="home1-reservation-cta-btn home1-reservation-cta-btn-primary"
+            >
+                <span>Book a Table</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a
+                href="menu.html"
+                class="home1-reservation-cta-btn home1-reservation-cta-btn-secondary"
+            >
+                <span>Explore Our Menu</span>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             RESTAURANT DETAILS
+        ================================================== -->
+
+        <div class="home1-reservation-cta-details">
+
+            <!-- Detail 01 -->
+
+            <div class="home1-reservation-cta-detail">
+
+                <span class="home1-reservation-cta-detail-icon">
+                    <i class="fa-regular fa-clock"></i>
+                </span>
+
+                <div class="home1-reservation-cta-detail-content">
+                    <strong>Open Daily</strong>
+                    <span>11:30 AM — 10:30 PM</span>
+                </div>
+
+            </div>
+
+
+            <!-- Divider -->
+
+            <span
+                class="home1-reservation-cta-detail-divider"
+                aria-hidden="true">
+            </span>
+
+
+            <!-- Detail 02 -->
+
+            <div class="home1-reservation-cta-detail">
+
+                <span class="home1-reservation-cta-detail-icon">
+                    <i class="fa-solid fa-users"></i>
+                </span>
+
+                <div class="home1-reservation-cta-detail-content">
+                    <strong>Perfect for Groups</strong>
+                    <span>Families &amp; Friends</span>
+                </div>
+
+            </div>
+
+
+            <!-- Divider -->
+
+            <span
+                class="home1-reservation-cta-detail-divider"
+                aria-hidden="true">
+            </span>
+
+
+            <!-- Detail 03 -->
+
+            <div class="home1-reservation-cta-detail">
+
+                <span class="home1-reservation-cta-detail-icon">
+                    <i class="fa-solid fa-utensils"></i>
+                </span>
+
+                <div class="home1-reservation-cta-detail-content">
+                    <strong>Fresh Every Day</strong>
+                    <span>Quality Ingredients</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM MESSAGE
+        ================================================== -->
+
+        <div class="home1-reservation-cta-bottom">
+
+            <span class="home1-reservation-cta-bottom-line"></span>
+
+            <p>
+                GATHER&nbsp;&nbsp;•&nbsp;&nbsp;COOK&nbsp;&nbsp;•&nbsp;&nbsp;SHARE
+            </p>
+
+            <span class="home1-reservation-cta-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+    </main>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer" id="siteFooter">
+
+    <div class="footer-container">
+
+        <!-- =================================================
+             FOOTER TOP
+        ================================================== -->
+
+        <div class="footer-top">
+
+
+            <!-- =============================================
+                 BRAND COLUMN
+            ============================================== -->
+
+            <div class="footer-brand">
+
+                <a href="home1.html" class="footer-logo">
+
+                    <img
+                        src="images/logo-light.png"
+                        class="footer-logo-dark"
+                        alt="Hot Pot Restaurant Logo"
+                    >
+
+                    <img
+                        src="images/logo-dark.png"
+                        class="footer-logo-light"
+                        alt="Hot Pot Restaurant Logo"
+                    >
+
+                </a>
+
+                <p class="footer-description">
+                    A warm, flavorful dining experience where
+                    fresh ingredients, rich broths, and good
+                    company come together.
+                </p>
+
+
+                <!-- Social Media -->
+
+                <div class="footer-social">
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook"
+                    >
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Twitter"
+                    >
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="YouTube"
+                    >
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 QUICK LINKS
+            ============================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Quick Links
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="home1.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="how-it-works.html">
+                            How It Works
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reservations.html">
+                            Reservations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =============================================
+                 INFORMATION
+            ============================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Information
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reservations.html">
+                            Book a Table
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Terms & Conditions
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =============================================
+                 CONTACT
+            ============================================== -->
+
+            <div class="footer-column footer-contact">
+
+                <h3 class="footer-title">
+                    Visit Us
+                </h3>
+
+
+                <!-- Address -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+
+                    <p>
+                        125 Flavor Street,<br>
+                        Downtown, Chennai,<br>
+                        Tamil Nadu, India
+                    </p>
+
+                </div>
+
+
+                <!-- Phone -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+
+                    <a href="tel:+919876543210">
+                        +91 98765 43210
+                    </a>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+
+                    <a href="mailto:hello@hotpot.com">
+                        hello@hotpot.com
+                    </a>
+
+                </div>
+
+
+                <!-- Opening Hours -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </span>
+
+                    <p>
+                        Mon – Sun<br>
+                        11:00 AM – 11:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FOOTER NEWSLETTER
+        ================================================== -->
+
+        <div class="footer-newsletter">
+
+            <div class="footer-newsletter-content">
+
+                <span class="footer-newsletter-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </span>
+
+                <div>
+
+                    <h3>
+                        Stay in the Loop
+                    </h3>
+
+                    <p>
+                        Get updates about new dishes, special
+                        offers, and upcoming events.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="footer-newsletter-form"
+                action="#"
+                method="post"
+            >
+
+                <label
+                    for="footerEmail"
+                    class="sr-only"
+                >
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="footerEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="footer-subscribe-btn"
+                >
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- =================================================
+             FOOTER BOTTOM
+        ================================================== -->
+
+        <div class="footer-bottom">
+
+            <p class="footer-copyright">
+                © 2026 Hot Pot Restaurant. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <span></span>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- JS -->
+<!-- ============================================================
+     SCROLL TO TOP BUTTON
+============================================================ -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Back to Top"
+>
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+  <script src="js/script.js"></script>
+  <script src="js/global-settings.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,3716 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Pot Restaurant | Gather, Cook & Share</title>
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     HOT POT RESTAURANT
+     PART 1 — HEADER HTML
+========================================================= -->
+<!-- =====================================================
+         SITE HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Hot Pot Restaurant Home"
+            >
+
+                <!-- Light Mode Logo -->
+                <img
+                    src="images/logo-light.png"
+                    alt="Hot Pot Restaurant"
+                    class="logo-dark"
+                >
+
+                <!-- Dark Mode Logo -->
+                <img
+                    src="images/logo-dark.png"
+                    alt="Hot Pot Restaurant"
+                    class="logo-light"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="main-navigation"
+                id="mainNavigation"
+                aria-label="Main Navigation"
+            >
+
+                <ul class="nav-menu">
+
+
+                    <!-- =========================================
+                         HOME
+                    ========================================== -->
+
+                    <li class="nav-item has-dropdown">
+
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            aria-haspopup="true"
+                        >
+
+                            <span>
+                                Home
+                            </span>
+
+                            <span
+                                class="dropdown-icon"
+                                aria-hidden="true"
+                            >
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+
+                        </a>
+
+
+                        <!-- HOME DROPDOWN -->
+
+                        <ul class="dropdown-menu">
+
+                            <li class="dropdown-item">
+
+                                <a
+                                    href="index.html"
+                                    class="dropdown-link"
+                                >
+                                    Home 1
+                                </a>
+
+                            </li>
+
+
+                            <li class="dropdown-item">
+
+                                <a
+                                    href="home2.html"
+                                    class="dropdown-link"
+                                >
+                                    Home 2
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         ABOUT US
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="about.html"
+                            class="nav-link"
+                        >
+                            About Us
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         MENU
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="menu.html"
+                            class="nav-link active"
+                        >
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         HOW IT WORKS
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="how-it-works.html"
+                            class="nav-link"
+                        >
+                            How It Works
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         RESERVATIONS
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="reservations.html"
+                            class="nav-link"
+                        >
+                            Reservations
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         CONTACT
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="contact.html"
+                            class="nav-link"
+                        >
+                            Contact
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- =================================================
+                 DESKTOP HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+
+                <!-- =============================================
+                     RTL BUTTON
+                ============================================== -->
+
+                <button
+    type="button"
+    class="header-action-btn rtl-toggle"
+    id="rtlToggle"
+    aria-label="Toggle RTL mode"
+    title="RTL Mode"
+>
+    <i class="fa-solid fa-right-left"></i>
+</button>
+
+
+                <!-- =============================================
+                     DARK MODE BUTTON
+                ============================================== -->
+
+                <button
+                    type="button"
+                    class="header-action-btn dark-mode-toggle"
+                    id="darkModeToggle"
+                    aria-label="Toggle dark mode"
+                    title="Dark Mode"
+                >
+
+                    <span
+                        class="dark-mode-icon"
+                        aria-hidden="true"
+                    >
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+
+                </button>
+
+
+                <!-- =============================================
+                     LOGIN
+                ============================================== -->
+
+                <a
+                    href="login.html"
+                    class="header-btn login-btn"
+                >
+                    Login
+                </a>
+
+
+                <!-- =============================================
+                     DASHBOARD
+                ============================================== -->
+
+                <a
+                    href="dashboard.html"
+                    class="header-btn dashboard-btn"
+                >
+                    Dashboard
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mobileMenu"
+            >
+
+                <span class="hamburger-line"></span>
+
+                <span class="hamburger-line"></span>
+
+                <span class="hamburger-line"></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE MENU
+        ====================================================== -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <div class="mobile-menu-inner">
+
+
+                <!-- =================================================
+                     MOBILE NAVIGATION
+                ================================================== -->
+
+                <nav
+                    class="mobile-navigation"
+                    aria-label="Mobile Navigation"
+                >
+
+                    <ul class="mobile-nav-menu">
+
+
+                        <!-- =========================================
+                             MOBILE HOME DROPDOWN
+                        ========================================== -->
+
+                        <li
+                            class="mobile-nav-item mobile-has-dropdown"
+                        >
+
+                            <button
+                                type="button"
+                                class="mobile-nav-link mobile-dropdown-toggle"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                            >
+
+                                <span>
+                                    Home
+                                </span>
+
+                                <span
+                                    class="mobile-dropdown-icon"
+                                    aria-hidden="true"
+                                >
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+
+                            </button>
+
+
+                            <!-- MOBILE HOME DROPDOWN -->
+
+                            <ul class="mobile-dropdown-menu">
+
+                                <li class="mobile-dropdown-item">
+
+                                    <a
+                                        href="index.html"
+                                        class="mobile-dropdown-link"
+                                    >
+                                        Home 1
+                                    </a>
+
+                                </li>
+
+
+                                <li class="mobile-dropdown-item">
+
+                                    <a
+                                        href="home2.html"
+                                        class="mobile-dropdown-link"
+                                    >
+                                        Home 2
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE ABOUT
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="about.html"
+                                class="mobile-nav-link"
+                            >
+                                About Us
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE MENU
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="menu.html"
+                                class="mobile-nav-link active"
+                            >
+                                Menu
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE HOW IT WORKS
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="how-it-works.html"
+                                class="mobile-nav-link"
+                            >
+                                How It Works
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE RESERVATIONS
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="reservations.html"
+                                class="mobile-nav-link"
+                            >
+                                Reservations
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE CONTACT
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="contact.html"
+                                class="mobile-nav-link"
+                            >
+                                Contact
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+                <!-- =================================================
+                     MOBILE ACTIONS
+                     ALL BUTTONS ARE INSIDE HAMBURGER
+                ================================================== -->
+
+                <div class="mobile-actions">
+
+
+                    <!-- =============================================
+                         RTL
+                    ============================================== -->
+
+                    <button
+    type="button"
+    class="mobile-action-btn mobile-rtl-toggle"
+    id="mobileRtlToggle"
+    aria-label="Toggle RTL mode"
+    title="RTL Mode"
+>
+    <i class="fa-solid fa-right-left"></i>
+</button>
+
+
+                    <!-- =============================================
+                         DARK MODE
+                    ============================================== -->
+
+                    <button
+                        type="button"
+                        class="mobile-action-btn mobile-dark-toggle"
+                        id="mobileDarkModeToggle"
+                        aria-label="Toggle dark mode"
+                    >
+
+                        <span
+                            class="mobile-dark-icon"
+                            aria-hidden="true"
+                        >
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span>
+                            Dark Mode
+                        </span>
+
+                    </button>
+
+
+                    <!-- =============================================
+                         LOGIN
+                    ============================================== -->
+
+                    <a
+                        href="login.html"
+                        class="mobile-action-btn mobile-login-btn"
+                    >
+                        Login
+                    </a>
+
+
+                    <!-- =============================================
+                         DASHBOARD
+                    ============================================== -->
+
+                    <a
+                        href="dashboard.html"
+                        class="mobile-action-btn mobile-dashboard-btn"
+                    >
+                        Dashboard
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         Your Home page sections will start here.
+    ====================================================== -->
+
+    <main id="mainContent">
+<! =========================================================
+   MENU PAGE — HERO SECTION
+   PART 1 — HTML
+========================================================= !>
+
+<section class="menu-hero" id="menuHero">
+
+    <!-- =====================================================
+         BACKGROUND IMAGE
+    ====================================================== -->
+
+    <div class="menu-hero-background">
+
+        <img
+            src="images/menu-hero.jpg"
+            alt="Fresh hot pot ingredients and signature broth"
+        >
+
+    </div>
+
+
+    <!-- =====================================================
+         DARK OVERLAY
+    ====================================================== -->
+
+    <div class="menu-hero-overlay"></div>
+
+
+    <!-- =====================================================
+         DECORATIVE SIDE LINES
+    ====================================================== -->
+
+    <span class="menu-hero-side-line menu-hero-side-line-left"></span>
+
+    <span class="menu-hero-side-line menu-hero-side-line-right"></span>
+
+
+    <!-- =====================================================
+         HERO CONTAINER
+    ====================================================== -->
+
+    <div class="menu-hero-container">
+
+
+        <!-- =================================================
+             HERO CONTENT
+        ================================================== -->
+
+        <div class="menu-hero-content">
+
+
+            <!-- =============================================
+                 EYEBROW
+            ============================================== -->
+
+            <span class="menu-hero-eyebrow">
+                OUR MENU
+            </span>
+
+
+            <!-- =============================================
+                 TITLE
+            ============================================== -->
+
+            <h1 class="menu-hero-title">
+
+                Flavors Made
+
+                <span>
+                    to Share.
+                </span>
+
+            </h1>
+
+
+            <!-- =============================================
+                 DESCRIPTION
+            ============================================== -->
+
+            <p class="menu-hero-description">
+                Choose your favorite broth, fill your pot with
+                fresh ingredients, and create a dining experience
+                made exactly the way you like it.
+            </p>
+
+
+        </div>
+
+
+        <!-- =================================================
+             HERO BOTTOM
+        ================================================== -->
+
+        <div class="menu-hero-bottom">
+
+
+            <!-- =============================================
+                 BREADCRUMB
+            ============================================== -->
+
+            <div class="menu-hero-breadcrumb">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+
+                <strong>
+                    Menu
+                </strong>
+
+            </div>
+
+
+            <!-- =============================================
+                 SCROLL INDICATOR
+            ============================================== -->
+
+            <div class="menu-hero-scroll">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </div>
+
+
+            <!-- =============================================
+                 MENU LABEL
+            ============================================== -->
+
+            <div class="menu-hero-label">
+
+                <span>
+                    FRESH
+                </span>
+
+                <strong>
+                    DAILY
+                </strong>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<! =========================================================
+   MENU INTRODUCTION
+   PART 1 — HTML
+========================================================= !>
+
+<section class="menu-intro" id="menuIntro">
+
+    <div class="menu-intro-container">
+
+        <!-- =================================================
+             LEFT — CONTENT
+        ================================================== -->
+
+        <div class="menu-intro-content">
+
+            <span class="menu-intro-eyebrow">
+                OUR MENU
+            </span>
+
+            <h2 class="menu-intro-title">
+                Choose Your
+                <span>Experience.</span>
+            </h2>
+
+            <p class="menu-intro-description">
+                From rich signature broths to fresh vegetables,
+                premium meats, seafood, noodles, and house-made
+                sauces, every ingredient is selected to make your
+                hot pot experience fresh, flavorful, and completely
+                your own.
+            </p>
+
+
+            <!-- =================================================
+                 MENU HIGHLIGHTS
+            ================================================== -->
+
+            <div class="menu-intro-highlights">
+
+                <div class="menu-intro-highlight">
+
+                    <span class="menu-intro-highlight-number">
+                        01
+                    </span>
+
+                    <div class="menu-intro-highlight-text">
+                        <strong>
+                            Fresh Ingredients
+                        </strong>
+
+                        <span>
+                            Selected daily
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-intro-highlight">
+
+                    <span class="menu-intro-highlight-number">
+                        02
+                    </span>
+
+                    <div class="menu-intro-highlight-text">
+                        <strong>
+                            Signature Broths
+                        </strong>
+
+                        <span>
+                            Made with care
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-intro-highlight">
+
+                    <span class="menu-intro-highlight-number">
+                        03
+                    </span>
+
+                    <div class="menu-intro-highlight-text">
+                        <strong>
+                            Made to Share
+                        </strong>
+
+                        <span>
+                            Gather around the pot
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 CTA
+            ================================================== -->
+
+            <a
+                href="#signatureBroths"
+                class="menu-intro-button"
+            >
+                <span>EXPLORE THE MENU</span>
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — IMAGE
+        ================================================== -->
+
+        <div class="menu-intro-image-area">
+
+            <div class="menu-intro-image">
+
+                <img
+                    src="images/menu-intro.jpg"
+                    alt="Fresh ingredients prepared for a hot pot meal"
+                >
+
+            </div>
+
+
+            <!-- =================================================
+                 FLOATING LABEL
+            ================================================== -->
+
+            <div class="menu-intro-image-label">
+
+                <span class="menu-intro-image-label-number">
+                    01
+                </span>
+
+                <div class="menu-intro-image-label-text">
+
+                    <span>
+                        FRESH
+                    </span>
+
+                    <strong>
+                        DAILY
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<! =========================================================
+   SIGNATURE BROTHS
+   PART 1 — HTML
+========================================================= !>
+
+<section class="signature-broths" id="signatureBroths">
+
+    <div class="signature-broths-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="signature-broths-header">
+
+            <div class="signature-broths-heading">
+
+                <span class="signature-broths-eyebrow">
+                    SIGNATURE BROTHS
+                </span>
+
+                <h2 class="signature-broths-title">
+                    Start With Your
+                    <span>Perfect Broth.</span>
+                </h2>
+
+            </div>
+
+
+            <p class="signature-broths-intro">
+                Choose the flavor that sets the foundation
+                for your hot pot experience. From comforting
+                and delicate to bold and fiery, every broth
+                is prepared with care.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             BROTH GRID
+        ================================================== -->
+
+        <div class="signature-broths-grid">
+
+
+            <!-- =================================================
+                 BROTH 01
+            ================================================== -->
+
+            <article class="signature-broth-card">
+
+                <div class="signature-broth-image">
+
+                    <img
+                        src="images/menu-broth-01.jpg"
+                        alt="Signature spicy hot pot broth"
+                    >
+
+                    <span class="signature-broth-number">
+                        01
+                    </span>
+
+                    <span class="signature-broth-spice">
+                        SPICY
+                    </span>
+
+                </div>
+
+
+                <div class="signature-broth-content">
+
+                    <h3 class="signature-broth-name">
+                        Signature Spicy
+                    </h3>
+
+                    <p class="signature-broth-description">
+                        Bold, aromatic and warming with
+                        layers of chili and spices.
+                    </p>
+
+                    <div class="signature-broth-meta">
+                        <span>HOUSE SPECIAL</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 BROTH 02
+            ================================================== -->
+
+            <article class="signature-broth-card">
+
+                <div class="signature-broth-image">
+
+                    <img
+                        src="images/menu-broth-02.jpg"
+                        alt="Herbal chicken hot pot broth"
+                    >
+
+                    <span class="signature-broth-number">
+                        02
+                    </span>
+
+                    <span class="signature-broth-spice">
+                        MILD
+                    </span>
+
+                </div>
+
+
+                <div class="signature-broth-content">
+
+                    <h3 class="signature-broth-name">
+                        Herbal Chicken
+                    </h3>
+
+                    <p class="signature-broth-description">
+                        A comforting slow-simmered broth
+                        infused with fragrant herbs.
+                    </p>
+
+                    <div class="signature-broth-meta">
+                        <span>LIGHT &amp; AROMATIC</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 BROTH 03
+            ================================================== -->
+
+            <article class="signature-broth-card">
+
+                <div class="signature-broth-image">
+
+                    <img
+                        src="images/menu-broth-03.jpg"
+                        alt="Creamy mushroom hot pot broth"
+                    >
+
+                    <span class="signature-broth-number">
+                        03
+                    </span>
+
+                    <span class="signature-broth-spice">
+                        MILD
+                    </span>
+
+                </div>
+
+
+                <div class="signature-broth-content">
+
+                    <h3 class="signature-broth-name">
+                        Creamy Mushroom
+                    </h3>
+
+                    <p class="signature-broth-description">
+                        Rich, earthy and comforting with
+                        a deep mushroom flavor.
+                    </p>
+
+                    <div class="signature-broth-meta">
+                        <span>RICH &amp; CREAMY</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 BROTH 04
+            ================================================== -->
+
+            <article class="signature-broth-card">
+
+                <div class="signature-broth-image">
+
+                    <img
+                        src="images/menu-broth-04.jpg"
+                        alt="Tomato hot pot broth"
+                    >
+
+                    <span class="signature-broth-number">
+                        04
+                    </span>
+
+                    <span class="signature-broth-spice">
+                        MEDIUM
+                    </span>
+
+                </div>
+
+
+                <div class="signature-broth-content">
+
+                    <h3 class="signature-broth-name">
+                        Tomato Garden
+                    </h3>
+
+                    <p class="signature-broth-description">
+                        Bright, savory and naturally sweet
+                        with fresh tomato flavor.
+                    </p>
+
+                    <div class="signature-broth-meta">
+                        <span>FRESH &amp; SAVORY</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 BROTH 05
+            ================================================== -->
+
+            <article class="signature-broth-card">
+
+                <div class="signature-broth-image">
+
+                    <img
+                        src="images/menu-broth-05.jpg"
+                        alt="Seafood hot pot broth"
+                    >
+
+                    <span class="signature-broth-number">
+                        05
+                    </span>
+
+                    <span class="signature-broth-spice">
+                        MEDIUM
+                    </span>
+
+                </div>
+
+
+                <div class="signature-broth-content">
+
+                    <h3 class="signature-broth-name">
+                        Seafood Essence
+                    </h3>
+
+                    <p class="signature-broth-description">
+                        Deep ocean flavors balanced with
+                        delicate herbs and aromatics.
+                    </p>
+
+                    <div class="signature-broth-meta">
+                        <span>DEEP &amp; DELICATE</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 BROTH 06
+            ================================================== -->
+
+            <article class="signature-broth-card">
+
+                <div class="signature-broth-image">
+
+                    <img
+                        src="images/menu-broth-06.jpg"
+                        alt="House mala hot pot broth"
+                    >
+
+                    <span class="signature-broth-number">
+                        06
+                    </span>
+
+                    <span class="signature-broth-spice">
+                        HOT
+                    </span>
+
+                </div>
+
+
+                <div class="signature-broth-content">
+
+                    <h3 class="signature-broth-name">
+                        House Mala
+                    </h3>
+
+                    <p class="signature-broth-description">
+                        Fragrant, numbing and intensely
+                        flavorful for spice lovers.
+                    </p>
+
+                    <div class="signature-broth-meta">
+                        <span>FIERY &amp; BOLD</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM NOTE
+        ================================================== -->
+
+        <div class="signature-broths-bottom">
+
+            <span class="signature-broths-bottom-line"></span>
+
+            <p>
+                ALL BROTHS ARE PREPARED FRESH DAILY
+            </p>
+
+            <span class="signature-broths-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<! =========================================================
+   FRESH INGREDIENTS
+   PART 1 — HTML
+   FILTERABLE MENU
+========================================================= !>
+
+<section class="fresh-ingredients" id="freshIngredients">
+
+    <div class="fresh-ingredients-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="fresh-ingredients-header">
+
+            <span class="fresh-ingredients-eyebrow">
+                FRESH INGREDIENTS
+            </span>
+
+            <h2 class="fresh-ingredients-title">
+                From Farm
+                <span>to Pot.</span>
+            </h2>
+
+            <p class="fresh-ingredients-intro">
+                Choose from carefully selected ingredients and
+                build your perfect combination. Every ingredient
+                is prepared fresh for your table.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             FILTER BUTTONS
+        ================================================== -->
+
+        <div
+            class="fresh-ingredients-filters"
+            role="tablist"
+            aria-label="Ingredient categories"
+        >
+
+            <button
+                type="button"
+                class="fresh-ingredients-filter active"
+                data-filter="all"
+                role="tab"
+                aria-selected="true"
+            >
+                ALL
+            </button>
+
+            <button
+                type="button"
+                class="fresh-ingredients-filter"
+                data-filter="meat"
+                role="tab"
+                aria-selected="false"
+            >
+                MEAT
+            </button>
+
+            <button
+                type="button"
+                class="fresh-ingredients-filter"
+                data-filter="seafood"
+                role="tab"
+                aria-selected="false"
+            >
+                SEAFOOD
+            </button>
+
+            <button
+                type="button"
+                class="fresh-ingredients-filter"
+                data-filter="vegetables"
+                role="tab"
+                aria-selected="false"
+            >
+                VEGETABLES
+            </button>
+
+            <button
+                type="button"
+                class="fresh-ingredients-filter"
+                data-filter="noodles"
+                role="tab"
+                aria-selected="false"
+            >
+                NOODLES &amp; TOFU
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             INGREDIENT GRID
+        ================================================== -->
+
+        <div class="fresh-ingredients-grid">
+
+
+            <!-- =================================================
+                 MEAT — 01
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="meat"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-01.jpg"
+                        alt="Premium sliced beef for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        MEAT
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Premium Beef
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Thinly sliced premium beef,
+                        perfect for quick cooking.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 MEAT — 02
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="meat"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-02.jpg"
+                        alt="Fresh chicken slices for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        MEAT
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Sliced Chicken
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Tender chicken prepared in
+                        delicate, easy-to-cook slices.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 MEAT — 03
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="meat"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-03.jpg"
+                        alt="Fresh pork belly for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        MEAT
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Pork Belly
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Rich and tender pork belly
+                        with beautifully balanced flavor.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SEAFOOD — 04
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="seafood"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-04.jpg"
+                        alt="Fresh shrimp for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        04
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        SEAFOOD
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Fresh Shrimp
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Fresh, juicy shrimp that
+                        cooks beautifully in the broth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SEAFOOD — 05
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="seafood"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-05.jpg"
+                        alt="Fresh fish fillet for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        05
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        SEAFOOD
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Fish Fillet
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Delicate fish fillets that
+                        absorb every layer of flavor.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SEAFOOD — 06
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="seafood"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-06.jpg"
+                        alt="Fresh squid for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        06
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        SEAFOOD
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Fresh Squid
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Tender squid prepared fresh
+                        for a quick and flavorful cook.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 VEGETABLES — 07
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="vegetables"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-07.jpg"
+                        alt="Fresh bok choy for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        07
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        VEGETABLES
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Bok Choy
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Crisp, fresh greens that bring
+                        balance to every bowl.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 VEGETABLES — 08
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="vegetables"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-08.jpg"
+                        alt="Fresh napa cabbage for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        08
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        VEGETABLES
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Napa Cabbage
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Naturally sweet and tender
+                        napa cabbage leaves.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 VEGETABLES — 09
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="vegetables"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-09.jpg"
+                        alt="Fresh enoki mushrooms for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        09
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        VEGETABLES
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Enoki Mushrooms
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Delicate enoki mushrooms with
+                        a light and satisfying texture.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 VEGETABLES — 10
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="vegetables"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-10.jpg"
+                        alt="Fresh corn for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        10
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        VEGETABLES
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Sweet Corn
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Naturally sweet corn that
+                        adds a gentle richness to the broth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOODLES & TOFU — 11
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="noodles"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-11.jpg"
+                        alt="Udon noodles for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        11
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        NOODLES &amp; TOFU
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Udon Noodles
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Thick, chewy noodles made for
+                        soaking up rich broth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOODLES & TOFU — 12
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="noodles"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-12.jpg"
+                        alt="Glass noodles for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        12
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        NOODLES &amp; TOFU
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Glass Noodles
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Light and silky noodles that
+                        carry the flavor of every broth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOODLES & TOFU — 13
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="noodles"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-13.jpg"
+                        alt="Rice noodles for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        13
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        NOODLES &amp; TOFU
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Rice Noodles
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Smooth rice noodles with a
+                        delicate texture and clean finish.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOODLES & TOFU — 14
+            ================================================== -->
+
+            <article
+                class="fresh-ingredient-card"
+                data-category="noodles"
+            >
+
+                <div class="fresh-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-14.jpg"
+                        alt="Fresh tofu for hot pot"
+                    >
+
+                    <span class="fresh-ingredient-number">
+                        14
+                    </span>
+
+                </div>
+
+                <div class="fresh-ingredient-content">
+
+                    <span class="fresh-ingredient-category">
+                        NOODLES &amp; TOFU
+                    </span>
+
+                    <h3 class="fresh-ingredient-name">
+                        Silken Tofu
+                    </h3>
+
+                    <p class="fresh-ingredient-description">
+                        Soft, delicate tofu that
+                        gently absorbs the broth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM NOTE
+        ================================================== -->
+
+        <div class="fresh-ingredients-bottom">
+
+            <span class="fresh-ingredients-bottom-line"></span>
+
+            <p>
+                SELECT • COOK • SHARE
+            </p>
+
+            <span class="fresh-ingredients-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ============================================================
+     CHEF'S SPECIALS
+============================================================ -->
+
+<section class="chef-specials" id="chefSpecials">
+
+    <div class="chef-specials-container">
+
+        <!-- =====================================================
+             SECTION HEADER
+        ====================================================== -->
+
+        <div class="chef-specials-header">
+
+            <span class="chef-specials-eyebrow">
+                CHEF'S SPECIALS
+            </span>
+
+            <h2 class="chef-specials-title">
+                Created by Our
+                <span>Chef.</span>
+            </h2>
+
+            <p class="chef-specials-intro">
+                Discover carefully crafted favorites from our kitchen,
+                prepared to make your hot pot experience even more special.
+            </p>
+
+        </div>
+
+
+        <!-- =====================================================
+             SPECIALS GRID
+        ====================================================== -->
+
+        <div class="chef-specials-grid">
+
+
+            <!-- =================================================
+                 CARD 01
+            ================================================== -->
+
+            <article class="chef-special-card">
+
+                <div class="chef-special-image">
+
+                    <img
+                        src="images/menu-special-01.jpg"
+                        alt="Chef's Signature Beef"
+                    >
+
+                    <span class="chef-special-number">
+                        01
+                    </span>
+
+
+                    <!-- HOVER DETAILS -->
+
+                    <div class="chef-special-overlay">
+
+                        <div class="chef-special-overlay-content">
+
+                            <span class="chef-special-category">
+                                CHEF'S SIGNATURE
+                            </span>
+
+                            <h3>
+                                Chef's Signature Beef
+                            </h3>
+
+                            <p>
+                                Thinly sliced premium beef prepared
+                                especially for a rich and satisfying
+                                hot pot experience.
+                            </p>
+
+                            <div class="chef-special-meta">
+
+                                <span>
+                                    PREMIUM BEEF
+                                </span>
+
+                                <strong>
+                                    $18
+                                </strong>
+
+                            </div>
+
+                            <a href="menu.html" class="chef-special-link">
+                                VIEW DETAILS
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 02
+            ================================================== -->
+
+            <article class="chef-special-card">
+
+                <div class="chef-special-image">
+
+                    <img
+                        src="images/menu-special-02.jpg"
+                        alt="Spicy Seafood Platter"
+                    >
+
+                    <span class="chef-special-number">
+                        02
+                    </span>
+
+
+                    <div class="chef-special-overlay">
+
+                        <div class="chef-special-overlay-content">
+
+                            <span class="chef-special-category">
+                                SEAFOOD SPECIAL
+                            </span>
+
+                            <h3>
+                                Spicy Seafood Platter
+                            </h3>
+
+                            <p>
+                                A generous selection of fresh seafood
+                                paired with bold flavors for a memorable
+                                shared meal.
+                            </p>
+
+                            <div class="chef-special-meta">
+
+                                <span>
+                                    SEAFOOD
+                                </span>
+
+                                <strong>
+                                    $22
+                                </strong>
+
+                            </div>
+
+                            <a href="menu.html" class="chef-special-link">
+                                VIEW DETAILS
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 03
+            ================================================== -->
+
+            <article class="chef-special-card">
+
+                <div class="chef-special-image">
+
+                    <img
+                        src="images/menu-special-03.jpg"
+                        alt="Premium Wagyu Selection"
+                    >
+
+                    <span class="chef-special-number">
+                        03
+                    </span>
+
+
+                    <div class="chef-special-overlay">
+
+                        <div class="chef-special-overlay-content">
+
+                            <span class="chef-special-category">
+                                PREMIUM SELECTION
+                            </span>
+
+                            <h3>
+                                Premium Wagyu Selection
+                            </h3>
+
+                            <p>
+                                Beautifully marbled beef sliced thin
+                                for quick cooking and an exceptionally
+                                tender bite.
+                            </p>
+
+                            <div class="chef-special-meta">
+
+                                <span>
+                                    WAGYU BEEF
+                                </span>
+
+                                <strong>
+                                    $26
+                                </strong>
+
+                            </div>
+
+                            <a href="menu.html" class="chef-special-link">
+                                VIEW DETAILS
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 04
+            ================================================== -->
+
+            <article class="chef-special-card">
+
+                <div class="chef-special-image">
+
+                    <img
+                        src="images/menu-special-04.jpg"
+                        alt="Crispy Dumplings"
+                    >
+
+                    <span class="chef-special-number">
+                        04
+                    </span>
+
+
+                    <div class="chef-special-overlay">
+
+                        <div class="chef-special-overlay-content">
+
+                            <span class="chef-special-category">
+                                CHEF'S FAVORITE
+                            </span>
+
+                            <h3>
+                                Crispy Dumplings
+                            </h3>
+
+                            <p>
+                                Golden dumplings filled with a savory
+                                blend of vegetables and carefully
+                                seasoned ingredients.
+                            </p>
+
+                            <div class="chef-special-meta">
+
+                                <span>
+                                    DUMPLINGS
+                                </span>
+
+                                <strong>
+                                    $12
+                                </strong>
+
+                            </div>
+
+                            <a href="menu.html" class="chef-special-link">
+                                VIEW DETAILS
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 05
+            ================================================== -->
+
+            <article class="chef-special-card">
+
+                <div class="chef-special-image">
+
+                    <img
+                        src="images/menu-special-05.jpg"
+                        alt="Seafood Treasure"
+                    >
+
+                    <span class="chef-special-number">
+                        05
+                    </span>
+
+
+                    <div class="chef-special-overlay">
+
+                        <div class="chef-special-overlay-content">
+
+                            <span class="chef-special-category">
+                                OCEAN FRESH
+                            </span>
+
+                            <h3>
+                                Seafood Treasure
+                            </h3>
+
+                            <p>
+                                Fresh shrimp, squid and fish combined
+                                into one generous platter made for sharing.
+                            </p>
+
+                            <div class="chef-special-meta">
+
+                                <span>
+                                    MIXED SEAFOOD
+                                </span>
+
+                                <strong>
+                                    $24
+                                </strong>
+
+                            </div>
+
+                            <a href="menu.html" class="chef-special-link">
+                                VIEW DETAILS
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 06
+            ================================================== -->
+
+            <article class="chef-special-card">
+
+                <div class="chef-special-image">
+
+                    <img
+                        src="images/menu-special-06.jpg"
+                        alt="Chef's Special Combo"
+                    >
+
+                    <span class="chef-special-number">
+                        06
+                    </span>
+
+
+                    <div class="chef-special-overlay">
+
+                        <div class="chef-special-overlay-content">
+
+                            <span class="chef-special-category">
+                                HOUSE SPECIAL
+                            </span>
+
+                            <h3>
+                                Chef's Special Combo
+                            </h3>
+
+                            <p>
+                                A balanced combination of premium meat,
+                                seafood and vegetables selected by our chef.
+                            </p>
+
+                            <div class="chef-special-meta">
+
+                                <span>
+                                    SHARING COMBO
+                                </span>
+
+                                <strong>
+                                    $30
+                                </strong>
+
+                            </div>
+
+                            <a href="menu.html" class="chef-special-link">
+                                VIEW DETAILS
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             BOTTOM EDITORIAL LINE
+        ====================================================== -->
+
+        <div class="chef-specials-bottom">
+
+            <span class="chef-specials-bottom-line"></span>
+
+            <p>
+                CREATED • COOKED • SHARED
+            </p>
+
+            <span class="chef-specials-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ============================================================
+     DIPPING SAUCES
+============================================================ -->
+
+<section class="dipping-sauces" id="dippingSauces">
+
+    <div class="dipping-sauces-container">
+
+
+        <!-- =====================================================
+             SECTION HEADER
+        ====================================================== -->
+
+        <div class="dipping-sauces-header">
+
+            <span class="dipping-sauces-eyebrow">
+                DIPPING SAUCES
+            </span>
+
+            <h2 class="dipping-sauces-title">
+                Make It
+                <span>Your Way.</span>
+            </h2>
+
+            <p class="dipping-sauces-intro">
+                Mix, match, and create your perfect dipping sauce.
+                From rich sesame to bright citrus and bold chili,
+                every combination makes your meal your own.
+            </p>
+
+        </div>
+
+
+        <!-- =====================================================
+             SAUCE LIST
+        ====================================================== -->
+
+        <div class="dipping-sauces-list">
+
+
+            <!-- =================================================
+                 SAUCE 01
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    01
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-01.jpg"
+                        alt="Classic Sesame dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        CLASSIC
+                    </span>
+
+                    <h3>
+                        Classic Sesame
+                    </h3>
+
+                    <p>
+                        Creamy sesame blended with soy and subtle
+                        aromatics for a rich and comforting finish.
+                    </p>
+
+                </div>
+
+                <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 02
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    02
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-02.jpg"
+                        alt="Garlic Soy dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        SAVORY
+                    </span>
+
+                    <h3>
+                        Garlic Soy
+                    </h3>
+
+                    <p>
+                        Fragrant garlic, soy and sesame create a
+                        savory sauce that pairs beautifully with meat.
+                    </p>
+
+                </div>
+
+               <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 03
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    03
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-03.jpg"
+                        alt="Spicy Chili dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        SPICY
+                    </span>
+
+                    <h3>
+                        Spicy Chili
+                    </h3>
+
+                    <p>
+                        A bold blend of chili, garlic and aromatic
+                        spices for guests who like extra heat.
+                    </p>
+
+                </div>
+
+                <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 04
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    04
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-04.jpg"
+                        alt="Peanut Sesame dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        RICH
+                    </span>
+
+                    <h3>
+                        Peanut Sesame
+                    </h3>
+
+                    <p>
+                        Smooth peanut and toasted sesame combined
+                        for a creamy, nutty dipping sauce.
+                    </p>
+
+                </div>
+
+                <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 05
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    05
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-05.jpg"
+                        alt="Ponzu Citrus dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        CITRUS
+                    </span>
+
+                    <h3>
+                        Ponzu Citrus
+                    </h3>
+
+                    <p>
+                        Bright citrus and soy bring a fresh,
+                        tangy balance to every bite.
+                    </p>
+
+                </div>
+
+                <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 06
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    06
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-06.jpg"
+                        alt="Green Herb dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        FRESH
+                    </span>
+
+                    <h3>
+                        Green Herb
+                    </h3>
+
+                    <p>
+                        Fresh herbs, scallions and light seasoning
+                        create a bright and refreshing finish.
+                    </p>
+
+                </div>
+
+               <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 07
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    07
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-07.jpg"
+                        alt="Mala Chili dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        FIERY
+                    </span>
+
+                    <h3>
+                        Mala Chili
+                    </h3>
+
+                    <p>
+                        Fragrant chili oil and Sichuan pepper bring
+                        a bold, warming and lightly numbing finish.
+                    </p>
+
+                </div>
+
+               <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+            </article>
+
+
+            <!-- =================================================
+                 SAUCE 08
+            ================================================== -->
+
+            <article class="dipping-sauce-item">
+
+                <div class="dipping-sauce-number">
+                    08
+                </div>
+
+                <div class="dipping-sauce-image">
+
+                    <img
+                        src="images/menu-sauce-08.jpg"
+                        alt="House Signature dipping sauce"
+                    >
+
+                </div>
+
+                <div class="dipping-sauce-content">
+
+                    <span class="dipping-sauce-category">
+                        HOUSE SPECIAL
+                    </span>
+
+                    <h3>
+                        House Signature
+                    </h3>
+
+                    <p>
+                        Our chef's own blend of savory, spicy and
+                        aromatic flavors made to complement any broth.
+                    </p>
+
+                </div>
+
+                <div class="dipping-sauce-arrow">
+    <i class="fa-solid fa-chevron-right"></i>
+</div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             BOTTOM EDITORIAL LINE
+        ====================================================== -->
+
+        <div class="dipping-sauces-bottom">
+
+            <span class="dipping-sauces-bottom-line"></span>
+
+            <p>
+                MIX <b>•</b> DIP <b>•</b> ENJOY
+            </p>
+
+            <span class="dipping-sauces-bottom-line"></span>
+
+        </div>
+
+
+    </div>
+
+</section>
+<!-- ============================================================
+     DRINKS & DESSERTS
+============================================================ -->
+
+<section class="drinks-desserts" id="drinksDesserts">
+
+    <div class="drinks-desserts-container">
+
+
+        <!-- =====================================================
+             SECTION HEADER
+        ====================================================== -->
+
+        <div class="drinks-desserts-header">
+
+            <span class="drinks-desserts-eyebrow">
+                DRINKS & DESSERTS
+            </span>
+
+            <h2 class="drinks-desserts-title">
+                Finish With
+                <span>Something Sweet.</span>
+            </h2>
+
+            <p class="drinks-desserts-intro">
+                Cool down with a refreshing drink or end your
+                hot pot experience with a little something sweet.
+                The perfect finish to every gathering.
+            </p>
+
+        </div>
+
+
+        <!-- =====================================================
+             TWO COLUMN MENU
+        ====================================================== -->
+
+        <div class="drinks-desserts-layout">
+
+
+            <!-- =================================================
+                 DRINKS
+            ================================================== -->
+
+            <div class="drinks-desserts-column drinks-column">
+
+
+                <div class="drinks-desserts-column-header">
+
+                    <div>
+
+                        <span class="drinks-desserts-column-number">
+                            01
+                        </span>
+
+                        <span class="drinks-desserts-column-eyebrow">
+                            REFRESH
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Drinks
+                    </h3>
+
+                    <p>
+                        Fresh, bright and refreshing pairings
+                        made for every broth.
+                    </p>
+
+                </div>
+
+
+                <!-- =============================================
+                     DRINK 01
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-drink-01.jpg"
+                            alt="Fresh iced tea"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            CLASSIC
+                        </span>
+
+                        <h4>
+                            Fresh Iced Tea
+                        </h4>
+
+                        <p>
+                            Lightly brewed tea served chilled
+                            with a refreshing finish.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $5
+                    </strong>
+
+                </article>
+
+
+                <!-- =============================================
+                     DRINK 02
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-drink-02.jpg"
+                            alt="Fresh lemonade"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            CITRUS
+                        </span>
+
+                        <h4>
+                            Fresh Lemonade
+                        </h4>
+
+                        <p>
+                            Bright lemon, fresh citrus and
+                            a touch of sweetness.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $6
+                    </strong>
+
+                </article>
+
+
+                <!-- =============================================
+                     DRINK 03
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-drink-03.jpg"
+                            alt="Lychee cooler"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            FRUIT
+                        </span>
+
+                        <h4>
+                            Lychee Cooler
+                        </h4>
+
+                        <p>
+                            Sweet lychee and sparkling citrus
+                            served ice cold drinks.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $7
+                    </strong>
+
+                </article>
+
+
+                <!-- =============================================
+                     DRINK 04
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-drink-04.jpg"
+                            alt="Sparkling citrus drink"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            SPARKLING
+                        </span>
+
+                        <h4>
+                            Sparkling Citrus
+                        </h4>
+
+                        <p>
+                            Crisp sparkling water with fresh
+                            orange and citrus notes.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $7
+                    </strong>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 DESSERTS
+            ================================================== -->
+
+            <div class="drinks-desserts-column dessert-column">
+
+
+                <div class="drinks-desserts-column-header">
+
+                    <div>
+
+                        <span class="drinks-desserts-column-number">
+                            02
+                        </span>
+
+                        <span class="drinks-desserts-column-eyebrow">
+                            INDULGE
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Desserts
+                    </h3>
+
+                    <p>
+                        A sweet little ending to complete
+                        your hot pot experience.
+                    </p>
+
+                </div>
+
+
+                <!-- =============================================
+                     DESSERT 01
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-dessert-01.jpg"
+                            alt="Mochi ice cream"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            JAPANESE FAVORITE
+                        </span>
+
+                        <h4>
+                            Mochi Ice Cream
+                        </h4>
+
+                        <p>
+                            Soft rice cake filled with smooth
+                            and creamy ice cream.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $8
+                    </strong>
+
+                </article>
+
+
+                <!-- =============================================
+                     DESSERT 02
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-dessert-02.jpg"
+                            alt="Matcha cheesecake"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            HOUSE FAVORITE
+                        </span>
+
+                        <h4>
+                            Matcha Cheesecake
+                        </h4>
+
+                        <p>
+                            Creamy cheesecake with delicate
+                            matcha flavor and a soft finish.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $9
+                    </strong>
+
+                </article>
+
+
+                <!-- =============================================
+                     DESSERT 03
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-dessert-03.jpg"
+                            alt="Sesame ice cream"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            SESAME
+                        </span>
+
+                        <h4>
+                            Sesame Ice Cream
+                        </h4>
+
+                        <p>
+                            Smooth black sesame ice cream with
+                            a rich nutty flavor.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $7
+                    </strong>
+
+                </article>
+
+
+                <!-- =============================================
+                     DESSERT 04
+                ============================================== -->
+
+                <article class="drink-dessert-item">
+
+                    <div class="drink-dessert-image">
+
+                        <img
+                            src="images/menu-dessert-04.jpg"
+                            alt="Seasonal fresh fruit"
+                        >
+
+                    </div>
+
+                    <div class="drink-dessert-content">
+
+                        <span class="drink-dessert-category">
+                            FRESH
+                        </span>
+
+                        <h4>
+                            Seasonal Fruit
+                        </h4>
+
+                        <p>
+                            A refreshing selection of seasonal
+                            fruits served chilled.
+                        </p>
+
+                    </div>
+
+                    <strong class="drink-dessert-price">
+                        $8
+                    </strong>
+
+                </article>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             BOTTOM EDITORIAL LINE
+        ====================================================== -->
+
+        <div class="drinks-desserts-bottom">
+
+            <span class="drinks-desserts-bottom-line"></span>
+
+            <p>
+                SIP <b>•</b> TASTE <b>•</b> FINISH
+            </p>
+
+            <span class="drinks-desserts-bottom-line"></span>
+
+        </div>
+
+
+    </div>
+
+</section>
+<!-- ============================================================
+     MENU FINAL CTA
+============================================================ -->
+
+<section class="menu-final-cta" id="menuFinalCta">
+
+    <!-- ========================================================
+         BACKGROUND IMAGE
+    ========================================================= -->
+
+    <div class="menu-final-cta-background">
+        <img
+            src="images/menu-final-cta.jpg"
+            alt="Friends enjoying a shared hot pot meal"
+        >
+    </div>
+
+
+    <!-- ========================================================
+         OVERLAY
+    ========================================================= -->
+
+    <div class="menu-final-cta-overlay"></div>
+
+
+    <!-- ========================================================
+         DECORATIVE SIDE LINES
+    ========================================================= -->
+
+    <span class="menu-final-cta-line menu-final-cta-line-left"></span>
+    <span class="menu-final-cta-line menu-final-cta-line-right"></span>
+
+
+    <!-- ========================================================
+         MAIN CONTAINER
+    ========================================================= -->
+
+    <div class="menu-final-cta-container">
+
+        <!-- ====================================================
+             CTA CONTENT
+        ===================================================== -->
+
+        <div class="menu-final-cta-content">
+
+            <span class="menu-final-cta-eyebrow">
+                READY TO GATHER?
+            </span>
+
+
+            <h2 class="menu-final-cta-title">
+                Your Table Is
+                <span>Waiting.</span>
+            </h2>
+
+
+            <p class="menu-final-cta-description">
+                Choose your favorite broth, fill your table with
+                fresh ingredients, and enjoy a hot pot experience
+                made for sharing.
+            </p>
+
+
+            <a
+                href="reservations.html"
+                class="menu-final-cta-button"
+            >
+                <span>MAKE A RESERVATION</span>
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- ====================================================
+             BOTTOM INFORMATION
+        ===================================================== -->
+
+        <div class="menu-final-cta-bottom">
+
+            <div class="menu-final-cta-info">
+                <span>FRESH</span>
+                <strong>DAILY</strong>
+            </div>
+
+
+            <span class="menu-final-cta-bottom-line"></span>
+
+
+            <div class="menu-final-cta-center">
+                <span>COOK</span>
+                <b>•</b>
+                <span>SHARE</span>
+                <b>•</b>
+                <span>REMEMBER</span>
+            </div>
+
+
+            <span class="menu-final-cta-bottom-line"></span>
+
+
+            <div class="menu-final-cta-info menu-final-cta-info-right">
+                <span>MADE FOR</span>
+                <strong>SHARING</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</main>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer" id="siteFooter">
+
+    <div class="footer-container">
+
+        <!-- =================================================
+             FOOTER TOP
+        ================================================== -->
+
+        <div class="footer-top">
+
+
+            <!-- =============================================
+                 BRAND COLUMN
+            ============================================== -->
+
+            <div class="footer-brand">
+
+                <a href="home1.html" class="footer-logo">
+
+                    <img
+                        src="images/logo-light.png"
+                        class="footer-logo-dark"
+                        alt="Hot Pot Restaurant Logo"
+                    >
+
+                    <img
+                        src="images/logo-dark.png"
+                        class="footer-logo-light"
+                        alt="Hot Pot Restaurant Logo"
+                    >
+
+                </a>
+
+                <p class="footer-description">
+                    A warm, flavorful dining experience where
+                    fresh ingredients, rich broths, and good
+                    company come together.
+                </p>
+
+
+                <!-- Social Media -->
+
+                <div class="footer-social">
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook"
+                    >
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Twitter"
+                    >
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="YouTube"
+                    >
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 QUICK LINKS
+            ============================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Quick Links
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="home1.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="how-it-works.html">
+                            How It Works
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reservations.html">
+                            Reservations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =============================================
+                 INFORMATION
+            ============================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Information
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reservations.html">
+                            Book a Table
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Terms & Conditions
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =============================================
+                 CONTACT
+            ============================================== -->
+
+            <div class="footer-column footer-contact">
+
+                <h3 class="footer-title">
+                    Visit Us
+                </h3>
+
+
+                <!-- Address -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+
+                    <p>
+                        125 Flavor Street,<br>
+                        Downtown, Chennai,<br>
+                        Tamil Nadu, India
+                    </p>
+
+                </div>
+
+
+                <!-- Phone -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+
+                    <a href="tel:+919876543210">
+                        +91 98765 43210
+                    </a>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+
+                    <a href="mailto:hello@hotpot.com">
+                        hello@hotpot.com
+                    </a>
+
+                </div>
+
+
+                <!-- Opening Hours -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </span>
+
+                    <p>
+                        Mon – Sun<br>
+                        11:00 AM – 11:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FOOTER NEWSLETTER
+        ================================================== -->
+
+        <div class="footer-newsletter">
+
+            <div class="footer-newsletter-content">
+
+                <span class="footer-newsletter-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </span>
+
+                <div>
+
+                    <h3>
+                        Stay in the Loop
+                    </h3>
+
+                    <p>
+                        Get updates about new dishes, special
+                        offers, and upcoming events.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="footer-newsletter-form"
+                action="#"
+                method="post"
+            >
+
+                <label
+                    for="footerEmail"
+                    class="sr-only"
+                >
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="footerEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="footer-subscribe-btn"
+                >
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- =================================================
+             FOOTER BOTTOM
+        ================================================== -->
+
+        <div class="footer-bottom">
+
+            <p class="footer-copyright">
+                © 2026 Hot Pot Restaurant. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <span></span>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- JS -->
+<!-- ============================================================
+     SCROLL TO TOP BUTTON
+============================================================ -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Back to Top"
+>
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+  <script src="js/script.js"></script>
+  <script src="js/global-settings.js"></script>
+
+</body>
+</html>

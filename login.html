@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Pot Restaurant | Gather, Cook & Share</title>
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<!-- =========================================================
+     LOGIN PAGE
+========================================================= -->
+
+<section class="hotpot-login-page" id="hotpotLoginPage">
+
+
+    <!-- =====================================================
+         TOP AREA
+         LOGO LEFT + CONTROLS RIGHT
+         NO HEADER
+    ====================================================== -->
+
+    <div class="hotpot-login-topbar">
+
+        <!-- =================================================
+             LOGO
+        ================================================== -->
+
+        <a
+            href="index.html"
+            class="hotpot-login-logo"
+            aria-label="Hot Pot Restaurant Home"
+        >
+
+            <!-- LIGHT MODE LOGO -->
+
+            <img
+                src="images/logo-light.png"
+                alt="Hot Pot Restaurant"
+                class="hotpot-login-logo-light"
+            >
+
+
+            <!-- DARK MODE LOGO -->
+
+            <img
+                src="images/logo-dark.png"
+                alt="Hot Pot Restaurant"
+                class="hotpot-login-logo-dark"
+            >
+
+        </a>
+
+
+        <!-- =================================================
+             RIGHT CONTROLS
+        ================================================== -->
+
+        <div class="hotpot-login-controls">
+
+
+            <!-- =================================================
+                 RTL TOGGLE
+                 BIDIRECTIONAL ARROW ICON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hotpot-login-control"
+                id="loginRtlToggle"
+                aria-label="Toggle RTL"
+                title="RTL"
+            >
+
+                <i class="fa-solid fa-right-left"></i>
+
+            </button>
+
+
+            <!-- =================================================
+                 DARK MODE TOGGLE
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hotpot-login-control"
+                id="loginDarkToggle"
+                aria-label="Toggle dark mode"
+                title="Dark Mode"
+            >
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         LOGIN MAIN CONTAINER
+    ====================================================== -->
+
+    <div class="hotpot-login-container">
+
+
+        <!-- =================================================
+             LEFT IMAGE
+        ================================================== -->
+
+        <div class="hotpot-login-image">
+
+
+            <img
+                src="images/login.jpg"
+                alt="Guests enjoying a hot pot dining experience"
+            >
+
+
+            <!-- IMAGE OVERLAY -->
+
+            <div class="hotpot-login-image-overlay"></div>
+
+
+            <!-- IMAGE CONTENT -->
+
+            <div class="hotpot-login-image-content">
+
+
+                <span class="hotpot-login-image-eyebrow">
+                    WELCOME BACK
+                </span>
+
+
+                <h1 class="hotpot-login-image-title">
+
+                    Gather Around
+
+                    <span>
+                        The Table.
+                    </span>
+
+                </h1>
+
+
+                <p class="hotpot-login-image-description">
+
+                    Sign in to manage your reservations,
+                    view your dining details, and keep your
+                    favorite experiences close.
+
+                </p>
+
+
+                <div class="hotpot-login-image-bottom">
+
+                    <span>GATHER</span>
+
+                    <b>•</b>
+
+                    <span>COOK</span>
+
+                    <b>•</b>
+
+                    <span>SHARE</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             RIGHT LOGIN CONTENT
+        ================================================== -->
+
+        <div class="hotpot-login-content">
+
+            <div class="hotpot-login-content-inner">
+
+
+                <!-- =================================================
+                     TOP MARK
+                ================================================== -->
+
+                <div class="hotpot-login-top">
+
+                    <span class="hotpot-login-number">
+                        01
+                    </span>
+
+
+                    <span class="hotpot-login-line"></span>
+
+
+                    <span class="hotpot-login-label">
+                        MEMBER LOGIN
+                    </span>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     LOGIN HEADING
+                ================================================== -->
+
+                <div class="hotpot-login-heading">
+
+
+                    <span class="hotpot-login-eyebrow">
+                        WELCOME BACK
+                    </span>
+
+
+                    <h2 class="hotpot-login-title">
+
+                        Good To See
+
+                        <span>
+                            You Again.
+                        </span>
+
+                    </h2>
+
+
+                    <p class="hotpot-login-description">
+
+                        Sign in to continue your hot pot
+                        experience with us.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     LOGIN FORM
+                ================================================== -->
+
+                <form
+                    class="hotpot-login-form"
+                    id="hotpotLoginForm"
+                    action="#"
+                    method="post"
+                >
+
+
+                    <!-- =================================================
+                         EMAIL
+                    ================================================== -->
+
+                    <div class="hotpot-login-field">
+
+
+                        <label for="loginEmail">
+                            Email Address
+                        </label>
+
+
+                        <div class="hotpot-login-input">
+
+
+                            <i class="fa-regular fa-envelope"></i>
+
+
+                            <input
+                                type="email"
+                                id="loginEmail"
+                                name="email"
+                                placeholder="Enter your email address"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                         PASSWORD
+                    ================================================== -->
+
+                    <div class="hotpot-login-field">
+
+
+                        <div class="hotpot-login-label-row">
+
+
+                            <label for="loginPassword">
+                                Password
+                            </label>
+
+
+                            <a
+                                href="#"
+                                class="hotpot-login-forgot"
+                            >
+                                Forgot Password?
+                            </a>
+
+                        </div>
+
+
+                        <div class="hotpot-login-input">
+
+
+                            <i class="fa-solid fa-lock"></i>
+
+
+                            <input
+                                type="password"
+                                id="loginPassword"
+                                name="password"
+                                placeholder="Enter your password"
+                                autocomplete="current-password"
+                                required
+                            >
+
+
+                            <button
+                                type="button"
+                                class="hotpot-login-password-toggle"
+                                id="loginPasswordToggle"
+                                aria-label="Show password"
+                                title="Show password"
+                            >
+
+                                <i class="fa-regular fa-eye"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                         REMEMBER ME
+                    ================================================== -->
+
+                    <div class="hotpot-login-options">
+
+
+                        <label class="hotpot-login-remember">
+
+
+                            <input
+                                type="checkbox"
+                                name="remember"
+                            >
+
+
+                            <span class="hotpot-login-check"></span>
+
+
+                            <span>
+                                Remember me
+                            </span>
+
+
+                        </label>
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                         LOGIN BUTTON
+                    ================================================== -->
+
+                    <button
+                        type="submit"
+                        class="hotpot-login-button"
+                    >
+
+                        <span>
+                            Login to Your Account
+                        </span>
+
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </form>
+
+
+
+                <!-- =================================================
+                     SOCIAL LOGIN
+                     AFTER LOGIN BUTTON
+                ================================================== -->
+
+                <div class="hotpot-login-social-area">
+
+
+                    <!-- =================================================
+                         DIVIDER
+                    ================================================== -->
+
+                    <div class="hotpot-login-divider">
+
+
+                        <span></span>
+
+
+                        <p>
+                            OR CONTINUE WITH
+                        </p>
+
+
+                        <span></span>
+
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                         SOCIAL BUTTONS
+                    ================================================== -->
+
+                    <div class="hotpot-login-social">
+
+
+                        <!-- =================================================
+                             GOOGLE
+                        ================================================== -->
+
+                        <button
+                            type="button"
+                            class="hotpot-login-social-button hotpot-login-google"
+                            aria-label="Continue with Google"
+                        >
+
+
+                            <span class="hotpot-login-social-icon">
+
+
+                                <!-- GOOGLE MULTICOLOR SVG -->
+
+                                <svg
+                                    viewBox="0 0 48 48"
+                                    width="20"
+                                    height="20"
+                                    aria-hidden="true"
+                                >
+
+                                    <path
+                                        fill="#FFC107"
+                                        d="M43.611 20.083H42V20H24v8h11.303C33.648 32.657 29.197 36 24 36c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039L37.619 9.381C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"
+                                    />
+
+                                    <path
+                                        fill="#FF3D00"
+                                        d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039L37.619 9.381C34.046 6.053 29.268 4 24 4c-7.682 0-14.344 4.337-17.694 10.691z"
+                                    />
+
+                                    <path
+                                        fill="#4CAF50"
+                                        d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238C29.211 35.091 26.715 36 24 36c-5.176 0-9.607-3.317-11.271-7.946l-6.522 5.025C9.583 39.556 16.227 44 24 44z"
+                                    />
+
+                                    <path
+                                        fill="#1976D2"
+                                        d="M43.611 20.083H42V20H24v8h11.303c-.792 2.237-2.231 4.166-4.084 5.57l.003-.002 6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"
+                                    />
+
+                                </svg>
+
+
+                            </span>
+
+
+                            <span>
+                                Google
+                            </span>
+
+
+                        </button>
+
+
+
+                        <!-- =================================================
+                             FACEBOOK
+                        ================================================== -->
+
+                        <button
+                            type="button"
+                            class="hotpot-login-social-button hotpot-login-facebook"
+                            aria-label="Continue with Facebook"
+                        >
+
+
+                            <span class="hotpot-login-social-icon">
+
+                                <i class="fa-brands fa-facebook-f"></i>
+
+                            </span>
+
+
+                            <span>
+                                Facebook
+                            </span>
+
+
+                        </button>
+
+
+
+                        <!-- =================================================
+                             APPLE
+                        ================================================== -->
+
+                        <button
+                            type="button"
+                            class="hotpot-login-social-button hotpot-login-apple"
+                            aria-label="Continue with Apple"
+                        >
+
+
+                            <span class="hotpot-login-social-icon">
+
+                                <i class="fa-brands fa-apple"></i>
+
+                            </span>
+
+
+                            <span>
+                                Apple
+                            </span>
+
+
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     REGISTER
+                ================================================== -->
+
+                <div class="hotpot-login-register">
+
+
+                    <span>
+                        Don't have an account?
+                    </span>
+
+
+                    <a href="register.html">
+                        Create an Account
+                    </a>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     BOTTOM DECORATIVE LINE
+                ================================================== -->
+
+                <div class="hotpot-login-bottom">
+
+
+                    <span class="hotpot-login-bottom-line"></span>
+
+
+                    <p>
+
+                        FRESH
+
+                        <b>•</b>
+
+                        SHARED
+
+                        <b>•</b>
+
+                        MEMORABLE
+
+                    </p>
+
+
+                    <span class="hotpot-login-bottom-line"></span>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- JS -->
+
+  <script src="js/script.js"></script>
+  <script src="js/global-settings.js"></script>
+
+</body>
+</html>

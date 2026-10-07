@@ -1,0 +1,2313 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Hot Pot Restaurant | Gather, Cook & Share</title>
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     HOT POT RESTAURANT
+     PART 1 — HEADER HTML
+========================================================= -->
+<!-- =====================================================
+         SITE HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Hot Pot Restaurant Home"
+            >
+
+                <!-- Light Mode Logo -->
+                <img
+                    src="images/logo-light.png"
+                    alt="Hot Pot Restaurant"
+                    class="logo-dark"
+                >
+
+                <!-- Dark Mode Logo -->
+                <img
+                    src="images/logo-dark.png"
+                    alt="Hot Pot Restaurant"
+                    class="logo-light"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="main-navigation"
+                id="mainNavigation"
+                aria-label="Main Navigation"
+            >
+
+                <ul class="nav-menu">
+
+
+                    <!-- =========================================
+                         HOME
+                    ========================================== -->
+
+                    <li class="nav-item has-dropdown">
+
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            aria-haspopup="true"
+                        >
+
+                            <span>
+                                Home
+                            </span>
+
+                            <span
+                                class="dropdown-icon"
+                                aria-hidden="true"
+                            >
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+
+                        </a>
+
+
+                        <!-- HOME DROPDOWN -->
+
+                        <ul class="dropdown-menu">
+
+                            <li class="dropdown-item">
+
+                                <a
+                                    href="index.html"
+                                    class="dropdown-link"
+                                >
+                                    Home 1
+                                </a>
+
+                            </li>
+
+
+                            <li class="dropdown-item">
+
+                                <a
+                                    href="home2.html"
+                                    class="dropdown-link"
+                                >
+                                    Home 2
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         ABOUT US
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="about.html"
+                            class="nav-link"
+                        >
+                            About Us
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         MENU
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="menu.html"
+                            class="nav-link"
+                        >
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         HOW IT WORKS
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="how-it-works.html"
+                            class="nav-link"
+                        >
+                            How It Works
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         RESERVATIONS
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="reservations.html"
+                            class="nav-link"
+                        >
+                            Reservations
+                        </a>
+
+                    </li>
+
+
+                    <!-- =========================================
+                         CONTACT
+                    ========================================== -->
+
+                    <li class="nav-item">
+
+                        <a
+                            href="contact.html"
+                            class="nav-link active"
+                        >
+                            Contact
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- =================================================
+                 DESKTOP HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+
+                <!-- =============================================
+                     RTL BUTTON
+                ============================================== -->
+
+                <button
+    type="button"
+    class="header-action-btn rtl-toggle"
+    id="rtlToggle"
+    aria-label="Toggle RTL mode"
+    title="RTL Mode"
+>
+    <i class="fa-solid fa-right-left"></i>
+</button>
+
+
+                <!-- =============================================
+                     DARK MODE BUTTON
+                ============================================== -->
+
+                <button
+                    type="button"
+                    class="header-action-btn dark-mode-toggle"
+                    id="darkModeToggle"
+                    aria-label="Toggle dark mode"
+                    title="Dark Mode"
+                >
+
+                    <span
+                        class="dark-mode-icon"
+                        aria-hidden="true"
+                    >
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+
+                </button>
+
+
+                <!-- =============================================
+                     LOGIN
+                ============================================== -->
+
+                <a
+                    href="login.html"
+                    class="header-btn login-btn"
+                >
+                    Login
+                </a>
+
+
+                <!-- =============================================
+                     DASHBOARD
+                ============================================== -->
+
+                <a
+                    href="dashboard.html"
+                    class="header-btn dashboard-btn"
+                >
+                    Dashboard
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mobileMenu"
+            >
+
+                <span class="hamburger-line"></span>
+
+                <span class="hamburger-line"></span>
+
+                <span class="hamburger-line"></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE MENU
+        ====================================================== -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <div class="mobile-menu-inner">
+
+
+                <!-- =================================================
+                     MOBILE NAVIGATION
+                ================================================== -->
+
+                <nav
+                    class="mobile-navigation"
+                    aria-label="Mobile Navigation"
+                >
+
+                    <ul class="mobile-nav-menu">
+
+
+                        <!-- =========================================
+                             MOBILE HOME DROPDOWN
+                        ========================================== -->
+
+                        <li
+                            class="mobile-nav-item mobile-has-dropdown"
+                        >
+
+                            <button
+                                type="button"
+                                class="mobile-nav-link mobile-dropdown-toggle"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                            >
+
+                                <span>
+                                    Home
+                                </span>
+
+                                <span
+                                    class="mobile-dropdown-icon"
+                                    aria-hidden="true"
+                                >
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+
+                            </button>
+
+
+                            <!-- MOBILE HOME DROPDOWN -->
+
+                            <ul class="mobile-dropdown-menu">
+
+                                <li class="mobile-dropdown-item">
+
+                                    <a
+                                        href="index.html"
+                                        class="mobile-dropdown-link"
+                                    >
+                                        Home 1
+                                    </a>
+
+                                </li>
+
+
+                                <li class="mobile-dropdown-item">
+
+                                    <a
+                                        href="home2.html"
+                                        class="mobile-dropdown-link"
+                                    >
+                                        Home 2
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE ABOUT
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="about.html"
+                                class="mobile-nav-link"
+                            >
+                                About Us
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE MENU
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="menu.html"
+                                class="mobile-nav-link"
+                            >
+                                Menu
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE HOW IT WORKS
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="how-it-works.html"
+                                class="mobile-nav-link"
+                            >
+                                How It Works
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE RESERVATIONS
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="reservations.html"
+                                class="mobile-nav-link"
+                            >
+                                Reservations
+                            </a>
+
+                        </li>
+
+
+                        <!-- =========================================
+                             MOBILE CONTACT
+                        ========================================== -->
+
+                        <li class="mobile-nav-item">
+
+                            <a
+                                href="contact.html"
+                                class="mobile-nav-link active"
+                            >
+                                Contact
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+                <!-- =================================================
+                     MOBILE ACTIONS
+                     ALL BUTTONS ARE INSIDE HAMBURGER
+                ================================================== -->
+
+                <div class="mobile-actions">
+
+
+                    <!-- =============================================
+                         RTL
+                    ============================================== -->
+
+                    <button
+    type="button"
+    class="mobile-action-btn mobile-rtl-toggle"
+    id="mobileRtlToggle"
+    aria-label="Toggle RTL mode"
+    title="RTL Mode"
+>
+    <i class="fa-solid fa-right-left"></i>
+</button>
+
+
+                    <!-- =============================================
+                         DARK MODE
+                    ============================================== -->
+
+                    <button
+                        type="button"
+                        class="mobile-action-btn mobile-dark-toggle"
+                        id="mobileDarkModeToggle"
+                        aria-label="Toggle dark mode"
+                    >
+
+                        <span
+                            class="mobile-dark-icon"
+                            aria-hidden="true"
+                        >
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span>
+                            Dark Mode
+                        </span>
+
+                    </button>
+
+
+                    <!-- =============================================
+                         LOGIN
+                    ============================================== -->
+
+                    <a
+                        href="login.html"
+                        class="mobile-action-btn mobile-login-btn"
+                    >
+                        Login
+                    </a>
+
+
+                    <!-- =============================================
+                         DASHBOARD
+                    ============================================== -->
+
+                    <a
+                        href="dashboard.html"
+                        class="mobile-action-btn mobile-dashboard-btn"
+                    >
+                        Dashboard
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         Your Home page sections will start here.
+    ====================================================== -->
+
+    <main id="mainContent">
+<!-- =========================================================
+     CONTACT HERO
+========================================================= -->
+
+<section class="contact-hero" id="contactHero">
+
+    <!-- =====================================================
+         BACKGROUND IMAGE
+    ====================================================== -->
+
+    <div class="contact-hero-background">
+
+        <img
+            src="images/contact-hero.jpg"
+            alt="Warm restaurant interior with guests dining"
+        >
+
+    </div>
+
+
+    <!-- =====================================================
+         OVERLAY
+    ====================================================== -->
+
+    <div class="contact-hero-overlay"></div>
+
+
+    <!-- =====================================================
+         DECORATIVE SIDE LINES
+    ====================================================== -->
+
+    <span class="contact-hero-side-line contact-hero-side-line-left"></span>
+
+    <span class="contact-hero-side-line contact-hero-side-line-right"></span>
+
+
+    <!-- =====================================================
+         HERO CONTAINER
+    ====================================================== -->
+
+    <div class="contact-hero-container">
+
+
+        <!-- =================================================
+             HERO CONTENT
+        ================================================== -->
+
+        <div class="contact-hero-content">
+
+            <span class="contact-hero-eyebrow">
+                GET IN TOUCH
+            </span>
+
+
+            <h1 class="contact-hero-title">
+
+                We'd Love
+                <span>
+                    To Hear From You.
+                </span>
+
+            </h1>
+
+
+            <p class="contact-hero-description">
+
+                Have a question, need help with your
+                reservation, or simply want to say hello?
+                We're always happy to hear from you.
+
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             HERO BOTTOM
+        ================================================== -->
+
+        <div class="contact-hero-bottom">
+
+
+            <!-- Breadcrumb -->
+
+            <div class="contact-hero-breadcrumb">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+
+                <strong>
+                    Contact
+                </strong>
+
+            </div>
+
+
+            <!-- Scroll Indicator -->
+
+            <div class="contact-hero-scroll">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </div>
+
+
+            <!-- Side Label -->
+
+            <div class="contact-hero-label">
+
+                <span>
+                    TALK
+                </span>
+
+                <strong>
+                    WITH US
+                </strong>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     GET IN TOUCH SECTION
+========================================================= -->
+
+<section class="contact-touch" id="contactTouch">
+
+    <div class="contact-touch-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-touch-header">
+
+            <div class="contact-touch-heading">
+
+                <span class="contact-touch-eyebrow">
+                    GET IN TOUCH
+                </span>
+
+                <h2 class="contact-touch-title">
+                    Let's Start A
+                    <span>Conversation.</span>
+                </h2>
+
+                <p class="contact-touch-intro">
+                    Whether you have a question about our menu,
+                    need help with a reservation, or simply want
+                    to say hello, we're here for you.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 SECTION MARK
+            ================================================== -->
+
+            <div class="contact-touch-mark">
+
+               
+
+                <span class="contact-touch-mark-text">
+                    TALK<br>
+                    WITH US
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CONTACT DETAILS
+        ================================================== -->
+
+        <div class="contact-touch-grid">
+
+
+            <!-- =================================================
+                 CARD 01 — CALL
+            ================================================== -->
+
+            <article class="contact-touch-card">
+
+                <div class="contact-touch-card-top">
+
+                    <span class="contact-touch-card-number">
+                        01
+                    </span>
+
+                    <div class="contact-touch-card-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                </div>
+
+                <div class="contact-touch-card-content">
+
+                    <span class="contact-touch-card-label">
+                        CALL US
+                    </span>
+
+                    <h3 class="contact-touch-card-title">
+                        Let's Talk.
+                    </h3>
+
+                    <p class="contact-touch-card-description">
+                        Have a question or need help with
+                        your reservation? Give us a call.
+                    </p>
+
+                    <a
+                        href="tel:+919876543210"
+                        class="contact-touch-card-link"
+                    >
+                        <span>+91 98765 43210</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 02 — EMAIL
+            ================================================== -->
+
+            <article class="contact-touch-card">
+
+                <div class="contact-touch-card-top">
+
+                    <span class="contact-touch-card-number">
+                        02
+                    </span>
+
+                    <div class="contact-touch-card-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                </div>
+
+                <div class="contact-touch-card-content">
+
+                    <span class="contact-touch-card-label">
+                        EMAIL US
+                    </span>
+
+                    <h3 class="contact-touch-card-title">
+                        Write To Us.
+                    </h3>
+
+                    <p class="contact-touch-card-description">
+                        Send us your questions, feedback,
+                        or special requests anytime.
+                    </p>
+
+                    <a
+                        href="mailto:hello@hotpotrestaurant.com"
+                        class="contact-touch-card-link"
+                    >
+                        <span>hello@hotpotrestaurant.com</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 03 — VISIT
+            ================================================== -->
+
+            <article class="contact-touch-card">
+
+                <div class="contact-touch-card-top">
+
+                    <span class="contact-touch-card-number">
+                        03
+                    </span>
+
+                    <div class="contact-touch-card-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                </div>
+
+                <div class="contact-touch-card-content">
+
+                    <span class="contact-touch-card-label">
+                        VISIT US
+                    </span>
+
+                    <h3 class="contact-touch-card-title">
+                        Come Gather.
+                    </h3>
+
+                    <p class="contact-touch-card-description">
+                        Find us at our restaurant and
+                        gather around the pot with us.
+                    </p>
+
+                    <a
+                        href="#contactLocation"
+                        class="contact-touch-card-link"
+                    >
+                        <span>Find Our Location</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM INFO
+        ================================================== -->
+
+        <div class="contact-touch-bottom">
+
+            <span class="contact-touch-bottom-line"></span>
+
+            <div class="contact-touch-bottom-text">
+
+                <span>
+                    CALL
+                </span>
+
+                <b>•</b>
+
+                <span>
+                    WRITE
+                </span>
+
+                <b>•</b>
+
+                <strong>
+                    VISIT
+                </strong>
+
+            </div>
+
+            <span class="contact-touch-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CONTACT FORM SECTION
+========================================================= -->
+
+<section class="contact-form-section" id="contactForm">
+
+    <div class="contact-form-container">
+
+        <!-- =================================================
+             LEFT — INTRODUCTION
+        ================================================== -->
+
+        <div class="contact-form-intro">
+
+            <div class="contact-form-intro-top">
+                <span class="contact-form-step-number">02</span>
+                <span class="contact-form-step-line"></span>
+                <span class="contact-form-step-label">
+                    SEND A MESSAGE
+                </span>
+            </div>
+
+            <span class="contact-form-eyebrow">
+                WE'RE HERE TO HELP
+            </span>
+
+            <h2 class="contact-form-title">
+                Send Us
+                <span>A Message.</span>
+            </h2>
+
+            <p class="contact-form-description">
+                Have a question about our menu, reservations,
+                private dining, or anything else? Send us a
+                message and our team will be happy to help.
+            </p>
+
+
+            <!-- =================================================
+                 QUICK CONTACT DETAILS
+            ================================================== -->
+
+            <div class="contact-form-details">
+
+                <!-- EMAIL -->
+
+                <div class="contact-form-detail">
+
+                    <div class="contact-form-detail-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-form-detail-content">
+
+                        <span class="contact-form-detail-label">
+                            EMAIL
+                        </span>
+
+                        <a
+                            href="mailto:hello@hotpotrestaurant.com"
+                        >
+                            hello@hotpotrestaurant.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="contact-form-detail">
+
+                    <div class="contact-form-detail-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div class="contact-form-detail-content">
+
+                        <span class="contact-form-detail-label">
+                            PHONE
+                        </span>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HOURS -->
+
+                <div class="contact-form-detail">
+
+                    <div class="contact-form-detail-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+
+                    <div class="contact-form-detail-content">
+
+                        <span class="contact-form-detail-label">
+                            OPENING HOURS
+                        </span>
+
+                        <span>
+                            Monday — Sunday
+                        </span>
+
+                        <strong>
+                            11:30 AM — 10:30 PM
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 BOTTOM NOTE
+            ================================================== -->
+
+            <div class="contact-form-note">
+
+                <span class="contact-form-note-line"></span>
+
+                <p>
+                    <strong>GOOD FOOD.</strong>
+                    BETTER TOGETHER.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — CONTACT FORM
+        ================================================== -->
+
+        <div class="contact-form-wrapper">
+
+            <div class="contact-form-header">
+
+                <div>
+
+                    <span class="contact-form-header-eyebrow">
+                        GET IN TOUCH
+                    </span>
+
+                    <h3 class="contact-form-header-title">
+                        Tell Us What's On Your Mind.
+                    </h3>
+
+                </div>
+
+                
+
+            </div>
+
+
+            <!-- =================================================
+                 FORM
+            ================================================== -->
+
+            <form
+                class="contact-message-form"
+                id="contactMessageForm"
+                action="#"
+                method="post"
+            >
+
+
+                <!-- NAME + EMAIL -->
+
+                <div class="contact-form-row">
+
+                    <div class="contact-form-field">
+
+                        <label for="contactName">
+                            FULL NAME
+                        </label>
+
+                        <div class="contact-form-input-wrap">
+
+                            <i class="fa-regular fa-user"></i>
+
+                            <input
+                                type="text"
+                                id="contactName"
+                                name="name"
+                                placeholder="Your full name"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-form-field">
+
+                        <label for="contactEmail">
+                            EMAIL ADDRESS
+                        </label>
+
+                        <div class="contact-form-input-wrap">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE + SUBJECT -->
+
+                <div class="contact-form-row">
+
+                    <div class="contact-form-field">
+
+                        <label for="contactPhone">
+                            PHONE NUMBER
+                        </label>
+
+                        <div class="contact-form-input-wrap">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            <input
+                                type="tel"
+                                id="contactPhone"
+                                name="phone"
+                                placeholder="+91 98765 43210"
+                                autocomplete="tel"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-form-field">
+
+                        <label for="contactSubject">
+                            SUBJECT
+                        </label>
+
+                        <div class="contact-form-input-wrap">
+
+                            <i class="fa-regular fa-pen-to-square"></i>
+
+                            <select
+                                id="contactSubject"
+                                name="subject"
+                                required
+                            >
+
+                                <option value="" selected disabled>
+                                    Select a subject
+                                </option>
+
+                                <option value="general">
+                                    General Enquiry
+                                </option>
+
+                                <option value="reservation">
+                                    Reservation
+                                </option>
+
+                                <option value="private-dining">
+                                    Private Dining
+                                </option>
+
+                                <option value="feedback">
+                                    Feedback
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                            <i class="fa-solid fa-chevron-down contact-form-select-icon"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MESSAGE -->
+
+                <div class="contact-form-field contact-form-field-full">
+
+                    <label for="contactMessage">
+                        YOUR MESSAGE
+                    </label>
+
+                    <div class="contact-form-textarea-wrap">
+
+                        <i class="fa-regular fa-message"></i>
+
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell us how we can help..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     FORM FOOTER
+                ================================================== -->
+
+                <div class="contact-form-submit-area">
+
+                    <p class="contact-form-submit-note">
+                        We usually respond within one business day.
+                    </p>
+
+                    <button
+                        type="submit"
+                        class="contact-form-submit"
+                    >
+
+                        <span>
+                            SEND MESSAGE
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         BOTTOM DIVIDER
+    ================================================== -->
+
+    <div class="contact-form-bottom">
+
+        <span class="contact-form-bottom-line"></span>
+
+        <p>
+            ASK <b>•</b>
+            CONNECT <b>•</b>
+            GATHER <b>•</b>
+            SHARE
+        </p>
+
+        <span class="contact-form-bottom-line"></span>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     FIND US SECTION
+========================================================= -->
+
+<section class="contact-location" id="contactLocation">
+
+    <div class="contact-location-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-location-header">
+
+            <div class="contact-location-heading">
+
+                <span class="contact-location-eyebrow">
+                    FIND US
+                </span>
+
+                <h2 class="contact-location-title">
+                    Come Gather
+                    <span>With Us.</span>
+                </h2>
+
+                <p class="contact-location-intro">
+                    Find your way to our table and join us for
+                    fresh ingredients, comforting broths, and
+                    good food shared together.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 SECTION MARK
+            ================================================== -->
+
+            <div class="contact-location-mark">
+
+                
+
+                <span class="contact-location-mark-text">
+                    COME<br>
+                    VISIT
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             LOCATION CONTENT
+        ================================================== -->
+
+        <div class="contact-location-content">
+
+
+            <!-- =================================================
+                 GOOGLE MAP
+            ================================================== -->
+
+            <div class="contact-location-map">
+
+                <div class="contact-location-map-frame">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Adirampattinam%2C%20Tamil%20Nadu%2C%20India&output=embed"
+                        title="Hot Pot Restaurant Location"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+
+                <!-- MAP LABEL -->
+
+                <div class="contact-location-map-label">
+
+                    <span class="contact-location-map-label-top">
+                        OUR LOCATION
+                    </span>
+
+                    <strong>
+                        COME GATHER
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 LOCATION DETAILS
+            ================================================== -->
+
+            <div class="contact-location-details">
+
+                <div class="contact-location-details-top">
+
+                    <span class="contact-location-details-eyebrow">
+                        VISIT OUR RESTAURANT
+                    </span>
+
+                   
+
+                </div>
+
+
+                <h3 class="contact-location-details-title">
+                    Your Table
+                    <span>Awaits.</span>
+                </h3>
+
+
+                <p class="contact-location-details-description">
+                    We're located in the heart of the town,
+                    ready to welcome you for a relaxed hot pot
+                    experience made for sharing.
+                </p>
+
+
+                <!-- =================================================
+                     ADDRESS
+                ================================================== -->
+
+                <div class="contact-location-detail">
+
+                    <div class="contact-location-detail-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div class="contact-location-detail-content">
+
+                        <span class="contact-location-detail-label">
+                            ADDRESS
+                        </span>
+
+                        <address>
+                            24 Market Street,<br>
+                            Adirampattinam,<br>
+                            Tamil Nadu — 614701
+                        </address>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PHONE
+                ================================================== -->
+
+                <div class="contact-location-detail">
+
+                    <div class="contact-location-detail-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div class="contact-location-detail-content">
+
+                        <span class="contact-location-detail-label">
+                            PHONE
+                        </span>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     EMAIL
+                ================================================== -->
+
+                <div class="contact-location-detail">
+
+                    <div class="contact-location-detail-icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-location-detail-content">
+
+                        <span class="contact-location-detail-label">
+                            EMAIL
+                        </span>
+
+                        <a href="mailto:hello@hotpotrestaurant.com">
+                            hello@hotpotrestaurant.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     GET DIRECTIONS
+                ================================================== -->
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Adirampattinam%2C+Tamil+Nadu%2C+India"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-location-directions"
+                >
+
+                    <span>
+                        GET DIRECTIONS
+                    </span>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM INFO
+        ================================================== -->
+
+        <div class="contact-location-bottom">
+
+            <span class="contact-location-bottom-line"></span>
+
+            <div class="contact-location-bottom-text">
+
+                <span>
+                    FIND US
+                </span>
+
+                <b>•</b>
+
+                <span>
+                    COME GATHER
+                </span>
+
+                <b>•</b>
+
+                <strong>
+                    STAY A WHILE
+                </strong>
+
+            </div>
+
+            <span class="contact-location-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     OPENING HOURS SECTION
+========================================================= -->
+
+<section class="contact-hours" id="contactHours">
+
+    <div class="contact-hours-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-hours-header">
+
+            <div class="contact-hours-heading">
+
+                <span class="contact-hours-eyebrow">
+                    WHEN TO VISIT
+                </span>
+
+                <h2 class="contact-hours-title">
+                    Gather Whenever
+                    <span>You're Ready.</span>
+                </h2>
+
+                <p class="contact-hours-intro">
+                    We're here every day for comforting broths,
+                    fresh ingredients, and memorable moments
+                    shared around the table.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 SECTION MARK
+            ================================================== -->
+
+            <div class="contact-hours-mark">
+
+                
+
+                <span class="contact-hours-mark-text">
+                    OPEN<br>
+                    DAILY
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             HOURS CONTENT
+        ================================================== -->
+
+        <div class="contact-hours-content">
+
+
+            <!-- =================================================
+                 LEFT — OPENING HOURS
+            ================================================== -->
+
+            <div class="contact-hours-schedule">
+
+                <div class="contact-hours-schedule-header">
+
+                    <div>
+
+                        <span class="contact-hours-schedule-eyebrow">
+                            RESTAURANT HOURS
+                        </span>
+
+                        <h3 class="contact-hours-schedule-title">
+                            We're Open
+                            <span>Every Day.</span>
+                        </h3>
+
+                    </div>
+
+                    <div class="contact-hours-status">
+                        <span class="contact-hours-status-dot"></span>
+                        <span>OPEN DAILY</span>
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     HOURS ROWS
+                ================================================== -->
+
+                <div class="contact-hours-list">
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Monday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Tuesday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Wednesday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Thursday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Friday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Saturday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-hours-row">
+
+                        <div class="contact-hours-day">
+                            Sunday
+                        </div>
+
+                        <div class="contact-hours-time">
+                            11:30 AM — 10:30 PM
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 RIGHT — DINING TIMES
+            ================================================== -->
+
+            <div class="contact-hours-dining">
+
+                <div class="contact-hours-dining-top">
+
+                    <span class="contact-hours-dining-number">
+                        01
+                    </span>
+
+                    <div class="contact-hours-dining-icon">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+
+                </div>
+
+                <span class="contact-hours-dining-label">
+                    LUNCH
+                </span>
+
+                <h3 class="contact-hours-dining-title">
+                    Midday
+                    <span>Gathering.</span>
+                </h3>
+
+                <p class="contact-hours-dining-description">
+                    Ease into your day with fresh ingredients,
+                    comforting broth, and a relaxed table made
+                    for sharing moment.
+                </p>
+
+                <div class="contact-hours-dining-time">
+                    <span>
+                        11:30 AM
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                    <strong>
+                        3:30 PM
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="contact-hours-dining">
+
+                <div class="contact-hours-dining-top">
+
+                    <span class="contact-hours-dining-number">
+                        02
+                    </span>
+
+                    <div class="contact-hours-dining-icon">
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+
+                </div>
+
+                <span class="contact-hours-dining-label">
+                    DINNER
+                </span>
+
+                <h3 class="contact-hours-dining-title">
+                    Evening
+                    <span>Gathering.</span>
+                </h3>
+
+                <p class="contact-hours-dining-description">
+                    Settle in, choose your favorite broth, and
+                    enjoy an unhurried evening around the pot
+                    with family and friends.
+                </p>
+
+                <div class="contact-hours-dining-time">
+                    <span>
+                        5:30 PM
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                    <strong>
+                        10:30 PM
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM NOTE
+        ================================================== -->
+
+        <div class="contact-hours-bottom">
+
+            <div class="contact-hours-bottom-note">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+                <p>
+                    <strong>GOOD TO KNOW:</strong>
+                    Last seating is available before closing.
+                    For larger groups, please contact us in advance.
+                </p>
+
+            </div>
+
+            <div class="contact-hours-bottom-label">
+
+                <span>
+                    FRESH
+                </span>
+
+                <strong>
+                    DAILY
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM DIVIDER
+        ================================================== -->
+
+        <div class="contact-hours-divider">
+
+            <span></span>
+
+            <p>
+                OPEN <b>•</b>
+                GATHER <b>•</b>
+                COOK <b>•</b>
+                SHARE
+            </p>
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+</section>
+        </main>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer" id="siteFooter">
+
+    <div class="footer-container">
+
+        <!-- =================================================
+             FOOTER TOP
+        ================================================== -->
+
+        <div class="footer-top">
+
+
+            <!-- =============================================
+                 BRAND COLUMN
+            ============================================== -->
+
+            <div class="footer-brand">
+
+                <a href="home1.html" class="footer-logo">
+
+                    <img
+                        src="images/logo-light.png"
+                        class="footer-logo-dark"
+                        alt="Hot Pot Restaurant Logo"
+                    >
+
+                    <img
+                        src="images/logo-dark.png"
+                        class="footer-logo-light"
+                        alt="Hot Pot Restaurant Logo"
+                    >
+
+                </a>
+
+                <p class="footer-description">
+                    A warm, flavorful dining experience where
+                    fresh ingredients, rich broths, and good
+                    company come together.
+                </p>
+
+
+                <!-- Social Media -->
+
+                <div class="footer-social">
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook"
+                    >
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Twitter"
+                    >
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="YouTube"
+                    >
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 QUICK LINKS
+            ============================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Quick Links
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="home1.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="how-it-works.html">
+                            How It Works
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reservations.html">
+                            Reservations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =============================================
+                 INFORMATION
+            ============================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Information
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reservations.html">
+                            Book a Table
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Terms & Conditions
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =============================================
+                 CONTACT
+            ============================================== -->
+
+            <div class="footer-column footer-contact">
+
+                <h3 class="footer-title">
+                    Visit Us
+                </h3>
+
+
+                <!-- Address -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+
+                    <p>
+                        125 Flavor Street,<br>
+                        Downtown, Chennai,<br>
+                        Tamil Nadu, India
+                    </p>
+
+                </div>
+
+
+                <!-- Phone -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+
+                    <a href="tel:+919876543210">
+                        +91 98765 43210
+                    </a>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+
+                    <a href="mailto:hello@hotpot.com">
+                        hello@hotpot.com
+                    </a>
+
+                </div>
+
+
+                <!-- Opening Hours -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </span>
+
+                    <p>
+                        Mon – Sun<br>
+                        11:00 AM – 11:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FOOTER NEWSLETTER
+        ================================================== -->
+
+        <div class="footer-newsletter">
+
+            <div class="footer-newsletter-content">
+
+                <span class="footer-newsletter-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </span>
+
+                <div>
+
+                    <h3>
+                        Stay in the Loop
+                    </h3>
+
+                    <p>
+                        Get updates about new dishes, special
+                        offers, and upcoming events.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="footer-newsletter-form"
+                action="#"
+                method="post"
+            >
+
+                <label
+                    for="footerEmail"
+                    class="sr-only"
+                >
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="footerEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="footer-subscribe-btn"
+                >
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- =================================================
+             FOOTER BOTTOM
+        ================================================== -->
+
+        <div class="footer-bottom">
+
+            <p class="footer-copyright">
+                © 2026 Hot Pot Restaurant. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <span></span>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- JS -->
+<!-- ============================================================
+     SCROLL TO TOP BUTTON
+============================================================ -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Back to Top"
+>
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+  <script src="js/script.js"></script>
+  <script src="js/global-settings.js"></script>
+</body>
+</html>

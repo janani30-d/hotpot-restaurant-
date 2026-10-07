@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Hot Pot Restaurant Member Dashboard"
+    >
+
+    <meta
+        name="theme-color"
+        content="#b84a2f"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>Dashboard | Hot Pot Restaurant</title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         DASHBOARD CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/dashboard.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/res-dash.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     DASHBOARD
+========================================================= -->
+
+<section
+    class="hotpot-dashboard"
+    id="hotpotDashboard"
+>
+
+
+    <!-- =====================================================
+         SIDEBAR OVERLAY
+         Tablet + Mobile
+    ====================================================== -->
+
+    <div
+        class="dashboard-sidebar-overlay"
+        id="dashboardSidebarOverlay"
+    ></div>
+
+
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+
+    <aside
+        class="dashboard-sidebar"
+        id="dashboardSidebar"
+        aria-label="Dashboard navigation"
+    >
+
+
+        <!-- =================================================
+             SIDEBAR TOP
+        ================================================== -->
+
+        <div class="dashboard-sidebar-top">
+
+
+            <!-- =============================================
+                 LOGO AREA
+            ============================================== -->
+
+            <div class="dashboard-sidebar-logo-area">
+
+
+                <!-- =========================================
+                     LOGO
+                ========================================== -->
+
+                <a
+                    href="index.html"
+                    class="dashboard-sidebar-logo"
+                    aria-label="Hot Pot Restaurant Home"
+                >
+
+                    <!-- Light Mode Logo -->
+
+                    <img
+                        src="images/logo-dark.png"
+                        alt="Hot Pot Restaurant"
+                        class="dashboard-logo-light"
+                    >
+
+
+                    <!-- Dark Mode Logo -->
+
+                    <img
+                        src="images/logo-dark.png"
+                        alt="Hot Pot Restaurant"
+                        class="dashboard-logo-dark"
+                    >
+
+                </a>
+
+
+                <!-- =========================================
+                     SIDEBAR CLOSE BUTTON
+                     Tablet / Mobile
+                ========================================== -->
+
+                <button
+                    type="button"
+                    class="dashboard-sidebar-close"
+                    id="dashboardSidebarClose"
+                    aria-label="Close dashboard menu"
+                    title="Close Menu"
+                >
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SIDEBAR NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="dashboard-sidebar-nav"
+                aria-label="Dashboard Menu"
+            >
+
+
+                <!-- =========================================
+                     DASHBOARD
+                ========================================== -->
+
+                <a
+                    href="dashboard.html"
+                    class="dashboard-nav-link"
+                    aria-current="page"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-table-columns"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Dashboard
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     MY RESERVATIONS
+                ========================================== -->
+
+                <a
+                    href="myreservations.html"
+                    class="dashboard-nav-link active"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        My Reservations
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     OUR MENU
+                ========================================== -->
+
+                <a
+                    href="menus.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Our Menu
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     DINING HISTORY
+                ========================================== -->
+
+                <a
+                    href="diningHistory.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Dining History
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     FAVORITES
+                ========================================== -->
+
+                <a
+                    href="favorites.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Favorites
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     MY PROFILE
+                ========================================== -->
+
+                <a
+                    href="profile.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        My Profile
+                    </span>
+
+                </a>
+
+            </nav>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SIDEBAR BOTTOM
+        ================================================== -->
+
+        <div class="dashboard-sidebar-bottom">
+
+
+            <!-- =============================================
+                 LOGOUT
+            ============================================== -->
+
+            <a
+                href="login.html"
+                class="dashboard-logout-link"
+            >
+
+                <span class="dashboard-nav-icon">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </span>
+
+                <span class="dashboard-nav-text">
+                    Logout
+                </span>
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN DASHBOARD AREA
+    ====================================================== -->
+
+    <div class="dashboard-main">
+
+
+        <!-- =================================================
+             TOPBAR
+        ================================================== -->
+
+        <header
+            class="dashboard-topbar"
+            id="dashboardTopbar"
+        >
+
+            <div class="dashboard-topbar-inner">
+
+
+                <!-- =========================================
+                     TOPBAR LEFT
+                ========================================== -->
+
+                <div class="dashboard-topbar-left">
+
+
+                    <!-- =====================================
+                         HAMBURGER MENU
+                         Desktop: Hidden
+                         Tablet/Mobile: Visible
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-menu-toggle"
+                        id="dashboardMenuToggle"
+                        aria-label="Open dashboard menu"
+                        aria-controls="dashboardSidebar"
+                        aria-expanded="false"
+                        title="Menu"
+                    >
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         DASHBOARD HEADING
+                    ====================================== -->
+
+                    <div class="dashboard-topbar-heading">
+
+                        <span class="dashboard-topbar-greeting">
+                            Good Morning Priya
+                        </span>
+
+                        <h1 class="dashboard-topbar-title">
+                            Dashboard
+                        </h1>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================================
+                     TOPBAR RIGHT
+                ========================================== -->
+
+                <div class="dashboard-topbar-right">
+
+
+                    <!-- =====================================
+                         NOTIFICATIONS
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control dashboard-notification-button"
+                        id="dashboardNotificationButton"
+                        aria-label="Notifications"
+                        title="Notifications"
+                    >
+
+                        <i class="fa-regular fa-bell"></i>
+
+                        <span
+                            class="dashboard-notification-badge"
+                        >
+                            3
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         SETTINGS
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardSettingsButton"
+                        aria-label="Settings"
+                        title="Settings"
+                    >
+
+                        <i class="fa-solid fa-gear"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         DARK MODE
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardDarkToggle"
+                        aria-label="Toggle dark mode"
+                        title="Dark Mode"
+                    >
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         RTL
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardRtlToggle"
+                        aria-label="Toggle RTL"
+                        title="RTL"
+                    >
+
+                        <i class="fa-solid fa-right-left"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         PROFILE
+                    ====================================== -->
+
+                    <a
+                        href="#profile"
+                        class="dashboard-profile"
+                        aria-label="Open Priya profile"
+                    >
+
+
+                        <!-- Profile Image -->
+
+                        <span
+                            class="dashboard-profile-image"
+                        >
+
+                            <img
+                                src="images/profile.jpg"
+                                alt="Priya"
+                            >
+
+                        </span>
+
+
+                        <!-- Profile Details -->
+
+                        <span
+                            class="dashboard-profile-info"
+                        >
+
+                            <strong>
+                                Priya
+                            </strong>
+
+                            <small>
+                                Member Account
+                            </small>
+
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </header>
+<main class="dashboard-content reservation-dashboard-content">
+
+
+    <!-- =========================================================
+         01 — PAGE HEADER
+    ========================================================== -->
+
+    <section class="reservation-dashboard-header"
+             id="reservationDashboardHeader">
+
+        <div class="reservation-dashboard-heading">
+
+            <span class="reservation-dashboard-eyebrow">
+                MY RESERVATIONS
+            </span>
+
+            <h2 class="reservation-dashboard-title">
+                Your Tables.
+                <span>Your Gatherings.</span>
+            </h2>
+
+            <p class="reservation-dashboard-description">
+                Manage your upcoming visits and look back at your
+                previous hot pot gatherings.
+            </p>
+
+        </div>
+
+
+        <a href="reservations.html"
+           class="reservation-dashboard-primary-button">
+
+            <span>MAKE A RESERVATION</span>
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         02 — UPCOMING RESERVATION
+    ========================================================== -->
+
+    <section class="reservation-dashboard-upcoming"
+             id="upcomingReservation">
+
+        <div class="reservation-dashboard-section-header">
+
+            <div>
+
+                <span class="reservation-dashboard-section-eyebrow">
+                    NEXT GATHERING
+                </span>
+
+                <h2 class="reservation-dashboard-section-title">
+                    Upcoming
+                    <span>Reservation.</span>
+                </h2>
+
+            </div>
+
+            <span class="reservation-dashboard-number">
+                01
+            </span>
+
+        </div>
+
+
+        <article class="reservation-dashboard-card">
+
+
+            <!-- Reservation Image -->
+
+            <div class="reservation-dashboard-card-image">
+
+                <img
+                    src="images/dashboard-reservation.jpg"
+                    alt="Hot pot dining table prepared for guests"
+                >
+
+                <span class="reservation-dashboard-status">
+                    CONFIRMED
+                </span>
+
+            </div>
+
+
+            <!-- Reservation Details -->
+
+            <div class="reservation-dashboard-card-content">
+
+
+                <div class="reservation-dashboard-date">
+
+                    <strong>
+                        18
+                    </strong>
+
+                    <div>
+
+                        <span>
+                            OCTOBER
+                        </span>
+
+                        <small>
+                            2026
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reservation-dashboard-details">
+
+
+                    <div class="reservation-dashboard-detail">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            TIME
+                        </span>
+
+                        <strong>
+                            07:30 PM
+                        </strong>
+
+                    </div>
+
+
+                    <div class="reservation-dashboard-detail">
+
+                        <span>
+                            <i class="fa-solid fa-users"></i>
+                            GUESTS
+                        </span>
+
+                        <strong>
+                            04 People
+                        </strong>
+
+                    </div>
+
+
+                    <div class="reservation-dashboard-detail">
+
+                        <span>
+                            <i class="fa-solid fa-chair"></i>
+                            SEATING
+                        </span>
+
+                        <strong>
+                            Window
+                        </strong>
+
+                    </div>
+
+
+                    <div class="reservation-dashboard-detail">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            TABLE
+                        </span>
+
+                        <strong>
+                            Main Dining
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="reservation-dashboard-actions">
+
+                    <button
+                        type="button"
+                        class="reservation-dashboard-manage"
+                        id="manageReservationButton">
+
+                        <span>MANAGE RESERVATION</span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="reservation-dashboard-cancel"
+                        id="cancelReservationButton">
+
+                        <span>CANCEL RESERVATION</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         03 — RESERVATION HISTORY
+    ========================================================== -->
+
+    <section class="reservation-dashboard-history"
+             id="reservationHistory">
+
+
+        <div class="reservation-dashboard-section-header">
+
+            <div>
+
+                <span class="reservation-dashboard-section-eyebrow">
+                    PAST GATHERINGS
+                </span>
+
+                <h2 class="reservation-dashboard-section-title">
+                    Reservation
+                    <span>History.</span>
+                </h2>
+
+                <p class="reservation-dashboard-section-description">
+                    Your previous visits and memorable moments
+                    around the table.
+                </p>
+
+            </div>
+
+            <span class="reservation-dashboard-history-count">
+                12 VISITS
+            </span>
+
+        </div>
+
+
+        <div class="reservation-dashboard-history-list">
+
+
+            <!-- =================================================
+                 HISTORY 01
+            ================================================== -->
+
+            <article class="reservation-history-item">
+
+                <div class="reservation-history-date">
+
+                    <strong>
+                        28
+                    </strong>
+
+                    <div>
+
+                        <span>
+                            SEP
+                        </span>
+
+                        <small>
+                            2026
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reservation-history-info">
+
+                    <span>
+                        DINNER
+                    </span>
+
+                    <h3>
+                        A Perfect Evening
+                    </h3>
+
+                    <p>
+                        Signature Spicy Broth
+                        • 04 Guests
+                    </p>
+
+                </div>
+
+
+                <div class="reservation-history-status">
+                    COMPLETED
+                </div>
+
+
+                <button
+                    type="button"
+                    class="reservation-history-view">
+
+                    <span>VIEW DETAILS</span>
+
+                    <i class="fa-solid fa-arrow-up-right"></i>
+
+                </button>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 HISTORY 02
+            ================================================== -->
+
+            <article class="reservation-history-item">
+
+                <div class="reservation-history-date">
+
+                    <strong>
+                        12
+                    </strong>
+
+                    <div>
+
+                        <span>
+                            AUG
+                        </span>
+
+                        <small>
+                            2026
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reservation-history-info">
+
+                    <span>
+                        DINNER
+                    </span>
+
+                    <h3>
+                        Friends Around The Pot
+                    </h3>
+
+                    <p>
+                        Herbal Chicken Broth
+                        • 06 Guests
+                    </p>
+
+                </div>
+
+
+                <div class="reservation-history-status">
+                    COMPLETED
+                </div>
+
+
+                <button
+                    type="button"
+                    class="reservation-history-view">
+
+                    <span>VIEW DETAILS</span>
+
+                    <i class="fa-solid fa-arrow-up-right"></i>
+
+                </button>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 HISTORY 03
+            ================================================== -->
+
+            <article class="reservation-history-item">
+
+                <div class="reservation-history-date">
+
+                    <strong>
+                        06
+                    </strong>
+
+                    <div>
+
+                        <span>
+                            JUL
+                        </span>
+
+                        <small>
+                            2026
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reservation-history-info">
+
+                    <span>
+                        LUNCH
+                    </span>
+
+                    <h3>
+                        Family Gathering
+                    </h3>
+
+                    <p>
+                        Creamy Mushroom Broth
+                        • 05 Guests
+                    </p>
+
+                </div>
+
+
+                <div class="reservation-history-status">
+                    COMPLETED
+                </div>
+
+
+                <button
+                    type="button"
+                    class="reservation-history-view">
+
+                    <span>VIEW DETAILS</span>
+
+                    <i class="fa-solid fa-arrow-up-right"></i>
+
+                </button>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 HISTORY 04
+            ================================================== -->
+
+            <article class="reservation-history-item">
+
+                <div class="reservation-history-date">
+
+                    <strong>
+                        21
+                    </strong>
+
+                    <div>
+
+                        <span>
+                            MAY
+                        </span>
+
+                        <small>
+                            2026
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reservation-history-info">
+
+                    <span>
+                        DINNER
+                    </span>
+
+                    <h3>
+                        Weekend Gathering
+                    </h3>
+
+                    <p>
+                        House Mala Broth
+                        • 04 Guests
+                    </p>
+
+                </div>
+
+
+                <div class="reservation-history-status">
+                    COMPLETED
+                </div>
+
+
+                <button
+                    type="button"
+                    class="reservation-history-view">
+
+                    <span>VIEW DETAILS</span>
+
+                    <i class="fa-solid fa-arrow-up-right"></i>
+
+                </button>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         BOTTOM LINE
+    ========================================================== -->
+
+    <div class="reservation-dashboard-bottom">
+
+        <span></span>
+
+        <p>
+            PLAN
+            <b>•</b>
+            GATHER
+            <b>•</b>
+            COOK
+            <b>•</b>
+            SHARE
+        </p>
+
+        <span></span>
+
+    </div>
+
+
+</main>
+
+
+</div>
+
+</section>
+<!-- ============================================================
+     LOGOUT CONFIRMATION MODAL
+============================================================ -->
+
+<div
+    class="dashboard-logout-modal"
+    id="dashboardLogoutModal"
+    aria-hidden="true"
+>
+
+    <!-- BACKDROP -->
+
+    <div
+        class="dashboard-logout-backdrop"
+        id="dashboardLogoutBackdrop"
+    ></div>
+
+
+    <!-- MODAL -->
+
+    <div
+        class="dashboard-logout-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dashboardLogoutTitle"
+    >
+
+        <!-- ICON -->
+
+        <div class="dashboard-logout-icon">
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+
+
+        <!-- TITLE -->
+
+        <div class="dashboard-logout-content">
+
+            <h2 id="dashboardLogoutTitle">
+                Are you sure you want to<br>
+                logout?
+            </h2>
+
+        </div>
+
+
+        <!-- BUTTONS -->
+
+        <div class="dashboard-logout-actions">
+
+            <button
+                type="button"
+                class="dashboard-logout-yes"
+                id="dashboardLogoutYes"
+            >
+                Yes
+            </button>
+
+            <button
+                type="button"
+                class="dashboard-logout-no"
+                id="dashboardLogoutNo"
+            >
+                No
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     DASHBOARD JAVASCRIPT
+     Will be added in Part 4
+========================================================= -->
+
+<script src="js/dashboard.js"></script>
+<script src="js/global-settings.js"></script>
+
+</body>
+</html>

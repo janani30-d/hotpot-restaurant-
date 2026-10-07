@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Hot Pot Restaurant Member Dashboard"
+    >
+
+    <meta
+        name="theme-color"
+        content="#b84a2f"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>Dashboard | Hot Pot Restaurant</title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         DASHBOARD CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/dashboard.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/res-dash.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     DASHBOARD
+========================================================= -->
+
+<section
+    class="hotpot-dashboard"
+    id="hotpotDashboard"
+>
+
+
+    <!-- =====================================================
+         SIDEBAR OVERLAY
+         Tablet + Mobile
+    ====================================================== -->
+
+    <div
+        class="dashboard-sidebar-overlay"
+        id="dashboardSidebarOverlay"
+    ></div>
+
+
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+
+    <aside
+        class="dashboard-sidebar"
+        id="dashboardSidebar"
+        aria-label="Dashboard navigation"
+    >
+
+
+        <!-- =================================================
+             SIDEBAR TOP
+        ================================================== -->
+
+        <div class="dashboard-sidebar-top">
+
+
+            <!-- =============================================
+                 LOGO AREA
+            ============================================== -->
+
+            <div class="dashboard-sidebar-logo-area">
+
+
+                <!-- =========================================
+                     LOGO
+                ========================================== -->
+
+                <a
+                    href="index.html"
+                    class="dashboard-sidebar-logo"
+                    aria-label="Hot Pot Restaurant Home"
+                >
+
+                    <!-- Light Mode Logo -->
+
+                    <img
+                        src="images/logo-dark.png"
+                        alt="Hot Pot Restaurant"
+                        class="dashboard-logo-light"
+                    >
+
+
+                    <!-- Dark Mode Logo -->
+
+                    <img
+                        src="images/logo-dark.png"
+                        alt="Hot Pot Restaurant"
+                        class="dashboard-logo-dark"
+                    >
+
+                </a>
+
+
+                <!-- =========================================
+                     SIDEBAR CLOSE BUTTON
+                     Tablet / Mobile
+                ========================================== -->
+
+                <button
+                    type="button"
+                    class="dashboard-sidebar-close"
+                    id="dashboardSidebarClose"
+                    aria-label="Close dashboard menu"
+                    title="Close Menu"
+                >
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SIDEBAR NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="dashboard-sidebar-nav"
+                aria-label="Dashboard Menu"
+            >
+
+
+                <!-- =========================================
+                     DASHBOARD
+                ========================================== -->
+
+                <a
+                    href="dashboard.html"
+                    class="dashboard-nav-link"
+                    aria-current="page"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-table-columns"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Dashboard
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     MY RESERVATIONS
+                ========================================== -->
+
+                <a
+                    href="myreservations.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        My Reservations
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     OUR MENU
+                ========================================== -->
+
+                <a
+                    href="menus.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Our Menu
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     DINING HISTORY
+                ========================================== -->
+
+                <a
+                    href="diningHistory.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Dining History
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     FAVORITES
+                ========================================== -->
+
+                <a
+                    href="favorites.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Favorites
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     MY PROFILE
+                ========================================== -->
+
+                <a
+                    href="profile.html"
+                    class="dashboard-nav-link active"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        My Profile
+                    </span>
+
+                </a>
+
+            </nav>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SIDEBAR BOTTOM
+        ================================================== -->
+
+        <div class="dashboard-sidebar-bottom">
+
+
+            <!-- =============================================
+                 LOGOUT
+            ============================================== -->
+
+            <a
+                href="login.html"
+                class="dashboard-logout-link"
+            >
+
+                <span class="dashboard-nav-icon">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </span>
+
+                <span class="dashboard-nav-text">
+                    Logout
+                </span>
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN DASHBOARD AREA
+    ====================================================== -->
+
+    <div class="dashboard-main">
+
+
+        <!-- =================================================
+             TOPBAR
+        ================================================== -->
+
+        <header
+            class="dashboard-topbar"
+            id="dashboardTopbar"
+        >
+
+            <div class="dashboard-topbar-inner">
+
+
+                <!-- =========================================
+                     TOPBAR LEFT
+                ========================================== -->
+
+                <div class="dashboard-topbar-left">
+
+
+                    <!-- =====================================
+                         HAMBURGER MENU
+                         Desktop: Hidden
+                         Tablet/Mobile: Visible
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-menu-toggle"
+                        id="dashboardMenuToggle"
+                        aria-label="Open dashboard menu"
+                        aria-controls="dashboardSidebar"
+                        aria-expanded="false"
+                        title="Menu"
+                    >
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         DASHBOARD HEADING
+                    ====================================== -->
+
+                    <div class="dashboard-topbar-heading">
+
+                        <span class="dashboard-topbar-greeting">
+                            Good Morning Priya
+                        </span>
+
+                        <h1 class="dashboard-topbar-title">
+                            Dashboard
+                        </h1>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================================
+                     TOPBAR RIGHT
+                ========================================== -->
+
+                <div class="dashboard-topbar-right">
+
+
+                    <!-- =====================================
+                         NOTIFICATIONS
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control dashboard-notification-button"
+                        id="dashboardNotificationButton"
+                        aria-label="Notifications"
+                        title="Notifications"
+                    >
+
+                        <i class="fa-regular fa-bell"></i>
+
+                        <span
+                            class="dashboard-notification-badge"
+                        >
+                            3
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         SETTINGS
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardSettingsButton"
+                        aria-label="Settings"
+                        title="Settings"
+                    >
+
+                        <i class="fa-solid fa-gear"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         DARK MODE
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardDarkToggle"
+                        aria-label="Toggle dark mode"
+                        title="Dark Mode"
+                    >
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         RTL
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardRtlToggle"
+                        aria-label="Toggle RTL"
+                        title="RTL"
+                    >
+
+                        <i class="fa-solid fa-right-left"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         PROFILE
+                    ====================================== -->
+
+                    <a
+                        href="#profile"
+                        class="dashboard-profile"
+                        aria-label="Open Priya profile"
+                    >
+
+
+                        <!-- Profile Image -->
+
+                        <span
+                            class="dashboard-profile-image"
+                        >
+
+                            <img
+                                src="images/profile.jpg"
+                                alt="Priya"
+                            >
+
+                        </span>
+
+
+                        <!-- Profile Details -->
+
+                        <span
+                            class="dashboard-profile-info"
+                        >
+
+                            <strong>
+                                Priya
+                            </strong>
+
+                            <small>
+                                Member Account
+                            </small>
+
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </header>
+        <main class="dashboard-content my-profile-content" id="myProfileContent">
+
+    <!-- =====================================================
+         PROFILE HEADER
+    ====================================================== -->
+
+    <section class="my-profile-header" id="myProfileHeader">
+
+        <div class="my-profile-header-content">
+
+            <span class="my-profile-eyebrow">
+                MY PROFILE
+            </span>
+
+            <h2 class="my-profile-title">
+                Your Details.
+                <span>Your Account.</span>
+            </h2>
+
+            <p class="my-profile-description">
+                Manage your personal information, dining preferences,
+                and account details all in one place.
+            </p>
+
+        </div>
+
+        <div class="my-profile-header-mark">
+
+           
+
+            <span class="my-profile-mark-text">
+                MEMBER<br>
+                ACCOUNT
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PROFILE OVERVIEW
+    ====================================================== -->
+
+    <section class="my-profile-overview" id="myProfileOverview">
+
+        <div class="my-profile-avatar-area">
+
+            <div class="my-profile-avatar">
+
+                <img
+                    src="images/profile.jpg"
+                    alt="Priya profile photo"
+                >
+
+            </div>
+
+            <button
+                type="button"
+                class="my-profile-photo-button"
+                id="changeProfilePhotoButton"
+            >
+                <i class="fa-solid fa-camera"></i>
+                <span>CHANGE PHOTO</span>
+            </button>
+
+        </div>
+
+
+        <div class="my-profile-overview-content">
+
+            <span class="my-profile-overview-eyebrow">
+                MEMBER ACCOUNT
+            </span>
+
+            <h3 class="my-profile-name">
+                Priya
+            </h3>
+
+            <p class="my-profile-member-text">
+                Welcome to your personal hot pot account.
+                Keep your details updated and make every
+                gathering easier to plan.
+            </p>
+
+            <div class="my-profile-member-meta">
+
+                <span>
+                    <i class="fa-regular fa-calendar"></i>
+                    MEMBER SINCE 2024
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-circle-check"></i>
+                    ACTIVE MEMBER
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="my-profile-overview-number">
+
+            
+
+            <small>
+                MEMBER<br>
+                PROFILE
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PERSONAL INFORMATION
+    ====================================================== -->
+
+    <section class="my-profile-section" id="personalInformation">
+
+        <div class="my-profile-section-header">
+
+            <div>
+
+                <span class="my-profile-section-eyebrow">
+                    PERSONAL INFORMATION
+                </span>
+
+                <h2 class="my-profile-section-title">
+                    Your Personal
+                    <span>Details.</span>
+                </h2>
+
+                <p class="my-profile-section-description">
+                    Keep your contact information current
+                    so we can reach you when needed.
+                </p>
+
+            </div>
+
+           
+
+        </div>
+
+
+        <div class="my-profile-form-card">
+
+            <div class="my-profile-form-grid">
+
+
+                <!-- FIRST NAME -->
+
+                <div class="my-profile-field">
+
+                    <label for="profileFirstName">
+                        First Name
+                    </label>
+
+                    <div class="my-profile-input">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <input
+                            type="text"
+                            id="profileFirstName"
+                            name="first_name"
+                            value="Priya"
+                            placeholder="Enter first name"
+                            autocomplete="given-name"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- LAST NAME -->
+
+                <div class="my-profile-field">
+
+                    <label for="profileLastName">
+                        Last Name
+                    </label>
+
+                    <div class="my-profile-input">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <input
+                            type="text"
+                            id="profileLastName"
+                            name="last_name"
+                            value="Sharma"
+                            placeholder="Enter last name"
+                            autocomplete="family-name"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="my-profile-field">
+
+                    <label for="profileEmail">
+                        Email Address
+                    </label>
+
+                    <div class="my-profile-input">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <input
+                            type="email"
+                            id="profileEmail"
+                            name="email"
+                            value="priya@example.com"
+                            placeholder="Enter email address"
+                            autocomplete="email"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="my-profile-field">
+
+                    <label for="profilePhone">
+                        Phone Number
+                    </label>
+
+                    <div class="my-profile-input">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <input
+                            type="tel"
+                            id="profilePhone"
+                            name="phone"
+                            value="+91 98765 43210"
+                            placeholder="Enter phone number"
+                            autocomplete="tel"
+                        >
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         DINING PREFERENCES
+    ====================================================== -->
+
+    <section class="my-profile-section" id="diningPreferences">
+
+        <div class="my-profile-section-header">
+
+            <div>
+
+                <span class="my-profile-section-eyebrow">
+                    DINING PREFERENCES
+                </span>
+
+                <h2 class="my-profile-section-title">
+                    Your Dining
+                    <span>Preferences.</span>
+                </h2>
+
+                <p class="my-profile-section-description">
+                    Tell us what makes your hot pot experience
+                    comfortable and enjoyable.
+                </p>
+
+            </div>
+
+           
+
+        </div>
+
+
+        <div class="my-profile-preferences-grid">
+
+
+            <!-- FAVORITE BROTH -->
+
+            <div class="my-profile-preference-card">
+
+                <div class="my-profile-preference-icon">
+                    <i class="fa-solid fa-bowl-food"></i>
+                </div>
+
+                <div class="my-profile-preference-content">
+
+                    <span>
+                        FAVORITE BROTH
+                    </span>
+
+                    <strong>
+                        Signature Spicy
+                    </strong>
+
+                    <small>
+                        Your most enjoyed flavor
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- SEATING -->
+
+            <div class="my-profile-preference-card">
+
+                <div class="my-profile-preference-icon">
+                    <i class="fa-solid fa-chair"></i>
+                </div>
+
+                <div class="my-profile-preference-content">
+
+                    <span>
+                        PREFERRED SEATING
+                    </span>
+
+                    <strong>
+                        Window
+                    </strong>
+
+                    <small>
+                        Your preferred table area
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- DINING TIME -->
+
+            <div class="my-profile-preference-card">
+
+                <div class="my-profile-preference-icon">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <div class="my-profile-preference-content">
+
+                    <span>
+                        FAVORITE DINING TIME
+                    </span>
+
+                    <strong>
+                        Dinner
+                    </strong>
+
+                    <small>
+                        Your preferred time
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- GUEST PREFERENCE -->
+
+            <div class="my-profile-preference-card">
+
+                <div class="my-profile-preference-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div class="my-profile-preference-content">
+
+                    <span>
+                        GUEST PREFERENCE
+                    </span>
+
+                    <strong>
+                        4–6 Guests
+                    </strong>
+
+                    <small>
+                        Your usual gathering size
+                    </small>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         ACCOUNT INFORMATION
+    ====================================================== -->
+
+    <section class="my-profile-section" id="accountInformation">
+
+        <div class="my-profile-section-header">
+
+            <div>
+
+                <span class="my-profile-section-eyebrow">
+                    ACCOUNT INFORMATION
+                </span>
+
+                <h2 class="my-profile-section-title">
+                    Your Member
+                    <span>Journey.</span>
+                </h2>
+
+                <p class="my-profile-section-description">
+                    A quick overview of your membership
+                    and dining activity.
+                </p>
+
+            </div>
+
+            
+
+        </div>
+
+
+        <div class="my-profile-account-grid">
+
+
+            <!-- MEMBER SINCE -->
+
+            <article class="my-profile-account-card">
+
+                <div class="my-profile-account-top">
+
+                    <span class="my-profile-account-number">
+                        01
+                    </span>
+
+                    <i class="fa-regular fa-calendar"></i>
+
+                </div>
+
+                <span class="my-profile-account-label">
+                    MEMBER SINCE
+                </span>
+
+                <strong>
+                    2024
+                </strong>
+
+                <small>
+                    Joined our table
+                </small>
+
+            </article>
+
+
+            <!-- TOTAL VISITS -->
+
+            <article class="my-profile-account-card">
+
+                <div class="my-profile-account-top">
+
+                    <span class="my-profile-account-number">
+                        02
+                    </span>
+
+                    <i class="fa-solid fa-utensils"></i>
+
+                </div>
+
+                <span class="my-profile-account-label">
+                    TOTAL VISITS
+                </span>
+
+                <strong>
+                    12
+                </strong>
+
+                <small>
+                    Dining experiences
+                </small>
+
+            </article>
+
+
+            <!-- REWARDS -->
+
+            <article class="my-profile-account-card">
+
+                <div class="my-profile-account-top">
+
+                    <span class="my-profile-account-number">
+                        03
+                    </span>
+
+                    <i class="fa-solid fa-award"></i>
+
+                </div>
+
+                <span class="my-profile-account-label">
+                    REWARDS POINTS
+                </span>
+
+                <strong>
+                    240
+                </strong>
+
+                <small>
+                    Points earned
+                </small>
+
+            </article>
+
+
+            <!-- ACCOUNT STATUS -->
+
+            <article class="my-profile-account-card">
+
+                <div class="my-profile-account-top">
+
+                    <span class="my-profile-account-number">
+                        04
+                    </span>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                </div>
+
+                <span class="my-profile-account-label">
+                    ACCOUNT STATUS
+                </span>
+
+                <strong class="my-profile-status">
+                    Active
+                </strong>
+
+                <small>
+                    Member account
+                </small>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SAVE CHANGES
+    ====================================================== -->
+
+    <section class="my-profile-save" id="myProfileSave">
+
+        <div class="my-profile-save-content">
+
+            <span class="my-profile-save-eyebrow">
+                PROFILE SETTINGS
+            </span>
+
+            <h2 class="my-profile-save-title">
+                Keep Your Details
+                <span>Up To Date.</span>
+            </h2>
+
+            <p class="my-profile-save-description">
+                Make sure your information is current so your
+                reservations and dining experiences stay seamless.
+            </p>
+
+        </div>
+
+        <button
+            type="button"
+            class="my-profile-save-button"
+            id="saveProfileButton"
+        >
+            <span>SAVE CHANGES</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </section>
+
+
+    <!-- =====================================================
+         BOTTOM LINE
+    ====================================================== -->
+
+    <div class="my-profile-bottom">
+
+        <span class="my-profile-bottom-line"></span>
+
+        <p>
+            YOUR DETAILS
+            <b>•</b>
+            YOUR TABLE
+            <b>•</b>
+            YOUR EXPERIENCE
+        </p>
+
+        <span class="my-profile-bottom-line"></span>
+
+    </div>
+
+</main>
+</div>
+
+</section>
+<!-- ============================================================
+     LOGOUT CONFIRMATION MODAL
+============================================================ -->
+
+<div
+    class="dashboard-logout-modal"
+    id="dashboardLogoutModal"
+    aria-hidden="true"
+>
+
+    <!-- BACKDROP -->
+
+    <div
+        class="dashboard-logout-backdrop"
+        id="dashboardLogoutBackdrop"
+    ></div>
+
+
+    <!-- MODAL -->
+
+    <div
+        class="dashboard-logout-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dashboardLogoutTitle"
+    >
+
+        <!-- ICON -->
+
+        <div class="dashboard-logout-icon">
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+
+
+        <!-- TITLE -->
+
+        <div class="dashboard-logout-content">
+
+            <h2 id="dashboardLogoutTitle">
+                Are you sure you want to<br>
+                logout?
+            </h2>
+
+        </div>
+
+
+        <!-- BUTTONS -->
+
+        <div class="dashboard-logout-actions">
+
+            <button
+                type="button"
+                class="dashboard-logout-yes"
+                id="dashboardLogoutYes"
+            >
+                Yes
+            </button>
+
+            <button
+                type="button"
+                class="dashboard-logout-no"
+                id="dashboardLogoutNo"
+            >
+                No
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- =========================================================
+     DASHBOARD JAVASCRIPT
+     Will be added in Part 4
+========================================================= -->
+
+<script src="js/dashboard.js"></script>
+<script src="js/global-settings.js"></script>
+
+</body>
+</html>

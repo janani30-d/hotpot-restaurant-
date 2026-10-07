@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Hot Pot Restaurant Member Dashboard"
+    >
+
+    <meta
+        name="theme-color"
+        content="#b84a2f"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>Dashboard | Hot Pot Restaurant</title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo-light.png">
+
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         DASHBOARD CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/dashboard.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/res-dash.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     DASHBOARD
+========================================================= -->
+
+<section
+    class="hotpot-dashboard"
+    id="hotpotDashboard"
+>
+
+
+    <!-- =====================================================
+         SIDEBAR OVERLAY
+         Tablet + Mobile
+    ====================================================== -->
+
+    <div
+        class="dashboard-sidebar-overlay"
+        id="dashboardSidebarOverlay"
+    ></div>
+
+
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+
+    <aside
+        class="dashboard-sidebar"
+        id="dashboardSidebar"
+        aria-label="Dashboard navigation"
+    >
+
+
+        <!-- =================================================
+             SIDEBAR TOP
+        ================================================== -->
+
+        <div class="dashboard-sidebar-top">
+
+
+            <!-- =============================================
+                 LOGO AREA
+            ============================================== -->
+
+            <div class="dashboard-sidebar-logo-area">
+
+
+                <!-- =========================================
+                     LOGO
+                ========================================== -->
+
+                <a
+                    href="index.html"
+                    class="dashboard-sidebar-logo"
+                    aria-label="Hot Pot Restaurant Home"
+                >
+
+                    <!-- Light Mode Logo -->
+
+                    <img
+                        src="images/logo-dark.png"
+                        alt="Hot Pot Restaurant"
+                        class="dashboard-logo-light"
+                    >
+
+
+                    <!-- Dark Mode Logo -->
+
+                    <img
+                        src="images/logo-dark.png"
+                        alt="Hot Pot Restaurant"
+                        class="dashboard-logo-dark"
+                    >
+
+                </a>
+
+
+                <!-- =========================================
+                     SIDEBAR CLOSE BUTTON
+                     Tablet / Mobile
+                ========================================== -->
+
+                <button
+                    type="button"
+                    class="dashboard-sidebar-close"
+                    id="dashboardSidebarClose"
+                    aria-label="Close dashboard menu"
+                    title="Close Menu"
+                >
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SIDEBAR NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="dashboard-sidebar-nav"
+                aria-label="Dashboard Menu"
+            >
+
+
+                <!-- =========================================
+                     DASHBOARD
+                ========================================== -->
+
+                <a
+                    href="dashboard.html"
+                    class="dashboard-nav-link"
+                    aria-current="page"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-table-columns"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Dashboard
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     MY RESERVATIONS
+                ========================================== -->
+
+                <a
+                    href="myreservations.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        My Reservations
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     OUR MENU
+                ========================================== -->
+
+                <a
+                    href="menus.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Our Menu
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     DINING HISTORY
+                ========================================== -->
+
+                <a
+                    href="diningHistory.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Dining History
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     FAVORITES
+                ========================================== -->
+
+                <a
+                    href="favorites.html"
+                    class="dashboard-nav-link active"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        Favorites
+                    </span>
+
+                </a>
+
+
+
+                <!-- =========================================
+                     MY PROFILE
+                ========================================== -->
+
+                <a
+                    href="profile.html"
+                    class="dashboard-nav-link"
+                >
+
+                    <span class="dashboard-nav-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </span>
+
+                    <span class="dashboard-nav-text">
+                        My Profile
+                    </span>
+
+                </a>
+
+            </nav>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SIDEBAR BOTTOM
+        ================================================== -->
+
+        <div class="dashboard-sidebar-bottom">
+
+
+            <!-- =============================================
+                 LOGOUT
+            ============================================== -->
+
+            <a
+                href="login.html"
+                class="dashboard-logout-link"
+            >
+
+                <span class="dashboard-nav-icon">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </span>
+
+                <span class="dashboard-nav-text">
+                    Logout
+                </span>
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN DASHBOARD AREA
+    ====================================================== -->
+
+    <div class="dashboard-main">
+
+
+        <!-- =================================================
+             TOPBAR
+        ================================================== -->
+
+        <header
+            class="dashboard-topbar"
+            id="dashboardTopbar"
+        >
+
+            <div class="dashboard-topbar-inner">
+
+
+                <!-- =========================================
+                     TOPBAR LEFT
+                ========================================== -->
+
+                <div class="dashboard-topbar-left">
+
+
+                    <!-- =====================================
+                         HAMBURGER MENU
+                         Desktop: Hidden
+                         Tablet/Mobile: Visible
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-menu-toggle"
+                        id="dashboardMenuToggle"
+                        aria-label="Open dashboard menu"
+                        aria-controls="dashboardSidebar"
+                        aria-expanded="false"
+                        title="Menu"
+                    >
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         DASHBOARD HEADING
+                    ====================================== -->
+
+                    <div class="dashboard-topbar-heading">
+
+                        <span class="dashboard-topbar-greeting">
+                            Good Morning Priya
+                        </span>
+
+                        <h1 class="dashboard-topbar-title">
+                            Dashboard
+                        </h1>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================================
+                     TOPBAR RIGHT
+                ========================================== -->
+
+                <div class="dashboard-topbar-right">
+
+
+                    <!-- =====================================
+                         NOTIFICATIONS
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control dashboard-notification-button"
+                        id="dashboardNotificationButton"
+                        aria-label="Notifications"
+                        title="Notifications"
+                    >
+
+                        <i class="fa-regular fa-bell"></i>
+
+                        <span
+                            class="dashboard-notification-badge"
+                        >
+                            3
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         SETTINGS
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardSettingsButton"
+                        aria-label="Settings"
+                        title="Settings"
+                    >
+
+                        <i class="fa-solid fa-gear"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         DARK MODE
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardDarkToggle"
+                        aria-label="Toggle dark mode"
+                        title="Dark Mode"
+                    >
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         RTL
+                    ====================================== -->
+
+                    <button
+                        type="button"
+                        class="dashboard-topbar-control"
+                        id="dashboardRtlToggle"
+                        aria-label="Toggle RTL"
+                        title="RTL"
+                    >
+
+                        <i class="fa-solid fa-right-left"></i>
+
+                    </button>
+
+
+
+                    <!-- =====================================
+                         PROFILE
+                    ====================================== -->
+
+                    <a
+                        href="#profile"
+                        class="dashboard-profile"
+                        aria-label="Open Priya profile"
+                    >
+
+
+                        <!-- Profile Image -->
+
+                        <span
+                            class="dashboard-profile-image"
+                        >
+
+                            <img
+                                src="images/profile.jpg"
+                                alt="Priya"
+                            >
+
+                        </span>
+
+
+                        <!-- Profile Details -->
+
+                        <span
+                            class="dashboard-profile-info"
+                        >
+
+                            <strong>
+                                Priya
+                            </strong>
+
+                            <small>
+                                Member Account
+                            </small>
+
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </header>
+<main class="dashboard-content favorites-content" id="favoritesContent">
+
+    <!-- =====================================================
+         FAVORITES PAGE HEADER
+    ====================================================== -->
+
+    <section class="favorites-header" id="favoritesHeader">
+
+        <div class="favorites-header-content">
+
+            <span class="favorites-eyebrow">
+                FAVORITES
+            </span>
+
+            <h2 class="favorites-title">
+                Your Favorites.
+                <span>Your Way.</span>
+            </h2>
+
+            <p class="favorites-description">
+                Keep the broths, ingredients, and dishes you love
+                close so your next hot pot gathering is even easier
+                to plan.
+            </p>
+
+        </div>
+
+        <div class="favorites-header-mark">
+
+           
+
+            <span class="favorites-mark-text">
+                SAVED<br>
+                FAVORITES
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FAVORITE BROTHS
+    ====================================================== -->
+
+    <section class="favorites-section favorites-broths" id="favoriteBroths">
+
+        <div class="favorites-section-header">
+
+            <div>
+
+                <span class="favorites-section-eyebrow">
+                    FAVORITE BROTHS
+                </span>
+
+                <h2 class="favorites-section-title">
+                    Start With
+                    <span>Your Favorite Flavor.</span>
+                </h2>
+
+                <p class="favorites-section-description">
+                    Your go-to broths for every gathering
+                    around the table.
+                </p>
+
+            </div>
+
+            
+
+        </div>
+
+
+        <div class="favorites-broth-grid">
+
+
+            <!-- BROTH 01 -->
+
+            <article class="favorite-card">
+
+                <div class="favorite-card-image">
+
+                    <img
+                        src="images/menu-broth-01.jpg"
+                        alt="Signature Spicy Broth"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Signature Spicy from favorites"
+                        title="Remove from favorites"
+                        data-favorite="signature-spicy"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <span class="favorite-card-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="favorite-card-content">
+
+                    <span class="favorite-card-category">
+                        SIGNATURE BROTH
+                    </span>
+
+                    <h3 class="favorite-card-title">
+                        Signature Spicy
+                    </h3>
+
+                    <p class="favorite-card-description">
+                        Rich, warming, and full of flavor
+                        for a bold hot pot experience.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="favorite-card-link"
+                    >
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- BROTH 02 -->
+
+            <article class="favorite-card">
+
+                <div class="favorite-card-image">
+
+                    <img
+                        src="images/menu-broth-02.jpg"
+                        alt="Herbal Chicken Broth"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Herbal Chicken from favorites"
+                        title="Remove from favorites"
+                        data-favorite="herbal-chicken"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <span class="favorite-card-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="favorite-card-content">
+
+                    <span class="favorite-card-category">
+                        SIGNATURE BROTH
+                    </span>
+
+                    <h3 class="favorite-card-title">
+                        Herbal Chicken
+                    </h3>
+
+                    <p class="favorite-card-description">
+                        Light, comforting, and aromatic
+                        with a delicate herbal finish.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="favorite-card-link"
+                    >
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- BROTH 03 -->
+
+            <article class="favorite-card">
+
+                <div class="favorite-card-image">
+
+                    <img
+                        src="images/menu-broth-03.jpg"
+                        alt="Creamy Mushroom Broth"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Creamy Mushroom from favorites"
+                        title="Remove from favorites"
+                        data-favorite="creamy-mushroom"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <span class="favorite-card-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="favorite-card-content">
+
+                    <span class="favorite-card-category">
+                        SIGNATURE BROTH
+                    </span>
+
+                    <h3 class="favorite-card-title">
+                        Creamy Mushroom
+                    </h3>
+
+                    <p class="favorite-card-description">
+                        Deep, earthy, and wonderfully creamy
+                        for a comforting bowl.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="favorite-card-link"
+                    >
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FAVORITE INGREDIENTS
+    ====================================================== -->
+
+    <section class="favorites-section favorites-ingredients" id="favoriteIngredients">
+
+        <div class="favorites-section-header">
+
+            <div>
+
+                <span class="favorites-section-eyebrow">
+                    FAVORITE INGREDIENTS
+                </span>
+
+                <h2 class="favorites-section-title">
+                    Build Your Pot
+                    <span>Your Way.</span>
+                </h2>
+
+                <p class="favorites-section-description">
+                    Fresh ingredients you love adding
+                    to every hot pot.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+
+        <div class="favorites-ingredient-grid">
+
+
+            <!-- INGREDIENT 01 -->
+
+            <article class="favorite-ingredient-card">
+
+                <div class="favorite-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-01.jpg"
+                        alt="Premium Beef"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Premium Beef from favorites"
+                        title="Remove from favorites"
+                        data-favorite="premium-beef"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                </div>
+
+                <div class="favorite-ingredient-content">
+
+                    <span class="favorite-ingredient-category">
+                        MEAT
+                    </span>
+
+                    <h3>
+                        Premium Beef
+                    </h3>
+
+                    <a href="menu.html" class="favorite-small-link">
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- INGREDIENT 02 -->
+
+            <article class="favorite-ingredient-card">
+
+                <div class="favorite-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-04.jpg"
+                        alt="Fresh Shrimp"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Fresh Shrimp from favorites"
+                        title="Remove from favorites"
+                        data-favorite="fresh-shrimp"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                </div>
+
+                <div class="favorite-ingredient-content">
+
+                    <span class="favorite-ingredient-category">
+                        SEAFOOD
+                    </span>
+
+                    <h3>
+                        Fresh Shrimp
+                    </h3>
+
+                    <a href="menu.html" class="favorite-small-link">
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- INGREDIENT 03 -->
+
+            <article class="favorite-ingredient-card">
+
+                <div class="favorite-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-07.jpg"
+                        alt="Bok Choy"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Bok Choy from favorites"
+                        title="Remove from favorites"
+                        data-favorite="bok-choy"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                </div>
+
+                <div class="favorite-ingredient-content">
+
+                    <span class="favorite-ingredient-category">
+                        VEGETABLES
+                    </span>
+
+                    <h3>
+                        Bok Choy
+                    </h3>
+
+                    <a href="menu.html" class="favorite-small-link">
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- INGREDIENT 04 -->
+
+            <article class="favorite-ingredient-card">
+
+                <div class="favorite-ingredient-image">
+
+                    <img
+                        src="images/menu-ingredient-11.jpg"
+                        alt="Udon Noodles"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Udon Noodles from favorites"
+                        title="Remove from favorites"
+                        data-favorite="udon-noodles"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                </div>
+
+                <div class="favorite-ingredient-content">
+
+                    <span class="favorite-ingredient-category">
+                        NOODLES
+                    </span>
+
+                    <h3>
+                        Udon Noodles
+                    </h3>
+
+                    <a href="menu.html" class="favorite-small-link">
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FAVORITE CHEF'S SPECIALS
+    ====================================================== -->
+
+    <section class="favorites-section favorites-specials" id="favoriteSpecials">
+
+        <div class="favorites-section-header">
+
+            <div>
+
+                <span class="favorites-section-eyebrow">
+                    FAVORITE CHEF'S SPECIALS
+                </span>
+
+                <h2 class="favorites-section-title">
+                    Dishes Worth
+                    <span>Sharing.</span>
+                </h2>
+
+                <p class="favorites-section-description">
+                    Special dishes saved for those
+                    extra memorable gatherings.
+                </p>
+
+            </div>
+
+            
+
+        </div>
+
+
+        <div class="favorites-special-grid">
+
+
+            <!-- SPECIAL 01 -->
+
+            <article class="favorite-special-card">
+
+                <div class="favorite-special-image">
+
+                    <img
+                        src="images/menu-special-01.jpg"
+                        alt="Chef's Signature Beef"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Chef's Signature Beef from favorites"
+                        title="Remove from favorites"
+                        data-favorite="signature-beef"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <span class="favorite-special-price">
+                        $18
+                    </span>
+
+                </div>
+
+                <div class="favorite-special-content">
+
+                    <span class="favorite-special-category">
+                        CHEF'S SPECIAL
+                    </span>
+
+                    <h3>
+                        Chef's Signature Beef
+                    </h3>
+
+                    <p>
+                        Tender premium beef prepared
+                        for the perfect hot pot experience.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="favorite-card-link"
+                    >
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SPECIAL 02 -->
+
+            <article class="favorite-special-card">
+
+                <div class="favorite-special-image">
+
+                    <img
+                        src="images/menu-special-02.jpg"
+                        alt="Spicy Seafood Platter"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Spicy Seafood Platter from favorites"
+                        title="Remove from favorites"
+                        data-favorite="spicy-seafood"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <span class="favorite-special-price">
+                        $22
+                    </span>
+
+                </div>
+
+                <div class="favorite-special-content">
+
+                    <span class="favorite-special-category">
+                        CHEF'S SPECIAL
+                    </span>
+
+                    <h3>
+                        Spicy Seafood Platter
+                    </h3>
+
+                    <p>
+                        A flavorful selection of fresh seafood
+                        made for sharing around the pot.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="favorite-card-link"
+                    >
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SPECIAL 03 -->
+
+            <article class="favorite-special-card">
+
+                <div class="favorite-special-image">
+
+                    <img
+                        src="images/menu-special-03.jpg"
+                        alt="Premium Wagyu Selection"
+                    >
+
+                    <button
+                        type="button"
+                        class="favorite-remove-button"
+                        aria-label="Remove Premium Wagyu Selection from favorites"
+                        title="Remove from favorites"
+                        data-favorite="premium-wagyu"
+                    >
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <span class="favorite-special-price">
+                        $26
+                    </span>
+
+                </div>
+
+                <div class="favorite-special-content">
+
+                    <span class="favorite-special-category">
+                        CHEF'S SPECIAL
+                    </span>
+
+                    <h3>
+                        Premium Wagyu Selection
+                    </h3>
+
+                    <p>
+                        Premium marbled beef for an
+                        unforgettable hot pot experience.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="favorite-card-link"
+                    >
+                        <span>VIEW MENU</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         BOTTOM LINE
+    ====================================================== -->
+
+    <div class="favorites-bottom">
+
+        <span class="favorites-bottom-line"></span>
+
+        <p>
+            SAVE
+            <b>•</b>
+            CHOOSE
+            <b>•</b>
+            COOK
+            <b>•</b>
+            SHARE
+        </p>
+
+        <span class="favorites-bottom-line"></span>
+
+    </div>
+
+</main>
+</div>
+
+</section>
+<!-- ============================================================
+     LOGOUT CONFIRMATION MODAL
+============================================================ -->
+
+<div
+    class="dashboard-logout-modal"
+    id="dashboardLogoutModal"
+    aria-hidden="true"
+>
+
+    <!-- BACKDROP -->
+
+    <div
+        class="dashboard-logout-backdrop"
+        id="dashboardLogoutBackdrop"
+    ></div>
+
+
+    <!-- MODAL -->
+
+    <div
+        class="dashboard-logout-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dashboardLogoutTitle"
+    >
+
+        <!-- ICON -->
+
+        <div class="dashboard-logout-icon">
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+
+
+        <!-- TITLE -->
+
+        <div class="dashboard-logout-content">
+
+            <h2 id="dashboardLogoutTitle">
+                Are you sure you want to<br>
+                logout?
+            </h2>
+
+        </div>
+
+
+        <!-- BUTTONS -->
+
+        <div class="dashboard-logout-actions">
+
+            <button
+                type="button"
+                class="dashboard-logout-yes"
+                id="dashboardLogoutYes"
+            >
+                Yes
+            </button>
+
+            <button
+                type="button"
+                class="dashboard-logout-no"
+                id="dashboardLogoutNo"
+            >
+                No
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     DASHBOARD JAVASCRIPT
+     Will be added in Part 4
+========================================================= -->
+
+<script src="js/dashboard.js"></script>
+<script src="js/global-settings.js"></script>
+
+</body>
+</html>
