@@ -58250,3 +58250,231 @@ body.rtl-mode .contact-form-response {
     }
 
 }
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   HOME 2 — BUILD YOUR POT MOBILE LEFT ALIGNMENT
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .home2-build-pot-intro {
+        display: block !important;
+        width: 100% !important;
+        text-align: left !important;
+    }
+
+    .home2-build-pot-intro-left {
+        width: 100% !important;
+        text-align: left !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .home2-build-pot-eyebrow {
+        display: block !important;
+        text-align: left !important;
+    }
+
+    .home2-build-pot-title {
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .home2-build-pot-title span {
+        display: block !important;
+    }
+
+    .home2-build-pot-intro-right {
+        width: 100% !important;
+        text-align: left !important;
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .home2-build-pot-intro-text {
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .home2-build-pot-intro-link {
+        justify-content: flex-start !important;
+        text-align: left !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* =========================================================
+   HOME 1 WHY — LINE + ICON BOX OVERRIDE
+========================================================= */
+
+/* Feature item line */
+.home1-why-item-line {
+    display: none !important;
+}
+
+
+/* Feature item icon box */
+.home1-why-item-icon {
+    width: 38px !important;
+    height: 38px !important;
+
+    min-width: 38px !important;
+    min-height: 38px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border: 1px solid var(--primary-color, #b84a2f) !important;
+    background: transparent !important;
+
+    border-radius: 0 !important;
+
+    position: relative !important;
+    flex-shrink: 0 !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/* Icon inside box */
+.home1-why-item-icon i {
+    font-size: 14px !important;
+
+    line-height: 1 !important;
+
+    color: var(--primary-color, #b84a2f) !important;
+
+    margin: 0 !important;
+}
+
+
+/* Keep number and icon properly separated */
+.home1-why-item-top {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    width: 100% !important;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .home1-why-item-icon {
+        width: 36px !important;
+        height: 36px !important;
+
+        min-width: 36px !important;
+        min-height: 36px !important;
+    }
+
+    .home1-why-item-icon i {
+        font-size: 13px !important;
+    }
+
+}
+
+
+/* Small mobile */
+@media (max-width: 400px) {
+
+    .home1-why-item-icon {
+        width: 34px !important;
+        height: 34px !important;
+
+        min-width: 34px !important;
+        min-height: 34px !important;
+    }
+
+}
+
+
+
+
+
+
+
+/* =========================================================
+   HOME 1 WHY — ICON BOX RIGHT GAP
+========================================================= */
+
+.home1-why-item {
+    position: relative !important;
+}
+
+.home1-why-item-icon {
+    position: absolute !important;
+
+    top: 0 !important;
+    right: 18px !important;
+    left: auto !important;
+
+    width: 38px !important;
+    height: 38px !important;
+
+    min-width: 38px !important;
+    min-height: 38px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    border: 1px solid var(--primary-color, #b84a2f) !important;
+    border-radius: 0 !important;
+
+    background: transparent !important;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .home1-why-item-icon {
+        right: 14px !important;
+
+        width: 36px !important;
+        height: 36px !important;
+
+        min-width: 36px !important;
+        min-height: 36px !important;
+    }
+
+}
+
+
+/* Small mobile */
+@media (max-width: 400px) {
+
+    .home1-why-item-icon {
+        right: 12px !important;
+
+        width: 34px !important;
+        height: 34px !important;
+
+        min-width: 34px !important;
+        min-height: 34px !important;
+    }
+
+}
