@@ -16854,3 +16854,2891 @@ body.rtl-mode .dashboard-main {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   DASHBOARD — RTL COMPLETE LAYOUT FIX
+========================================================= */
+
+/* ---------------------------------------------------------
+   RTL SIDEBAR
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-sidebar,
+body.rtl-mode .dashboard-sidebar {
+    left: auto !important;
+    right: 0 !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL MAIN AREA
+   Move content away from right sidebar
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-main,
+body.rtl-mode .dashboard-main {
+    margin-left: 0 !important;
+    margin-right: var(--dashboard-sidebar-width, 270px) !important;
+    width: calc(100% - var(--dashboard-sidebar-width, 270px)) !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL TOPBAR
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-topbar,
+body.rtl-mode .dashboard-topbar {
+    width: 100% !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL TOPBAR INNER
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-topbar-inner,
+body.rtl-mode .dashboard-topbar-inner {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL TOPBAR LEFT
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-topbar-left,
+body.rtl-mode .dashboard-topbar-left {
+    flex-direction: row-reverse !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL TOPBAR RIGHT
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-topbar-right,
+body.rtl-mode .dashboard-topbar-right {
+    flex-direction: row-reverse !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL PROFILE
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-profile,
+body.rtl-mode .dashboard-profile {
+    flex-direction: row !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL DASHBOARD CONTENT
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-content,
+body.rtl-mode .dashboard-content {
+    width: 100% !important;
+    max-width: var(--dashboard-content-width, 1500px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL WELCOME SECTION
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-welcome,
+body.rtl-mode .dashboard-welcome {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL SECTION HEADERS
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-section-header,
+body.rtl-mode .dashboard-section-header {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL UPCOMING RESERVATION
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-upcoming-card,
+body.rtl-mode .dashboard-upcoming-card {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL RESERVATION GRID
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-reservation-grid,
+body.rtl-mode .dashboard-reservation-grid {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL RECENT DINING
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-recent-grid,
+body.rtl-mode .dashboard-recent-grid {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL RECENT CARD
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-recent-card,
+body.rtl-mode .dashboard-recent-card {
+    direction: rtl !important;
+}
+
+
+/* ---------------------------------------------------------
+   RTL BUTTON ARROWS
+--------------------------------------------------------- */
+
+html.rtl-mode .dashboard-primary-button i,
+body.rtl-mode .dashboard-primary-button i {
+    transform: rotate(180deg) !important;
+}
+
+html.rtl-mode .dashboard-view-all i,
+body.rtl-mode .dashboard-view-all i {
+    transform: rotate(180deg) !important;
+}
+
+
+
+
+
+
+
+
+
+.dashboard-topbar {
+    margin-top: 8px !important;
+}
+
+
+
+/* =========================================================
+   DASHBOARD — DESKTOP TOP SPACE
+========================================================= */
+
+@media (min-width: 1025px) {
+
+    .dashboard-topbar {
+        margin-top: 20px !important;
+    }
+
+}
+
+
+
+@media (min-width: 1025px) {
+
+    .dashboard-topbar {
+        margin-top: 10px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* =========================================================
+   DASHBOARD — DESKTOP TOP SPACE FIX
+========================================================= */
+
+@media (min-width: 1025px) {
+
+    .dashboard-main {
+        padding-top: 0 !important;
+    }
+
+    .dashboard-topbar {
+        top: 10px !important;
+        margin-top: 0 !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   DASHBOARD — DESKTOP RTL TOPBAR FIX
+========================================================= */
+
+@media (min-width: 1025px) {
+
+    html[dir="rtl"] .dashboard-main,
+    body.rtl-mode .dashboard-main {
+        padding-top: 20px !important;
+        padding-right: 28px !important;
+        padding-left: 28px !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        position: relative !important;
+        top: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 28px !important;
+        width: 100% !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        min-height: 86px !important;
+        height: 86px !important;
+
+        padding: 15px 25px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 48px !important;
+        height: 48px !important;
+        min-width: 48px !important;
+        min-height: 48px !important;
+
+        flex: 0 0 48px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-topbar-control i,
+    body.rtl-mode .dashboard-topbar-control i {
+        font-size: 16px !important;
+        line-height: 1 !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        height: 48px !important;
+        min-width: 160px !important;
+
+        display: flex !important;
+        align-items: center !important;
+
+        gap: 12px !important;
+    }
+
+
+    html[dir="rtl"] .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 46px !important;
+        height: 46px !important;
+
+        min-width: 46px !important;
+        min-height: 46px !important;
+
+        flex: 0 0 46px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   DASHBOARD — RTL RESPONSIVE
+   TABLET + MOBILE
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    /* =========================================
+       MAIN AREA
+    ========================================= */
+
+    html.rtl-mode .dashboard-main,
+    body.rtl-mode .dashboard-main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+
+    /* =========================================
+       SIDEBAR — MOVE TO RIGHT
+    ========================================= */
+
+    html.rtl-mode .dashboard-sidebar,
+    body.rtl-mode .dashboard-sidebar {
+        left: auto !important;
+        right: 0 !important;
+
+        transform: translateX(100%) !important;
+
+        width: 270px !important;
+    }
+
+
+    html.rtl-mode .dashboard-sidebar.open,
+    body.rtl-mode .dashboard-sidebar.open {
+        left: auto !important;
+        right: 0 !important;
+
+        transform: translateX(0) !important;
+    }
+
+
+    /* =========================================
+       SIDEBAR OVERLAY
+    ========================================= */
+
+    html.rtl-mode .dashboard-sidebar-overlay,
+    body.rtl-mode .dashboard-sidebar-overlay {
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+
+    /* =========================================
+       TOPBAR
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 32px) !important;
+
+        margin-right: 16px !important;
+        margin-left: 16px !important;
+
+        margin-top: 16px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        width: 100% !important;
+
+        min-height: 76px !important;
+        height: auto !important;
+
+        padding: 12px 16px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        gap: 12px !important;
+    }
+
+
+    /* =========================================
+       TOPBAR LEFT
+       RTL = HAMBURGER ON RIGHT
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        display: flex !important;
+        flex-direction: row !important;
+
+        align-items: center !important;
+
+        gap: 10px !important;
+
+        min-width: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        order: 1 !important;
+
+        width: 42px !important;
+        height: 42px !important;
+
+        min-width: 42px !important;
+        min-height: 42px !important;
+
+        flex: 0 0 42px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-heading,
+    body.rtl-mode .dashboard-topbar-heading {
+        order: 2 !important;
+
+        min-width: 0 !important;
+
+        text-align: right !important;
+    }
+
+
+    /* =========================================
+       TOPBAR RIGHT
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        display: flex !important;
+
+        align-items: center !important;
+        justify-content: flex-start !important;
+
+        gap: 7px !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* =========================================
+       TOPBAR BUTTONS
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 40px !important;
+        height: 40px !important;
+
+        min-width: 40px !important;
+        min-height: 40px !important;
+
+        flex: 0 0 40px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-control i,
+    body.rtl-mode .dashboard-topbar-control i {
+        font-size: 14px !important;
+    }
+
+
+    /* =========================================
+       PROFILE
+    ========================================= */
+
+    html.rtl-mode .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 9px !important;
+
+        min-width: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 40px !important;
+        height: 40px !important;
+
+        min-width: 40px !important;
+        min-height: 40px !important;
+
+        flex: 0 0 40px !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-info,
+    body.rtl-mode .dashboard-profile-info {
+        text-align: right !important;
+    }
+
+
+    /* =========================================
+       CONTENT
+    ========================================= */
+
+    html.rtl-mode .dashboard-content,
+    body.rtl-mode .dashboard-content {
+        width: 100% !important;
+
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+    }
+
+
+    /* =========================================
+       SECTION HEADERS
+    ========================================= */
+
+    html.rtl-mode .dashboard-section-header,
+    body.rtl-mode .dashboard-section-header {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-section-description,
+    body.rtl-mode .dashboard-section-description {
+        text-align: right !important;
+    }
+
+
+    /* =========================================
+       WELCOME
+    ========================================= */
+
+    html.rtl-mode .dashboard-welcome,
+    body.rtl-mode .dashboard-welcome {
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dashboard-welcome-content,
+    body.rtl-mode .dashboard-welcome-content {
+        text-align: right !important;
+    }
+
+
+    /* =========================================
+       UPCOMING RESERVATION
+    ========================================= */
+
+    html.rtl-mode .dashboard-upcoming-card,
+    body.rtl-mode .dashboard-upcoming-card {
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dashboard-upcoming-details,
+    body.rtl-mode .dashboard-upcoming-details {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-reservation-grid,
+    body.rtl-mode .dashboard-reservation-grid {
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dashboard-upcoming-actions,
+    body.rtl-mode .dashboard-upcoming-actions {
+        justify-content: flex-start !important;
+    }
+
+
+    /* =========================================
+       RECENT DINING
+    ========================================= */
+
+    html.rtl-mode .dashboard-recent-grid,
+    body.rtl-mode .dashboard-recent-grid {
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dashboard-recent-content,
+    body.rtl-mode .dashboard-recent-content {
+        text-align: right !important;
+    }
+
+
+    /* =========================================
+       BOTTOM LINE
+    ========================================= */
+
+    html.rtl-mode .dashboard-bottom-line,
+    body.rtl-mode .dashboard-bottom-line {
+        direction: rtl !important;
+
+        text-align: center !important;
+    }
+
+}
+
+
+
+
+
+
+/* =========================================================
+   DASHBOARD TOPBAR — RTL RESPONSIVE FIX
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 32px) !important;
+        margin: 16px 16px 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        width: 100% !important;
+        min-height: 76px !important;
+
+        padding: 12px 18px !important;
+
+        display: flex !important;
+        flex-direction: row !important;
+
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        gap: 20px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+       RTL LEFT SIDE
+       Heading stays on RIGHT
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        order: 1 !important;
+
+        display: flex !important;
+        flex-direction: row !important;
+
+        align-items: center !important;
+
+        gap: 12px !important;
+
+        min-width: 0 !important;
+
+        flex: 1 1 auto !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-heading,
+    body.rtl-mode .dashboard-topbar-heading {
+        order: 1 !important;
+
+        text-align: right !important;
+
+        min-width: 0 !important;
+    }
+
+
+    /* =========================================
+       HAMBURGER
+    ========================================= */
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        order: 2 !important;
+
+        width: 42px !important;
+        height: 42px !important;
+
+        min-width: 42px !important;
+        min-height: 42px !important;
+
+        flex: 0 0 42px !important;
+
+        padding: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    /* =========================================
+       RTL RIGHT GROUP
+       Controls + Profile stay LEFT
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        order: 2 !important;
+
+        display: flex !important;
+        flex-direction: row !important;
+
+        align-items: center !important;
+
+        justify-content: flex-start !important;
+
+        gap: 8px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: 0 !important;
+    }
+
+
+    /* =========================================
+       CONTROL BUTTONS
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 40px !important;
+        height: 40px !important;
+
+        min-width: 40px !important;
+        min-height: 40px !important;
+
+        flex: 0 0 40px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-control i,
+    body.rtl-mode .dashboard-topbar-control i {
+        font-size: 14px !important;
+    }
+
+
+    /* =========================================
+       PROFILE
+    ========================================= */
+
+    html.rtl-mode .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 10px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 42px !important;
+        height: 42px !important;
+
+        min-width: 42px !important;
+        min-height: 42px !important;
+
+        flex: 0 0 42px !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-info,
+    body.rtl-mode .dashboard-profile-info {
+        text-align: right !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* =========================================
+       HEADING
+    ========================================= */
+
+    html.rtl-mode .dashboard-topbar-greeting,
+    body.rtl-mode .dashboard-topbar-greeting {
+        display: block !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-title,
+    body.rtl-mode .dashboard-topbar-title {
+        white-space: nowrap !important;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE RTL TOPBAR
+========================================================= */
+
+@media (max-width: 600px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 20px) !important;
+
+        margin: 10px 10px 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        min-height: 68px !important;
+
+        padding: 10px 12px !important;
+
+        gap: 8px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        gap: 7px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        width: 38px !important;
+        height: 38px !important;
+
+        min-width: 38px !important;
+        min-height: 38px !important;
+
+        flex-basis: 38px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        gap: 5px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 36px !important;
+        height: 36px !important;
+
+        min-width: 36px !important;
+        min-height: 36px !important;
+
+        flex-basis: 36px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-control i,
+    body.rtl-mode .dashboard-topbar-control i {
+        font-size: 13px !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 36px !important;
+        height: 36px !important;
+
+        min-width: 36px !important;
+        min-height: 36px !important;
+    }
+
+
+    /* Hide profile text so controls don't compress */
+
+    html.rtl-mode .dashboard-profile-info,
+    body.rtl-mode .dashboard-profile-info {
+        display: none !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-greeting,
+    body.rtl-mode .dashboard-topbar-greeting {
+        font-size: 10px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-title,
+    body.rtl-mode .dashboard-topbar-title {
+        font-size: 22px !important;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE RTL TOPBAR
+========================================================= */
+
+@media (max-width: 400px) {
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        padding: 9px 10px !important;
+
+        gap: 5px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        gap: 5px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        width: 34px !important;
+        height: 34px !important;
+
+        min-width: 34px !important;
+        min-height: 34px !important;
+
+        flex-basis: 34px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        gap: 4px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 32px !important;
+        height: 32px !important;
+
+        min-width: 32px !important;
+        min-height: 32px !important;
+
+        flex-basis: 32px !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 32px !important;
+        height: 32px !important;
+
+        min-width: 32px !important;
+        min-height: 32px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-greeting,
+    body.rtl-mode .dashboard-topbar-greeting {
+        font-size: 9px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-title,
+    body.rtl-mode .dashboard-topbar-title {
+        font-size: 19px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   DASHBOARD MENU
+   RTL — iPAD MINI + iPAD PRO
+========================================================= */
+
+
+/* =========================================================
+   iPAD PRO / TABLET
+   1024px DOWN TO 601px
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 1100px) {
+
+    /* =====================================================
+       DASHBOARD MAIN
+    ===================================================== */
+
+    html.rtl-mode .dashboard-main,
+    body.rtl-mode .dashboard-main {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+        min-width: 0 !important;
+    }
+
+
+    /* =====================================================
+       TOPBAR
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        position: relative !important;
+
+        width: calc(100% - 32px) !important;
+
+        margin: 16px 16px 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        width: 100% !important;
+
+        min-height: 76px !important;
+
+        padding: 12px 16px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        gap: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================================
+       TOPBAR LEFT
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 10px !important;
+
+        flex: 1 1 auto !important;
+
+        min-width: 0 !important;
+
+        order: 1 !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-heading,
+    body.rtl-mode .dashboard-topbar-heading {
+        min-width: 0 !important;
+
+        text-align: right !important;
+
+        flex: 0 1 auto !important;
+    }
+
+
+    /* =====================================================
+       HAMBURGER
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        width: 42px !important;
+        height: 42px !important;
+
+        min-width: 42px !important;
+        min-height: 42px !important;
+
+        flex: 0 0 42px !important;
+
+        padding: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    /* =====================================================
+       TOPBAR RIGHT
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        display: flex !important;
+
+        align-items: center !important;
+        justify-content: flex-start !important;
+
+        gap: 7px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: max-content !important;
+
+        order: 2 !important;
+    }
+
+
+    /* =====================================================
+       TOPBAR BUTTONS
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 40px !important;
+        height: 40px !important;
+
+        min-width: 40px !important;
+        min-height: 40px !important;
+
+        flex: 0 0 40px !important;
+
+        padding: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    /* =====================================================
+       PROFILE
+    ===================================================== */
+
+    html.rtl-mode .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 8px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: max-content !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 42px !important;
+        height: 42px !important;
+
+        min-width: 42px !important;
+        min-height: 42px !important;
+
+        flex: 0 0 42px !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-info,
+    body.rtl-mode .dashboard-profile-info {
+        display: block !important;
+
+        text-align: right !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* =====================================================
+       DASHBOARD CONTENT
+    ===================================================== */
+
+    html.rtl-mode .dashboard-content,
+    body.rtl-mode .dashboard-content {
+        width: calc(100% - 32px) !important;
+
+        max-width: none !important;
+
+        margin: 0 16px !important;
+
+        padding: 28px 0 50px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =====================================================
+       MENU PAGE
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-page,
+    body.rtl-mode .dashboard-menu-page {
+        width: 100% !important;
+
+        max-width: none !important;
+
+        margin: 0 !important;
+
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-header,
+    body.rtl-mode .dashboard-menu-header {
+        width: 100% !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-header-content,
+    body.rtl-mode .dashboard-menu-header-content {
+        width: 100% !important;
+
+        max-width: none !important;
+
+        text-align: right !important;
+    }
+
+
+    /* =====================================================
+       CATEGORY FILTER
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-filter,
+    body.rtl-mode .dashboard-menu-filter {
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-filter-list,
+    body.rtl-mode .dashboard-menu-filter-list {
+        width: 100% !important;
+
+        display: flex !important;
+
+        flex-wrap: wrap !important;
+
+        justify-content: flex-start !important;
+
+        gap: 8px !important;
+    }
+
+
+    /* =====================================================
+       MENU SECTIONS
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-section,
+    body.rtl-mode .dashboard-menu-section {
+        width: 100% !important;
+
+        max-width: none !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-section-header,
+    body.rtl-mode .dashboard-menu-section-header {
+        width: 100% !important;
+
+        text-align: right !important;
+    }
+
+
+    /* =====================================================
+       MENU CARDS
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-grid,
+    body.rtl-mode .dashboard-menu-grid {
+        width: 100% !important;
+
+        display: grid !important;
+
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+        gap: 14px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card,
+    body.rtl-mode .dashboard-menu-card {
+        width: 100% !important;
+
+        min-width: 0 !important;
+
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card-content,
+    body.rtl-mode .dashboard-menu-card-content {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card-title,
+    body.rtl-mode .dashboard-menu-card-title {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card-description,
+    body.rtl-mode .dashboard-menu-card-description {
+        text-align: right !important;
+    }
+
+}
+
+
+/* =========================================================
+   iPAD MINI
+   768px
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 800px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 24px) !important;
+
+        margin: 12px 12px 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        min-height: 68px !important;
+
+        padding: 10px 12px !important;
+
+        gap: 10px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        width: 38px !important;
+        height: 38px !important;
+
+        min-width: 38px !important;
+        min-height: 38px !important;
+
+        flex-basis: 38px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        gap: 5px !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 36px !important;
+        height: 36px !important;
+
+        min-width: 36px !important;
+        min-height: 36px !important;
+
+        flex-basis: 36px !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 36px !important;
+        height: 36px !important;
+
+        min-width: 36px !important;
+        min-height: 36px !important;
+    }
+
+
+    /* Hide profile text on iPad Mini */
+
+    html.rtl-mode .dashboard-profile-info,
+    body.rtl-mode .dashboard-profile-info {
+        display: none !important;
+    }
+
+
+    /* =====================================================
+       CONTENT
+    ===================================================== */
+
+    html.rtl-mode .dashboard-content,
+    body.rtl-mode .dashboard-content {
+        width: calc(100% - 24px) !important;
+
+        margin: 0 12px !important;
+
+        padding-top: 24px !important;
+    }
+
+
+    /* =====================================================
+       MENU HEADER
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-header,
+    body.rtl-mode .dashboard-menu-header {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-header-content,
+    body.rtl-mode .dashboard-menu-header-content {
+        text-align: right !important;
+    }
+
+
+    /* =====================================================
+       MENU CARDS
+    ===================================================== */
+
+    html.rtl-mode .dashboard-menu-grid,
+    body.rtl-mode .dashboard-menu-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+        gap: 10px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card,
+    body.rtl-mode .dashboard-menu-card {
+        min-width: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card-content,
+    body.rtl-mode .dashboard-menu-card-content {
+        padding: 10px !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card-title,
+    body.rtl-mode .dashboard-menu-card-title {
+        font-size: 14px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card-description,
+    body.rtl-mode .dashboard-menu-card-description {
+        font-size: 10px !important;
+    }
+
+}
+
+
+
+
+/* =========================================================
+   RTL — iPAD MINI TOPBAR FIX
+   601px — 800px
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 800px) {
+
+    /* -----------------------------------------------------
+       MAIN
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-main,
+    body.rtl-mode .dashboard-main {
+        width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    /* -----------------------------------------------------
+       TOPBAR
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 24px) !important;
+
+        margin: 12px 12px 0 !important;
+
+        min-height: 68px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        width: 100% !important;
+
+        min-height: 68px !important;
+
+        height: 68px !important;
+
+        padding: 8px 12px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: space-between !important;
+
+        gap: 10px !important;
+
+        box-sizing: border-box !important;
+
+        overflow: visible !important;
+    }
+
+
+    /* -----------------------------------------------------
+       RTL TOPBAR LEFT
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 8px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: max-content !important;
+
+        order: 2 !important;
+    }
+
+
+    /* -----------------------------------------------------
+       HAMBURGER
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        width: 38px !important;
+
+        height: 38px !important;
+
+        min-width: 38px !important;
+
+        min-height: 38px !important;
+
+        flex: 0 0 38px !important;
+
+        padding: 0 !important;
+
+        margin: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        font-size: 15px !important;
+    }
+
+
+    /* -----------------------------------------------------
+       HEADING
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-topbar-heading,
+    body.rtl-mode .dashboard-topbar-heading {
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: flex-end !important;
+
+        justify-content: center !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: max-content !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-greeting,
+    body.rtl-mode .dashboard-topbar-greeting {
+        display: block !important;
+
+        font-size: 8px !important;
+
+        line-height: 1.2 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-title,
+    body.rtl-mode .dashboard-topbar-title {
+        margin: 2px 0 0 !important;
+
+        font-size: 16px !important;
+
+        line-height: 1 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* -----------------------------------------------------
+       RIGHT CONTROLS
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: flex-start !important;
+
+        gap: 5px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: max-content !important;
+
+        width: auto !important;
+
+        order: 1 !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* -----------------------------------------------------
+       ALL TOPBAR BUTTONS
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-topbar-control,
+    body.rtl-mode .dashboard-topbar-control {
+        width: 34px !important;
+
+        height: 34px !important;
+
+        min-width: 34px !important;
+
+        min-height: 34px !important;
+
+        flex: 0 0 34px !important;
+
+        padding: 0 !important;
+
+        margin: 0 !important;
+
+        display: inline-flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* -----------------------------------------------------
+       NOTIFICATION BADGE
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-notification-badge,
+    body.rtl-mode .dashboard-notification-badge {
+        width: 12px !important;
+
+        height: 12px !important;
+
+        min-width: 12px !important;
+
+        font-size: 7px !important;
+
+        line-height: 12px !important;
+    }
+
+
+    /* -----------------------------------------------------
+       PROFILE
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        display: flex !important;
+
+        align-items: center !important;
+
+        gap: 6px !important;
+
+        flex: 0 0 auto !important;
+
+        min-width: max-content !important;
+
+        margin: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile-image,
+    body.rtl-mode .dashboard-profile-image {
+        width: 34px !important;
+
+        height: 34px !important;
+
+        min-width: 34px !important;
+
+        min-height: 34px !important;
+
+        flex: 0 0 34px !important;
+    }
+
+
+    /* Hide text so the topbar does NOT compress */
+
+    html.rtl-mode .dashboard-profile-info,
+    body.rtl-mode .dashboard-profile-info {
+        display: none !important;
+    }
+
+
+    /* -----------------------------------------------------
+       DASHBOARD CONTENT
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-content,
+    body.rtl-mode .dashboard-content {
+        width: calc(100% - 24px) !important;
+
+        max-width: none !important;
+
+        margin: 0 12px !important;
+
+        padding: 22px 0 40px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* -----------------------------------------------------
+       MENU PAGE
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-menu-page,
+    body.rtl-mode .dashboard-menu-page {
+        width: 100% !important;
+
+        max-width: none !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-header,
+    body.rtl-mode .dashboard-menu-header {
+        width: 100% !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-filter,
+    body.rtl-mode .dashboard-menu-filter {
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* -----------------------------------------------------
+       MENU CARDS — 3 COLUMNS
+    ----------------------------------------------------- */
+
+    html.rtl-mode .dashboard-menu-grid,
+    body.rtl-mode .dashboard-menu-grid {
+        width: 100% !important;
+
+        display: grid !important;
+
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+        gap: 10px !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-card,
+    body.rtl-mode .dashboard-menu-card {
+        width: 100% !important;
+
+        min-width: 0 !important;
+    }
+
+}
+
+
+
+
+/* =========================================================
+   RTL — iPAD MINI + iPAD PRO
+   EQUAL LEFT & RIGHT TOPBAR SPACE
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 32px) !important;
+
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+
+        box-sizing: border-box !important;
+    }
+
+}
+
+
+
+
+
+/* =========================================================
+   RTL — iPAD MINI + iPAD PRO
+   TOPBAR BOX LEFT / RIGHT SPACE
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: calc(100% - 32px) !important;
+
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+}
+
+
+
+/* =========================================================
+   RTL — iPAD MINI + iPAD PRO
+   FIX OUTER TOPBAR BOX
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: auto !important;
+
+        margin-top: 12px !important;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+        margin-bottom: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: auto !important;
+
+        margin-left: 30px !important;
+        margin-right: 20px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    /* LEFT SIDE */
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        order: 2 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+    }
+
+    /* RIGHT SIDE */
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        order: 1 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+        flex-direction: row !important;
+    }
+
+    /* PROFILE FIRST */
+    html.rtl-mode .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        order: 1 !important;
+    }
+
+    /* RTL */
+    html.rtl-mode #dashboardRtlToggle,
+    body.rtl-mode #dashboardRtlToggle {
+        order: 2 !important;
+    }
+
+    /* DARK MODE */
+    html.rtl-mode #dashboardDarkToggle,
+    body.rtl-mode #dashboardDarkToggle {
+        order: 3 !important;
+    }
+
+    /* SETTINGS */
+    html.rtl-mode #dashboardSettingsButton,
+    body.rtl-mode #dashboardSettingsButton {
+        order: 4 !important;
+    }
+
+    /* NOTIFICATION */
+    html.rtl-mode #dashboardNotificationButton,
+    body.rtl-mode #dashboardNotificationButton {
+        order: 5 !important;
+    }
+
+    /* HAMBURGER */
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        order: 1 !important;
+    }
+}
+
+
+
+
+
+/* =========================================================
+   RTL TOPBAR — iPAD MINI + iPAD PRO
+   iPad Mini  : 601px+
+   iPad Pro   : up to 1199px
+========================================================= */
+
+@media (min-width: 601px) and (max-width: 1199px) {
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        direction: ltr !important;
+    }
+
+
+    /* =====================================================
+       LEFT SIDE OF SCREEN
+       Profile → RTL → Dark → Settings → Notification
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar-right,
+    body.rtl-mode .dashboard-topbar-right {
+        order: 1 !important;
+
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+
+        gap: 6px !important;
+
+        direction: ltr !important;
+        flex: 0 0 auto !important;
+    }
+
+
+    html.rtl-mode .dashboard-profile,
+    body.rtl-mode .dashboard-profile {
+        order: 1 !important;
+    }
+
+
+    html.rtl-mode #dashboardRtlToggle,
+    body.rtl-mode #dashboardRtlToggle {
+        order: 2 !important;
+    }
+
+
+    html.rtl-mode #dashboardDarkToggle,
+    body.rtl-mode #dashboardDarkToggle {
+        order: 3 !important;
+    }
+
+
+    html.rtl-mode #dashboardSettingsButton,
+    body.rtl-mode #dashboardSettingsButton {
+        order: 4 !important;
+    }
+
+
+    html.rtl-mode #dashboardNotificationButton,
+    body.rtl-mode #dashboardNotificationButton {
+        order: 5 !important;
+    }
+
+
+    /* =====================================================
+       RIGHT SIDE OF SCREEN
+       Greeting → Dashboard → Hamburger
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar-left,
+    body.rtl-mode .dashboard-topbar-left {
+        order: 2 !important;
+
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+
+        gap: 8px !important;
+
+        direction: ltr !important;
+        flex: 0 0 auto !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-heading,
+    body.rtl-mode .dashboard-topbar-heading {
+        order: 1 !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dashboard-menu-toggle,
+    body.rtl-mode .dashboard-menu-toggle {
+        order: 2 !important;
+    }
+
+
+    /* =====================================================
+       TOPBAR OUTER SPACE
+    ===================================================== */
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        width: auto !important;
+
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   DINING HISTORY — DESKTOP RTL OVERRIDE
+   ========================================================= */
+
+@media (min-width: 1200px) {
+
+    html.rtl-mode .dining-history-list,
+    body.rtl-mode .dining-history-list {
+        direction: rtl !important;
+    }
+
+
+    /* =====================================================
+       CARD
+    ===================================================== */
+
+    html.rtl-mode .dining-history-item,
+    body.rtl-mode .dining-history-item {
+        direction: rtl !important;
+
+        display: grid !important;
+
+        grid-template-columns:
+            190px
+            minmax(0, 1fr)
+            120px
+            160px !important;
+
+        column-gap: 28px !important;
+
+        align-items: center !important;
+    }
+
+
+    /* =====================================================
+       IMAGE — RIGHT
+    ===================================================== */
+
+    html.rtl-mode .dining-history-item-image,
+    body.rtl-mode .dining-history-item-image {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+
+        width: 190px !important;
+        height: 150px !important;
+
+        margin: 0 !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-image img,
+    body.rtl-mode .dining-history-item-image img {
+        width: 100% !important;
+        height: 100% !important;
+
+        object-fit: cover !important;
+    }
+
+
+    /* =====================================================
+       CONTENT — CENTER
+    ===================================================== */
+
+    html.rtl-mode .dining-history-item-content,
+    body.rtl-mode .dining-history-item-content {
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+
+        min-width: 0 !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-date,
+    body.rtl-mode .dining-history-item-date {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-meta,
+    body.rtl-mode .dining-history-item-meta {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+    }
+
+
+    /* =====================================================
+       STATUS — LEFT
+    ===================================================== */
+
+    html.rtl-mode .dining-history-item-status,
+    body.rtl-mode .dining-history-item-status {
+        grid-column: 3 !important;
+        grid-row: 1 !important;
+
+        justify-self: center !important;
+
+        text-align: center !important;
+    }
+
+
+    /* =====================================================
+       VIEW DETAILS — FAR LEFT
+    ===================================================== */
+
+    html.rtl-mode .dining-history-view-button,
+    body.rtl-mode .dining-history-view-button {
+        grid-column: 4 !important;
+        grid-row: 1 !important;
+
+        justify-self: stretch !important;
+
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button i,
+    body.rtl-mode .dining-history-view-button i {
+        transform: rotate(180deg) !important;
+    }
+
+
+    /* =====================================================
+       SECTION HEADER
+    ===================================================== */
+
+    html.rtl-mode .dining-history-section-header,
+    body.rtl-mode .dining-history-section-header {
+        direction: rtl !important;
+
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: space-between !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-heading,
+    body.rtl-mode .dining-history-section-heading {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-number,
+    body.rtl-mode .dining-history-section-number {
+        text-align: left !important;
+    }
+
+
+    /* =====================================================
+       BOTTOM LINE
+    ===================================================== */
+
+    html.rtl-mode .dining-history-bottom,
+    body.rtl-mode .dining-history-bottom {
+        direction: rtl !important;
+    }
+
+}
+
+
+
+
+
+
+/* =========================================================
+   DINING HISTORY — RTL RESPONSIVE
+   iPAD PRO + iPAD MINI + MOBILE
+   ========================================================= */
+
+
+/* =========================================================
+   iPAD PRO
+   768px — 1199px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    html.rtl-mode .dining-history-list,
+    body.rtl-mode .dining-history-list {
+        direction: rtl !important;
+        width: 100% !important;
+    }
+
+
+    html.rtl-mode .dining-history-item,
+    body.rtl-mode .dining-history-item {
+        direction: rtl !important;
+
+        display: grid !important;
+
+        grid-template-columns:
+            150px
+            minmax(0, 1fr)
+            100px
+            130px !important;
+
+        column-gap: 18px !important;
+
+        align-items: center !important;
+
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-image,
+    body.rtl-mode .dining-history-item-image {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+
+        width: 150px !important;
+        height: 125px !important;
+
+        margin: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-image img,
+    body.rtl-mode .dining-history-item-image img {
+        width: 100% !important;
+        height: 100% !important;
+
+        object-fit: cover !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-content,
+    body.rtl-mode .dining-history-item-content {
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+
+        min-width: 0 !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-date,
+    body.rtl-mode .dining-history-item-date {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-meta,
+    body.rtl-mode .dining-history-item-meta {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+
+        flex-wrap: wrap !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-status,
+    body.rtl-mode .dining-history-item-status {
+        grid-column: 3 !important;
+        grid-row: 1 !important;
+
+        justify-self: center !important;
+
+        text-align: center !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button,
+    body.rtl-mode .dining-history-view-button {
+        grid-column: 4 !important;
+        grid-row: 1 !important;
+
+        width: 100% !important;
+
+        justify-self: stretch !important;
+
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button i,
+    body.rtl-mode .dining-history-view-button i {
+        transform: rotate(180deg) !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-header,
+    body.rtl-mode .dining-history-section-header {
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-heading,
+    body.rtl-mode .dining-history-section-heading {
+        text-align: right !important;
+    }
+
+}
+
+
+/* =========================================================
+   iPAD MINI
+   601px — 767px
+   ========================================================= */
+
+@media (min-width: 601px) and (max-width: 767px) {
+
+    html.rtl-mode .dining-history-list,
+    body.rtl-mode .dining-history-list {
+        direction: rtl !important;
+        width: 100% !important;
+    }
+
+
+    html.rtl-mode .dining-history-item,
+    body.rtl-mode .dining-history-item {
+        direction: rtl !important;
+
+        display: grid !important;
+
+        grid-template-columns:
+            125px
+            minmax(0, 1fr) !important;
+
+        column-gap: 18px !important;
+
+        row-gap: 18px !important;
+
+        align-items: center !important;
+
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-image,
+    body.rtl-mode .dining-history-item-image {
+        grid-column: 1 !important;
+        grid-row: 1 / 4 !important;
+
+        width: 125px !important;
+        height: 120px !important;
+
+        margin: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-image img,
+    body.rtl-mode .dining-history-item-image img {
+        width: 100% !important;
+        height: 100% !important;
+
+        object-fit: cover !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-content,
+    body.rtl-mode .dining-history-item-content {
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+
+        min-width: 0 !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-date,
+    body.rtl-mode .dining-history-item-date {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-meta,
+    body.rtl-mode .dining-history-item-meta {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+
+        flex-wrap: wrap !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-status,
+    body.rtl-mode .dining-history-item-status {
+        grid-column: 2 !important;
+        grid-row: 2 !important;
+
+        justify-self: start !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button,
+    body.rtl-mode .dining-history-view-button {
+        grid-column: 2 !important;
+        grid-row: 3 !important;
+
+        width: auto !important;
+
+        justify-self: start !important;
+
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button i,
+    body.rtl-mode .dining-history-view-button i {
+        transform: rotate(180deg) !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-header,
+    body.rtl-mode .dining-history-section-header {
+        direction: rtl !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-heading,
+    body.rtl-mode .dining-history-section-heading {
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-number,
+    body.rtl-mode .dining-history-section-number {
+        text-align: left !important;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   600px AND BELOW
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    html.rtl-mode .dining-history-list,
+    body.rtl-mode .dining-history-list {
+        direction: rtl !important;
+        width: 100% !important;
+    }
+
+
+    html.rtl-mode .dining-history-item,
+    body.rtl-mode .dining-history-item {
+        direction: rtl !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: stretch !important;
+
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+
+        text-align: right !important;
+    }
+
+
+    /* IMAGE */
+
+    html.rtl-mode .dining-history-item-image,
+    body.rtl-mode .dining-history-item-image {
+        order: 1 !important;
+
+        width: 100% !important;
+
+        height: 190px !important;
+
+        margin: 0 0 20px 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-image img,
+    body.rtl-mode .dining-history-item-image img {
+        width: 100% !important;
+
+        height: 100% !important;
+
+        object-fit: cover !important;
+    }
+
+
+    /* CONTENT */
+
+    html.rtl-mode .dining-history-item-content,
+    body.rtl-mode .dining-history-item-content {
+        order: 2 !important;
+
+        width: 100% !important;
+
+        min-width: 0 !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-date,
+    body.rtl-mode .dining-history-item-date {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+
+        flex-wrap: wrap !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-meta,
+    body.rtl-mode .dining-history-item-meta {
+        justify-content: flex-start !important;
+
+        flex-direction: row-reverse !important;
+
+        flex-wrap: wrap !important;
+    }
+
+
+    /* STATUS */
+
+    html.rtl-mode .dining-history-item-status,
+    body.rtl-mode .dining-history-item-status {
+        order: 3 !important;
+
+        width: 100% !important;
+
+        margin-top: 16px !important;
+
+        text-align: right !important;
+
+        justify-self: auto !important;
+    }
+
+
+    /* VIEW DETAILS */
+
+    html.rtl-mode .dining-history-view-button,
+    body.rtl-mode .dining-history-view-button {
+        order: 4 !important;
+
+        width: 100% !important;
+
+        margin-top: 14px !important;
+
+        justify-content: center !important;
+
+        direction: rtl !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button i,
+    body.rtl-mode .dining-history-view-button i {
+        transform: rotate(180deg) !important;
+    }
+
+
+    /* SECTION HEADER */
+
+    html.rtl-mode .dining-history-section-header,
+    body.rtl-mode .dining-history-section-header {
+        direction: rtl !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: flex-start !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-heading,
+    body.rtl-mode .dining-history-section-heading {
+        width: 100% !important;
+
+        text-align: right !important;
+    }
+
+
+    html.rtl-mode .dining-history-section-number,
+    body.rtl-mode .dining-history-section-number {
+        align-self: flex-start !important;
+
+        text-align: right !important;
+    }
+
+
+    /* BOTTOM LINE */
+
+    html.rtl-mode .dining-history-bottom,
+    body.rtl-mode .dining-history-bottom {
+        direction: rtl !important;
+
+        text-align: center !important;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+    html.rtl-mode .dining-history-item-image,
+    body.rtl-mode .dining-history-item-image {
+        height: 165px !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-title,
+    body.rtl-mode .dining-history-item-title {
+        font-size: 19px !important;
+    }
+
+
+    html.rtl-mode .dining-history-item-description,
+    body.rtl-mode .dining-history-item-description {
+        font-size: 12px !important;
+    }
+
+
+    html.rtl-mode .dining-history-view-button,
+    body.rtl-mode .dining-history-view-button {
+        width: 100% !important;
+    }
+
+}
+
+
+
+
+/* =========================================================
+   DASHBOARD — DESKTOP RTL FIXED TOPBAR
+   ========================================================= */
+
+@media (min-width: 1200px) {
+
+    html.rtl-mode .dashboard-topbar,
+    body.rtl-mode .dashboard-topbar {
+        position: fixed !important;
+
+        top: 15px !important;
+
+        /* Sidebar is on the RIGHT in RTL */
+        right: calc(var(--dashboard-sidebar-width, 270px) + 30px) !important;
+
+        left: 30px !important;
+
+        width: auto !important;
+
+        margin: 0 !important;
+
+        z-index: 9999 !important;
+    }
+
+
+    html.rtl-mode .dashboard-topbar-inner,
+    body.rtl-mode .dashboard-topbar-inner {
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* Keep dashboard content below the fixed topbar */
+
+    html.rtl-mode .dashboard-content,
+    body.rtl-mode .dashboard-content {
+        padding-top: 110px !important;
+    }
+
+}

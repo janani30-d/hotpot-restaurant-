@@ -58478,3 +58478,93 @@ body.rtl-mode .contact-form-response {
     }
 
 }
+
+
+
+
+
+
+
+/* =========================================================
+   ABOUT DIFFERENT — RTL OUR PROMISE ALIGNMENT
+========================================================= */
+
+html.rtl-mode .about-different-intro-detail,
+body.rtl-mode .about-different-intro-detail {
+    direction: rtl !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+}
+
+html.rtl-mode .about-different-detail-line,
+body.rtl-mode .about-different-detail-line {
+    order: 2 !important;
+    width: 3px !important;
+    min-width: 3px !important;
+    height: 56px !important;
+    margin: 0 0 0 14px !important;
+}
+
+html.rtl-mode .about-different-detail-content,
+body.rtl-mode .about-different-detail-content {
+    order: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+    text-align: right !important;
+}
+
+html.rtl-mode .about-different-detail-content strong,
+body.rtl-mode .about-different-detail-content strong {
+    text-align: right !important;
+}
+
+html.rtl-mode .about-different-detail-content span,
+body.rtl-mode .about-different-detail-content span {
+    text-align: right !important;
+}
+/* =========================================================
+   ABOUT DIFFERENT — RTL PROMISE LINE ONLY
+========================================================= */
+
+html.rtl-mode .about-different-detail-line,
+body.rtl-mode .about-different-detail-line {
+    margin-left: 14px !important;
+    margin-right: 0 !important;
+}
+html.rtl-mode .about-different-detail-line,
+body.rtl-mode .about-different-detail-line {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    margin-left: 14px !important;
+    margin-right: 0 !important;
+}
+
+
+
+
+
+
+/* =========================================================
+   ABOUT DIFFERENT — RTL OUR PROMISE LINE FIX
+========================================================= */
+
+html.rtl-mode .about-different-detail-line,
+body.rtl-mode .about-different-detail-line {
+    display: none !important;
+}
+
+html.rtl-mode .about-different-detail-content,
+body.rtl-mode .about-different-detail-content {
+    border-right: 3px solid #b84a2f !important;
+    border-left: 0 !important;
+
+    padding-right: 14px !important;
+    padding-left: 0 !important;
+
+    text-align: right !important;
+}
