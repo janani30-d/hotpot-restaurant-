@@ -19742,3 +19742,128 @@ body.rtl-mode .dashboard-view-all i {
     }
 
 }
+
+
+
+
+
+
+
+/* DASHBOARD MENU — IPAD PRO: MOVE HEADER DOWN */
+
+@media (min-width: 821px) and (max-width: 1199px) {
+
+    #dashboardMenuContent #dashboardMenuHeader {
+        margin-top: 0 !important;
+        padding: 70px 24px 24px !important;
+        position: relative !important;
+        top: 0 !important;
+        transform: none !important;
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        box-sizing: border-box !important;
+    }
+
+    #dashboardMenuContent #dashboardMenuHeader .dashboard-menu-header-content {
+        position: static !important;
+        top: auto !important;
+        transform: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #dashboardMenuContent #dashboardMenuHeader .dashboard-menu-eyebrow {
+        display: block !important;
+        position: static !important;
+        margin: 0 0 12px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+}
+/* IPAD PRO — SMALL HEADING POSITION ADJUSTMENT */
+
+@media (min-width: 821px) and (max-width: 1199px) {
+    #dashboardMenuContent #dashboardMenuHeader {
+        padding-top: 88px !important;
+    }
+}
+
+
+
+
+
+/* =========================================================
+   DASHBOARD HAMBURGER — DARK MODE
+   Mobile, iPad Mini & iPad Pro
+========================================================= */
+
+@media (max-width: 1199px) {
+
+    html.dark-mode .dashboard-menu-toggle,
+    body.dark-mode .dashboard-menu-toggle {
+        color: #fff8f3 !important;
+        background: #251f1c !important;
+        border: 1px solid #4a3930 !important;
+    }
+
+    html.dark-mode .dashboard-menu-toggle i,
+    body.dark-mode .dashboard-menu-toggle i {
+        color: #fff8f3 !important;
+    }
+
+    html.dark-mode .dashboard-menu-toggle:hover,
+    body.dark-mode .dashboard-menu-toggle:hover {
+        color: #ffffff !important;
+        background: #3c302a !important;
+        border-color: #d76543 !important;
+    }
+
+    html.dark-mode .dashboard-menu-toggle:hover i,
+    body.dark-mode .dashboard-menu-toggle:hover i {
+        color: #ffffff !important;
+    }
+
+}
+
+
+
+
+
+
+/* MY RESERVATIONS — MOBILE EYEBROW SPACING */
+
+@media (max-width: 600px) {
+
+    #reservationDashboardHeader .reservation-dashboard-heading {
+        padding-top: 12px !important;
+    }
+
+    #reservationDashboardHeader .reservation-dashboard-eyebrow {
+        display: block !important;
+        position: relative !important;
+        top: 8px !important;
+        margin-bottom: 8px !important;
+        line-height: 1.5 !important;
+    }
+
+}
+
+
+
+
+
+/* DASHBOARD WELCOME — MOBILE TOP SPACING */
+
+@media (max-width: 600px) {
+
+    #dashboardWelcome {
+        margin-top: 16px !important;
+        width: calc(100% - 20px) !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        box-sizing: border-box !important;
+    }
+
+}
