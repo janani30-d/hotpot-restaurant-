@@ -59524,3 +59524,187 @@ body.rtl-mode .contact-location-bottom-text {
     }
 
 }
+
+
+
+
+
+
+/* HOME 1 WELCOME — IPAD MINI SMALL ADJUSTMENTS */
+
+@media (min-width: 601px) and (max-width: 820px) {
+
+    /* Move experience card slightly left */
+    #home1Welcome .home1-welcome-experience {
+        margin-left: -5px !important;
+        transform: translateY(-3px) !important;
+    }
+
+    /* Keep both small images aligned */
+    #home1Welcome .home1-welcome-small-image {
+        width: 100% !important;
+        height: 95px !important;
+        min-height: 95px !important;
+        margin: 0 !important;
+        overflow: hidden !important;
+    }
+
+    #home1Welcome .home1-welcome-small-image img {
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center !important;
+    }
+
+    /* Adjust only the second image */
+    #home1Welcome .home1-welcome-small-image:nth-of-type(4) {
+        transform: translateY(-3px) !important;
+    }
+
+}
+
+
+
+
+/* ABOUT — WHY WE'RE DIFFERENT: IPAD MINI CENTERING */
+
+@media (min-width: 601px) and (max-width: 820px) {
+
+    #aboutDifferent .about-different-container {
+        width: calc(100% - 48px) !important;
+        max-width: 720px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    #aboutDifferent .about-different-intro {
+        width: 100% !important;
+        max-width: 560px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+    }
+
+    #aboutDifferent .about-different-eyebrow {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    #aboutDifferent .about-different-title {
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    #aboutDifferent .about-different-description {
+        max-width: 520px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+    }
+
+    #aboutDifferent .about-different-intro-detail {
+        width: 100% !important;
+        text-align: left !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+}
+
+/* ABOUT — INTRO DETAIL CENTERING ON IPAD MINI */
+
+@media (min-width: 601px) and (max-width: 820px) {
+
+    #aboutDifferent .about-different-intro-detail {
+        width: 100% !important;
+        max-width: 520px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex !important;
+        align-items: stretch !important;
+        text-align: left !important;
+        box-sizing: border-box !important;
+    }
+
+    #aboutDifferent .about-different-detail-line {
+        flex: 0 0 2px !important;
+        align-self: stretch !important;
+    }
+
+    #aboutDifferent .about-different-detail-content {
+        flex: 1 !important;
+        min-width: 0 !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        text-align: left !important;
+    }
+
+    #aboutDifferent .about-different-detail-content strong {
+        display: block !important;
+        margin-bottom: 6px !important;
+    }
+
+    #aboutDifferent .about-different-detail-content span {
+        display: block !important;
+        line-height: 1.6 !important;
+    }
+
+}
+
+/* ABOUT — CENTER OUR PROMISE ON IPAD MINI */
+
+@media (min-width: 601px) and (max-width: 820px) {
+
+    #aboutDifferent .about-different-intro-detail {
+        width: fit-content !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex !important;
+        align-items: stretch !important;
+        justify-content: center !important;
+        text-align: left !important;
+    }
+
+    #aboutDifferent .about-different-detail-content {
+        width: auto !important;
+        flex: 0 1 auto !important;
+        padding-left: 12px !important;
+        padding-right: 0 !important;
+        text-align: left !important;
+    }
+
+    #aboutDifferent .about-different-detail-line {
+        flex-shrink: 0 !important;
+    }
+
+}
+
+
+
+/* HOME 1 OFFER DETAIL — MOBILE */
+
+@media (max-width: 600px) {
+    .home1-offer-detail-text span {
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+}
+
+/* HOME 1 OFFER DETAIL — MOBILE FONT SIZE */
+
+@media (max-width: 600px) {
+
+    .home1-offer-detail-text strong {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+    }
+
+    .home1-offer-detail-text span {
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+
+}

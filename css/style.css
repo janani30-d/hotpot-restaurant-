@@ -39842,3 +39842,471 @@ body.rtl-mode .home1-testimonial-card {
 }
 
 
+
+/* =====================================================
+   HOME 2 EXPERIENCE — MATCH GUEST STORIES ALIGNMENT
+===================================================== */
+
+#home2Experience {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+#home2Experience .home2-experience-container {
+    width: calc(100% - 80px) !important;
+    max-width: 1120px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Center the section heading */
+#home2Experience .home2-experience-intro {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin: 0 auto 70px !important;
+    text-align: center !important;
+}
+
+#home2Experience .home2-experience-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+#home2Experience .home2-experience-title {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+#home2Experience .home2-experience-intro-text {
+    width: 100% !important;
+    max-width: 720px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Keep the experience content centered */
+#home2Experience .home2-experience-main {
+    width: 100% !important;
+    max-width: 1120px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Tablet and iPad */
+@media (max-width: 1024px) {
+    #home2Experience .home2-experience-container {
+        width: calc(100% - 48px) !important;
+    }
+
+    #home2Experience .home2-experience-intro {
+        margin-bottom: 45px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    #home2Experience .home2-experience-container {
+        width: calc(100% - 32px) !important;
+    }
+
+    #home2Experience .home2-experience-intro {
+        max-width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+
+
+/* HOME 2 — FINAL CTA DETAIL SUBTITLE */
+
+.home2-final-cta-detail-content span {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+@media (max-width: 600px) {
+    .home2-final-cta-detail-content span {
+        font-size: 11px !important;
+    }
+}
+
+/* =====================================================
+   GLOBAL HERO — CENTER CONTENT ON ALL PAGES
+===================================================== */
+
+/* About hero */
+#aboutHero .about-hero-container {
+    width: calc(100% - 80px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#aboutHero .about-hero-content {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+#aboutHero .about-hero-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+#aboutHero .about-hero-title {
+    text-align: center !important;
+}
+
+#aboutHero .about-hero-description {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Menu hero */
+#menuHero .menu-hero-container {
+    width: calc(100% - 80px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#menuHero .menu-hero-content {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+#menuHero .menu-hero-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+#menuHero .menu-hero-title {
+    text-align: center !important;
+}
+
+#menuHero .menu-hero-description {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* How It Works hero */
+#howWorksHero .how-works-hero-container {
+    width: calc(100% - 80px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#howWorksHero .how-works-hero-content {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+#howWorksHero .how-works-hero-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+#howWorksHero .how-works-hero-title {
+    text-align: center !important;
+}
+
+#howWorksHero .how-works-hero-description {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Reservations hero */
+#reservationHero .reservation-hero-container {
+    width: calc(100% - 80px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#reservationHero .reservation-hero-content {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+#reservationHero .reservation-hero-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+#reservationHero .reservation-hero-title {
+    text-align: center !important;
+}
+
+#reservationHero .reservation-hero-description {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Contact hero */
+#contactHero .contact-hero-container {
+    width: calc(100% - 80px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#contactHero .contact-hero-content {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+#contactHero .contact-hero-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+#contactHero .contact-hero-title {
+    text-align: center !important;
+}
+
+#contactHero .contact-hero-description {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    #aboutHero .about-hero-container,
+    #menuHero .menu-hero-container,
+    #howWorksHero .how-works-hero-container,
+    #reservationHero .reservation-hero-container,
+    #contactHero .contact-hero-container {
+        width: calc(100% - 48px) !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    #aboutHero .about-hero-container,
+    #menuHero .menu-hero-container,
+    #howWorksHero .how-works-hero-container,
+    #reservationHero .reservation-hero-container,
+    #contactHero .contact-hero-container {
+        width: calc(100% - 32px) !important;
+    }
+
+    #aboutHero .about-hero-content,
+    #menuHero .menu-hero-content,
+    #howWorksHero .how-works-hero-content,
+    #reservationHero .reservation-hero-content,
+    #contactHero .contact-hero-content {
+        max-width: 100% !important;
+    }
+}
+
+
+
+/* CONTACT — REDUCE TOP SPACE */
+
+#contactTouch {
+    margin-top: 0 !important;
+    padding-top: 50px !important;
+}
+
+#contactTouch .contact-touch-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#contactTouch .contact-touch-header {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+@media (max-width: 1024px) {
+    #contactTouch {
+        padding-top: 40px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #contactTouch {
+        padding-top: 30px !important;
+    }
+}
+
+/* CONTACT CARDS — REDUCE VERTICAL SPACE */
+
+#contactTouch .contact-touch-card {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+#contactTouch .contact-touch-card-top {
+    margin-bottom: 28px !important;
+}
+
+#contactTouch .contact-touch-card-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#contactTouch .contact-touch-card-label {
+    margin-bottom: 8px !important;
+}
+
+#contactTouch .contact-touch-card-title {
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+#contactTouch .contact-touch-card-description {
+    margin-top: 0 !important;
+    margin-bottom: 18px !important;
+}
+
+@media (max-width: 600px) {
+    #contactTouch .contact-touch-card {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    #contactTouch .contact-touch-card-top {
+        margin-bottom: 22px !important;
+    }
+}
+
+/* CONTACT CARDS — REDUCE BOTTOM EMPTY SPACE */
+
+#contactTouch .contact-touch-card {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 24px !important;
+}
+
+#contactTouch .contact-touch-card-content {
+    height: auto !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#contactTouch .contact-touch-card-link {
+    margin-top: 8px !important;
+    margin-bottom: 0 !important;
+}
+
+#contactTouch .contact-touch-grid {
+    align-items: start !important;
+}
+
+@media (max-width: 600px) {
+    #contactTouch .contact-touch-card {
+        padding-bottom: 20px !important;
+    }
+}
+
+
+
+
+/* HOME 1 HOW IT WORKS — MAKE STEP NUMBERS CLEAR */
+
+.home1-how-step-number {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #b84a2f !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    line-height: 1.4 !important;
+    z-index: 2 !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .home1-how-step-number {
+        font-size: 13px !important;
+    }
+}
+
+/* iPad Mini and iPad Pro */
+@media (min-width: 601px) and (max-width: 1199px) {
+    .home1-how-step-number {
+        font-size: 14px !important;
+    }
+}
+
+/* ==========================================
+   GLOBAL — REDUCE EXCESSIVE SECTION SPACING
+========================================== */
+
+/* Desktop */
+@media (min-width: 1200px) {
+    section:not(.home1-hero):not(.home2-hero):not(.about-hero):not(.menu-hero):not(.how-works-hero):not(.reservation-hero):not(.contact-hero) {
+        padding-top: 65px !important;
+        padding-bottom: 65px !important;
+    }
+}
+
+/* iPad Pro and iPad Mini */
+@media (min-width: 601px) and (max-width: 1199px) {
+    section:not(.home1-hero):not(.home2-hero):not(.about-hero):not(.menu-hero):not(.how-works-hero):not(.reservation-hero):not(.contact-hero) {
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    section:not(.home1-hero):not(.home2-hero):not(.about-hero):not(.menu-hero):not(.how-works-hero):not(.reservation-hero):not(.contact-hero) {
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+    }
+}
+
+/* Reduce gaps between section headings and content */
+.home1-how-header,
+.home1-welcome-content,
+.home2-experience-intro,
+.about-different-intro,
+.menu-intro-content,
+.contact-touch-header {
+    margin-bottom: 25px !important;
+}
+
+/* Prevent large empty margins inside sections */
+.home1-welcome-container,
+.home1-how-grid,
+.home2-experience-container,
+.about-different-container,
+.menu-intro-container,
+.contact-touch-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
