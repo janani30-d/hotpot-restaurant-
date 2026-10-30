@@ -40310,3 +40310,533 @@ body.rtl-mode .home1-testimonial-card {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   HEADER — SHARP LOGIN & DASHBOARD BUTTONS
+========================================== */
+
+.header-btn.login-btn {
+    border-radius: 0 !important;
+}
+
+.header-btn.dashboard-btn {
+    border-radius: 0 !important;
+}
+
+.mobile-login-btn {
+    border-radius: 0 !important;
+}
+
+.mobile-dashboard-btn {
+    border-radius: 0 !important;
+}
+
+/* ==========================================
+   FOOTER — SHARP CORNERS
+========================================== */
+
+.footer-social-link {
+    border-radius: 0 !important;
+}
+
+.footer-newsletter {
+    border-radius: 0 !important;
+}
+
+.footer-newsletter-form input {
+    border-radius: 0 !important;
+}
+
+.footer-subscribe-btn {
+    border-radius: 0 !important;
+}
+/* ==========================================
+   HOME 1 — LIGHT MODE
+========================================== */
+
+body {
+    background: #ffffff;
+    color: #2c211c;
+}
+
+/* White background sections */
+
+.home1-welcome,
+.home1-how,
+.home1-why {
+    background-color: #ffffff !important;
+}
+
+/* Light grey alternate sections */
+
+.home1-broths,
+.home1-fresh {
+    background-color: #f5f5f5 !important;
+}
+
+/* ==========================================
+   HOME 1 — DARK MODE
+========================================== */
+
+body.dark-mode {
+    background: #000000;
+    color: #eeeeee;
+}
+
+/* Black background sections */
+
+body.dark-mode .home1-welcome,
+body.dark-mode .home1-how,
+body.dark-mode .home1-why {
+    background-color: #000000 !important;
+}
+
+/* Dark grey alternate sections */
+
+body.dark-mode .home1-broths,
+body.dark-mode .home1-fresh {
+    background-color: #1c1c1c !important;
+}
+
+/* ==========================================
+   HOME 1 — TEXT COLORS
+========================================== */
+
+body.dark-mode .home1-welcome-title,
+body.dark-mode .home1-broths-title,
+body.dark-mode .home1-how-title,
+body.dark-mode .home1-fresh-title,
+body.dark-mode .home1-why-title {
+    color: #ffffff;
+}
+
+body.dark-mode .home1-welcome-description,
+body.dark-mode .home1-broths-intro,
+body.dark-mode .home1-how-description,
+body.dark-mode .home1-fresh-description,
+body.dark-mode .home1-why-description {
+    color: #cccccc;
+}
+/* ==========================================
+   HOME 2 — LIGHT MODE BACKGROUNDS
+========================================== */
+
+/* White sections */
+
+.home2-story,
+.home2-market-table,
+.gather-stories {
+    background-color: #ffffff !important;
+}
+
+/* Light grey sections */
+
+.home2-experience,
+.home2-build-pot {
+    background-color: #f5f5f5 !important;
+}
+
+/* Chef signature — retain its existing dark editorial design */
+
+.home2-chef-signature {
+    background-color: #1c1c1c !important;
+}
+
+/* ==========================================
+   HOME 2 — DARK MODE BACKGROUNDS
+========================================== */
+
+/* Black sections */
+
+body.dark-mode .home2-story,
+body.dark-mode .home2-market-table,
+body.dark-mode .gather-stories {
+    background-color: #000000 !important;
+}
+
+/* Dark grey sections */
+
+body.dark-mode .home2-experience,
+body.dark-mode .home2-build-pot,
+body.dark-mode .home2-chef-signature {
+    background-color: #1c1c1c !important;
+}
+
+
+
+
+/* =========================================
+   ABOUT PAGE — LIGHT MODE BACKGROUNDS
+========================================= */
+
+.about-story {
+    background-color: #ffffff !important;
+}
+
+.about-milestones {
+    background-color: #f5f5f5 !important;
+}
+
+/* Keep existing brown background */
+.about-philosophy {
+    /* No background override */
+}
+
+.about-different {
+    background-color: #f5f5f5 !important;
+}
+
+.about-chefs {
+    background-color: #ffffff !important;
+}
+
+
+
+/* =========================================
+   ABOUT PAGE — DARK MODE BACKGROUNDS
+========================================= */
+
+body.dark-mode .about-story {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .about-milestones {
+    background-color: #1c1c1c !important;
+}
+
+/* Keep existing brown background */
+body.dark-mode .about-philosophy {
+    /* No background override */
+}
+
+body.dark-mode .about-different {
+    background-color: #1c1c1c !important;
+}
+
+body.dark-mode .about-chefs {
+    background-color: #000000 !important;
+}
+
+
+
+
+
+
+/* =========================================
+   CONTACT PAGE — LIGHT MODE
+========================================= */
+
+.contact-touch {
+    background-color: #ffffff !important;
+}
+
+.contact-form-section {
+    background-color: #f5f5f5 !important;
+}
+
+.contact-location {
+    background-color: #ffffff !important;
+}
+
+.contact-hours {
+    background-color: #f5f5f5 !important;
+}
+
+
+/* =========================================
+   CONTACT PAGE — DARK MODE
+========================================= */
+
+body.dark-mode .contact-touch {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .contact-form-section {
+    background-color: #1c1c1c !important;
+}
+
+body.dark-mode .contact-location {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .contact-hours {
+    background-color: #1c1c1c !important;
+}
+
+
+
+
+
+
+/* =========================================
+   HOW IT WORKS — LIGHT MODE
+========================================= */
+
+.how-works-broth {
+    background-color: #ffffff !important;
+}
+
+.how-works-ingredients {
+    background-color: #f5f5f5 !important;
+}
+
+.how-works-sauce {
+    background-color: #ffffff !important;
+}
+
+.how-works-cook {
+    background-color: #f5f5f5 !important;
+}
+
+.how-works-time {
+    background-color: #ffffff !important;
+}
+
+.first-hotpot {
+    background-color: #f5f5f5 !important;
+}
+
+
+/* =========================================
+   HOW IT WORKS — DARK MODE
+========================================= */
+
+body.dark-mode .how-works-broth {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .how-works-ingredients {
+    background-color: #1c1c1c !important;
+}
+
+body.dark-mode .how-works-sauce {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .how-works-cook {
+    background-color: #1c1c1c !important;
+}
+
+body.dark-mode .how-works-time {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .first-hotpot {
+    background-color: #1c1c1c !important;
+}
+
+
+/* =========================================
+   MENU PAGE — LIGHT MODE
+========================================= */
+
+.menu-intro {
+    background-color: #ffffff !important;
+}
+
+.signature-broths {
+    background-color: #f5f5f5 !important;
+}
+
+.fresh-ingredients {
+    background-color: #ffffff !important;
+}
+
+.chef-specials {
+    background-color: #f5f5f5 !important;
+}
+
+.dipping-sauces {
+    background-color: #ffffff !important;
+}
+
+.drinks-desserts {
+    background-color: #f5f5f5 !important;
+}
+
+
+/* =========================================
+   MENU PAGE — DARK MODE
+========================================= */
+
+body.dark-mode .menu-intro {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .signature-broths {
+    background-color: #1c1c1c !important;
+}
+
+body.dark-mode .fresh-ingredients {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .chef-specials {
+    background-color: #1c1c1c !important;
+}
+
+body.dark-mode .dipping-sauces {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .drinks-desserts {
+    background-color: #1c1c1c !important;
+}
+
+
+
+
+
+
+/* =========================================
+   RESERVATIONS PAGE – LIGHT MODE
+========================================= */
+
+.reservation-form-section {
+    background-color: #ffffff !important;
+}
+
+.reservation-info {
+    background-color: #f5f5f5 !important;
+}
+
+
+/* =========================================
+   RESERVATIONS PAGE – DARK MODE
+========================================= */
+
+body.dark-mode .reservation-form-section {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .reservation-info {
+    background-color: #1c1c1c !important;
+}
+
+
+
+
+
+/* =========================================
+   SUBJECT DROPDOWN ALIGNMENT
+========================================= */
+
+.contact-form-input-wrap {
+    position: relative;
+}
+
+.contact-form-input-wrap select#contactSubject {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    padding-right: 55px !important;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23b84a2f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 14px;
+}
+
+/* Keep the subject field icon properly positioned */
+.contact-form-input-wrap:has(#contactSubject) > i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* RTL alignment */
+html[dir="rtl"] .contact-form-input-wrap select#contactSubject {
+    padding-right: 18px !important;
+    padding-left: 55px !important;
+    background-position: left 20px center;
+}
+
+html[dir="rtl"] .contact-form-input-wrap:has(#contactSubject) > i {
+    left: auto;
+    right: 20px;
+}
+/* =========================================
+   SUBJECT DROPDOWN - RTL FIX
+========================================= */
+
+html[dir="rtl"] .contact-form-input-wrap {
+    position: relative;
+}
+
+html[dir="rtl"] .contact-form-input-wrap select#contactSubject {
+    direction: rtl;
+    text-align: right;
+    padding-right: 55px !important;
+    padding-left: 45px !important;
+
+    background-position: left 20px center;
+}
+
+html[dir="rtl"] .contact-form-input-wrap:has(#contactSubject) > i {
+    left: auto !important;
+    right: 20px !important;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+
+
+
+/* =========================================
+   WHEN TO VISIT - COMPACT CONTAINER SPACING
+========================================= */
+
+.contact-hours-content {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 20px !important;
+    align-items: stretch;
+}
+
+/* Remove unnecessary outer spacing */
+.contact-hours-schedule,
+.contact-hours-dining {
+    margin: 0 !important;
+    min-width: 0;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .contact-hours-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px !important;
+    }
+
+    .contact-hours-schedule {
+        grid-column: 1 / -1;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .contact-hours-content {
+        grid-template-columns: 1fr;
+        gap: 16px !important;
+    }
+
+    .contact-hours-schedule {
+        grid-column: auto;
+    }
+}

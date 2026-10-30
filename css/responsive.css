@@ -59708,3 +59708,108 @@ body.rtl-mode .contact-location-bottom-text {
     }
 
 }
+/* =========================================================
+   HOME 1 WELCOME — IPAD PRO TEXT OVERLAP FIX
+   ADD THIS AT THE VERY END OF home1-res.css
+========================================================= */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    .home1-welcome-container {
+        position: relative !important;
+        width: calc(100% - 60px) !important;
+        min-height: 650px !important;
+    }
+
+    /* Story content */
+    .home1-welcome-content {
+        position: absolute !important;
+        top: 110px !important;
+        left: 0 !important;
+        right: auto !important;
+        width: 40% !important;
+        max-width: 390px !important;
+        z-index: 5 !important;
+        box-sizing: border-box;
+    }
+
+    .home1-welcome-title {
+        font-size: 46px !important;
+        line-height: 1.15 !important;
+    }
+
+    .home1-welcome-description {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 13px !important;
+        line-height: 1.75 !important;
+        white-space: normal !important;
+        overflow: visible !important;
+        box-sizing: border-box;
+    }
+
+    .home1-welcome-description + .home1-welcome-description {
+        margin-top: 10px !important;
+    }
+
+    /* Main image */
+    .home1-welcome-main-image {
+        position: absolute !important;
+        top: 0 !important;
+        right: 155px !important;
+        left: auto !important;
+        width: 340px !important;
+        height: 470px !important;
+        z-index: 1 !important;
+    }
+
+    /* Right images and statistics */
+    .home1-welcome-side {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        left: auto !important;
+        width: 140px !important;
+        z-index: 2 !important;
+    }
+
+    .home1-welcome-small-image {
+        width: 140px !important;
+        height: 130px !important;
+    }
+
+    /* Experience card */
+    .home1-welcome-experience {
+        position: absolute !important;
+        left: 42% !important;
+        right: auto !important;
+        bottom: 20px !important;
+        width: 330px !important;
+        min-height: 210px !important;
+        z-index: 6 !important;
+        box-sizing: border-box;
+    }
+
+    /* RTL */
+    html[dir="rtl"] .home1-welcome-content {
+        left: auto !important;
+        right: 0 !important;
+        text-align: right !important;
+    }
+
+    html[dir="rtl"] .home1-welcome-main-image {
+        right: auto !important;
+        left: 155px !important;
+    }
+
+    html[dir="rtl"] .home1-welcome-side {
+        right: auto !important;
+        left: 0 !important;
+    }
+
+    html[dir="rtl"] .home1-welcome-experience {
+        left: auto !important;
+        right: 42% !important;
+    }
+}

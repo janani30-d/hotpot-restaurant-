@@ -11270,3 +11270,101 @@ body.rtl-mode .dashboard-logout-dialog {
 
 
 
+/* =========================================
+   DASHBOARD BUTTONS – SHARP CORNERS
+========================================= */
+
+.dashboard-welcome-button,
+.dashboard-primary-button,
+.dashboard-view-all,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    border-radius: 0 !important;
+}
+
+/* White button text and icons */
+
+.dashboard-welcome-button,
+.dashboard-welcome-button span,
+.dashboard-welcome-button i,
+.dashboard-primary-button,
+.dashboard-primary-button span,
+.dashboard-primary-button i,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    color: #ffffff !important;
+}
+
+/* Keep secondary text links unchanged */
+/* =========================================
+   MY RESERVATIONS – BUTTON STYLE
+========================================= */
+
+/* Sharp corners */
+.reservation-dashboard-primary-button,
+.reservation-dashboard-manage,
+.reservation-dashboard-cancel,
+.reservation-history-view,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    border-radius: 0 !important;
+}
+
+/* White text and icons */
+.reservation-dashboard-primary-button,
+.reservation-dashboard-primary-button span,
+.reservation-dashboard-primary-button i,
+.reservation-dashboard-manage,
+.reservation-dashboard-manage span,
+.reservation-dashboard-manage i,
+.reservation-dashboard-cancel,
+.reservation-dashboard-cancel span,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    color: #ffffff !important;
+}
+
+/* Keep history view link/button text unchanged */
+/* =========================================
+   OUR MENU – BUTTON STYLE
+========================================= */
+
+/* Sharp corners */
+.dashboard-menu-filter,
+.dashboard-menu-view-all,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    border-radius: 0 !important;
+}
+
+/* =========================================
+   DINING HISTORY BUTTONS
+========================================= */
+
+/* Sharp corners */
+.dining-history-view-button,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    border-radius: 0 !important;
+}
+
+/* =========================================
+   MY PROFILE BUTTONS
+========================================= */
+
+/* Sharp corners */
+.my-profile-photo-button,
+.my-profile-save-button,
+.dashboard-logout-yes,
+.dashboard-logout-no {
+    border-radius: 0 !important;
+}
+
+/* Logout button text colors */
+.dashboard-logout-yes {
+    color: #ffffff !important;
+}
+
+.dashboard-logout-no {
+    color: inherit !important;
+}
