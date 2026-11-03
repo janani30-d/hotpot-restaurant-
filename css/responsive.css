@@ -60003,3 +60003,92 @@ html[dir="rtl"] .custom-subject-options button {
         left: 0 !important;
     }
 }
+
+
+
+
+
+
+/* =========================================
+   HOME 1 HOW IT WORKS - IPAD PRO
+   FOUR COLUMN / TWO ROW LAYOUT
+========================================= */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    .home1-how-grid {
+        display: grid !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+        grid-auto-flow: row !important;
+        gap: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        align-items: stretch !important;
+    }
+
+    /* Hide divider so it doesn't occupy a grid cell */
+    .home1-how-divider {
+        display: none !important;
+    }
+
+    /* Image boxes */
+    .home1-how-image {
+        width: 100% !important;
+        height: 170px !important;
+        min-height: 170px !important;
+        min-width: 0 !important;
+        overflow: hidden !important;
+    }
+
+    .home1-how-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    /* Text boxes */
+    .home1-how-step {
+        width: 100% !important;
+        height: 170px !important;
+        min-height: 170px !important;
+        min-width: 0 !important;
+        padding: 12px 10px !important;
+        box-sizing: border-box !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        overflow: hidden !important;
+    }
+
+    .home1-how-step-content {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .home1-how-step-number {
+        font-size: 11px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .home1-how-step-label {
+        font-size: 9px !important;
+    }
+
+    .home1-how-step h3 {
+        font-size: 15px !important;
+        line-height: 1.25 !important;
+        margin: 7px 0 !important;
+    }
+
+    .home1-how-step p {
+        font-size: 10px !important;
+        line-height: 1.55 !important;
+        margin: 0 !important;
+    }
+
+    html[dir="rtl"] .home1-how-step {
+        text-align: center !important;
+    }
+}
