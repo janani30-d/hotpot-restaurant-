@@ -1177,7 +1177,52 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
 
+    const trigger = document.getElementById("subjectDropdownTrigger");
+    const options = document.getElementById("subjectDropdownOptions");
+    const selectedText = document.getElementById("subjectSelectedText");
+    const hiddenInput = document.getElementById("contactSubject");
+
+    if (!trigger || !options || !selectedText || !hiddenInput) return;
+
+    trigger.addEventListener("click", function () {
+
+        const isOpen = options.classList.toggle("show");
+
+        trigger.setAttribute("aria-expanded", isOpen);
+
+    });
+
+    options.querySelectorAll("button").forEach(function (option) {
+
+        option.addEventListener("click", function () {
+
+            selectedText.textContent = this.textContent.trim();
+
+            hiddenInput.value = this.dataset.value;
+
+            options.classList.remove("show");
+
+            trigger.setAttribute("aria-expanded", "false");
+
+        });
+
+    });
+
+    document.addEventListener("click", function (event) {
+
+        if (!event.target.closest(".custom-subject-wrap")) {
+
+            options.classList.remove("show");
+
+            trigger.setAttribute("aria-expanded", "false");
+
+        }
+
+    });
+
+});
 
 
 

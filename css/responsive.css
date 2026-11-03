@@ -59813,3 +59813,99 @@ body.rtl-mode .contact-location-bottom-text {
         right: 42% !important;
     }
 }
+
+
+
+
+
+/* CUSTOM SUBJECT DROPDOWN */
+
+.custom-subject-wrap {
+    position: relative;
+}
+
+.custom-subject-trigger {
+    width: 100%;
+    min-height: 50px;
+    padding: 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    border: 1px solid #d88945;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.custom-subject-trigger .contact-form-select-icon {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.custom-subject-options {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 220px;
+    overflow-y: auto;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    z-index: 100;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.custom-subject-options.show {
+    display: block;
+}
+
+.custom-subject-options button {
+    display: block;
+    width: 100%;
+    padding: 11px 15px;
+    border: none;
+    background: #ffffff;
+    color: #241914;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+}
+
+.custom-subject-options button:hover {
+    background: #f5f5f5;
+}
+
+/* Mobile: reduce only the opened options box */
+@media (max-width: 767px) {
+    .custom-subject-options {
+        width: 85%;
+        max-width: 85%;
+    }
+}
+
+/* RTL */
+html[dir="rtl"] .custom-subject-trigger {
+    text-align: right;
+}
+
+html[dir="rtl"] .custom-subject-trigger .contact-form-select-icon {
+    right: auto;
+    left: 18px;
+}
+
+html[dir="rtl"] .custom-subject-options {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .custom-subject-options button {
+    text-align: right;
+}

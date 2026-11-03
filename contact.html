@@ -1194,53 +1194,38 @@
 
                     <div class="contact-form-field">
 
-                        <label for="contactSubject">
-                            SUBJECT
-                        </label>
+    <label for="contactSubject">
+        SUBJECT
+    </label>
 
-                        <div class="contact-form-input-wrap">
+    <div class="contact-form-input-wrap custom-subject-wrap">
 
-                            <i class="fa-regular fa-pen-to-square"></i>
+        <i class="fa-regular fa-pen-to-square"></i>
 
-                            <select
-                                id="contactSubject"
-                                name="subject"
-                                required
-                            >
+        <button type="button"
+                class="custom-subject-trigger"
+                id="subjectDropdownTrigger"
+                aria-expanded="false">
 
-                                <option value="" selected disabled>
-                                    Select a subject
-                                </option>
+            <span id="subjectSelectedText">Select a subject</span>
 
-                                <option value="general">
-                                    General Enquiry
-                                </option>
+            <i class="fa-solid fa-chevron-down contact-form-select-icon"></i>
+        </button>
 
-                                <option value="reservation">
-                                    Reservation
-                                </option>
+        <div class="custom-subject-options" id="subjectDropdownOptions">
 
-                                <option value="private-dining">
-                                    Private Dining
-                                </option>
+            <button type="button" data-value="general">General Enquiry</button>
+            <button type="button" data-value="reservation">Reservation</button>
+            <button type="button" data-value="private-dining">Private Dining</button>
+            <button type="button" data-value="feedback">Feedback</button>
+            <button type="button" data-value="other">Other</button>
 
-                                <option value="feedback">
-                                    Feedback
-                                </option>
+        </div>
 
-                                <option value="other">
-                                    Other
-                                </option>
+        <input type="hidden" id="contactSubject" name="subject" required>
 
-                            </select>
-
-                            <i class="fa-solid fa-chevron-down contact-form-select-icon"></i>
-
-                        </div>
-
-                    </div>
-
-                </div>
+    </div>
+</div>
 
 
                 <!-- MESSAGE -->
