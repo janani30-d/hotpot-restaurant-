@@ -40935,3 +40935,161 @@ html[dir="rtl"] .custom-subject-options {
 html[dir="rtl"] .custom-subject-options button {
     text-align: right;
 }
+
+
+
+
+/* =========================================
+   CONTACT FORM - SUBMIT NOTE ALIGNMENT
+========================================= */
+
+.contact-form-submit-area {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 25px !important;
+    width: 100%;
+}
+
+.contact-form-submit-note {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    max-width: 220px !important;
+    margin: 0 !important;
+    line-height: 1.6 !important;
+    text-align: left;
+}
+
+.contact-form-submit {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .contact-form-submit-area {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 15px !important;
+    }
+
+    .contact-form-submit-note {
+        max-width: 100% !important;
+    }
+
+    .contact-form-submit {
+        width: 100%;
+    }
+}
+
+/* RTL */
+html[dir="rtl"] .contact-form-submit-note {
+    text-align: right;
+}
+
+
+/* =========================================
+   CONTACT FORM - SUBMIT NOTE ALIGNMENT
+========================================= */
+
+.contact-form-submit-area {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+    width: 100%;
+}
+
+.contact-form-submit-note {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    max-width: 220px !important;
+    margin: 0 !important;
+    line-height: 1.6 !important;
+    text-align: left;
+}
+
+.contact-form-submit {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+}
+
+/* =========================================
+   IPAD PRO - 1024px TO 1199px
+========================================= */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    .contact-form-submit-area {
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+
+    .contact-form-submit-note {
+        max-width: 150px !important;
+        font-size: 12px !important;
+    }
+
+    .contact-form-submit {
+        min-width: 180px;
+    }
+}
+
+/* =========================================
+   IPAD MINI - 768px TO 1023px
+========================================= */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .contact-form-submit-area {
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 12px !important;
+    }
+
+    .contact-form-submit-note {
+        max-width: 135px !important;
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+
+    .contact-form-submit {
+        min-width: 155px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .contact-form-submit-area {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 15px !important;
+    }
+
+    .contact-form-submit-note {
+        max-width: 100% !important;
+        font-size: 12px !important;
+    }
+
+    .contact-form-submit {
+        width: 100% !important;
+    }
+}
+
+/* =========================================
+   RTL
+========================================= */
+
+html[dir="rtl"] .contact-form-submit-note {
+    text-align: right;
+}
+
+
+
